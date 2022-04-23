@@ -1,7 +1,8 @@
 import * as React from 'react';
+import Link from '@mui/material/Link';
 import { DataGrid, GridColDef, GridRenderCellParams, GridValueGetterParams } from '@mui/x-data-grid';
 
-const CodebaseTable = ({ codebases }) => {
+const CodebaseTable = ({ codebases } : {codebases: any[]}) => {
 	const columns: GridColDef[] = [
 		{
 			field: 'id',

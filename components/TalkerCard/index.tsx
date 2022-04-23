@@ -11,7 +11,20 @@ import LinkIcon from '@mui/icons-material/Link';
 import Typography from '@mui/material/Typography';
 import slugify from 'slugify';
 
-const TalkerCard = ({talker}) => {
+interface Talker {
+  codebase?: string;
+  description?: string;
+  emails: string[];
+  ewtooAbbr: string;
+  hide?: boolean;
+  hosts: string[];
+  name: string;
+  screencaps: string[];
+  wayback?: string;
+  websites: string[];
+};
+
+const TalkerCard = ({talker : Talker}) => {
   if (talker?.websites?.length && !talker?.wayback) {
     talker.wayback = `https://web.archive.org/web/*/${talker.websites[0]}`;
   }
