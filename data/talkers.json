@@ -1,0 +1,970 @@
+{
+  "codebases": {
+    "amnuts": {
+      "repo": "https://github.com/talkersource/amnuts",
+      "name": "Andy's modified NUTS",
+      "platform": "*nix"
+    },
+    "rnuts": {
+      "repo": "https://github.com/talkersource/rnuts",
+      "name": "rNUTS",
+      "platform": "*nix"
+    },
+    "talkernode": {
+      "repo": "https://github.com/talkersource/TalkerNode",
+      "name": "TalkerNode",
+      "language": "node",
+      "platform": "Any"
+    },
+    "bolts": {
+      "repo": "https://github.com/talkersource/bolts",
+      "name": "BOLTS",
+      "platform": "*nix"
+    },
+    "ewtoo": {
+      "repo": "https://github.com/talkersource/ew-too",
+      "name": "EW-Too",
+      "platform": "*nix",
+      "language": "C"
+    },
+    "pgplus": {
+      "repo": "https://github.com/talkers/pgplus",
+      "name": "Playground+",
+      "platform": "*nix",
+      "language": "C"
+    },
+    "talker": {
+      "repo": "http://www.geoffswift.com/talker.html",
+      "name": "Talker",
+      "platform": "Windows"
+    }
+  },
+  "talkers": [
+    {
+      "name": "The A-Team",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "ateam.darksilence.net_1972.png"
+      ],
+      "hosts": [
+        "ateam.darksilence.net:1972"
+      ]
+    },
+    {
+      "name": "Mope Mansions",
+      "description": null,
+      "websites": [
+        "http://mopemansions.org.uk"
+      ],
+      "codebase": "sensisummink",
+      "screencaps": [
+        "angst.mopemansions.org_2003.png"
+      ],
+      "hosts": [
+        "angst.mopemansions.org:2003"
+      ]
+    },
+    {
+      "name": "Atlantis",
+      "description": null,
+      "websites": [
+        "http://atlantis.org.uk"
+      ],
+      "codebase": "sensisummink",
+      "screencaps": [
+        "yuss.org_5050.png",
+        "atlantis.org.uk_5050.png",
+        "mopemansions.org_5050.png"
+      ],
+      "hosts": [
+        "atlantis.org",
+        "mopemansions.org:5050",
+        "yuss.org:5050"
+      ]
+    },
+    {
+      "name": "Bag End",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "bagend.tzo.org_2060.png"
+      ],
+      "hosts": [
+        "bagend.tzo.org:2060"
+      ]
+    },
+    {
+      "name": "Brigandine",
+      "description": null,
+      "websites": [
+        "http://brigandine.org/"
+      ],
+      "ewtooAbbr": "Brig",
+      "codebase": "pgplus",
+      "screencaps": [
+        "bandicoot.merseine.nu_9390.png"
+      ],
+      "hosts": [
+        "brigandine.org:9390",
+        "bandicoot.merseine.nu:9390"
+      ]
+    },
+    {
+      "name": "Blame Canada",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "blamecanada.bering.gl_1977.png"
+      ],
+      "hosts": [
+        "blamecanada.bering.gl:1977"
+      ]
+    },
+    {
+      "name": "The 'Burbs",
+      "description": null,
+      "websites": [
+        "http://www.burbs.org"
+      ],
+      "ewtooAbbr": "burbs",
+      "screencaps": [
+        "burbs.org_4567.png"
+      ],
+      "emails": [
+        "burbs@burbs.org"
+      ],
+      "hosts": [
+        "burbs.org:4567"
+      ]
+    },
+    {
+      "name": "Camelot",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "vampire.dune.net_3333.png",
+        "camelot.subnigra.com_8888.png",
+        "tangent.dune.net_3333.png"
+      ],
+      "hosts": [
+        "camelot.subnigra.com:8888",
+        "tangent.dune.net:3333",
+        "vampire.dune.net:3333"
+      ]
+    },
+    {
+      "name": "Castle",
+      "description": null,
+      "websites": [
+        "http://www.castle2k.org.uk"
+      ],
+      "wayback": "https://web.archive.org/web/20030215131935/http://www.castle2k.org.uk/",
+      "codebase": "pgplus",
+      "screencaps": [
+        "castle2k.org.uk_5050.png"
+      ],
+      "hosts": [
+        "castle2k.org.uk:5050"
+      ]
+    },
+    {
+      "name": "Caves",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "caves.uk.net_5000.png",
+        "caves.tf_5000.png"
+      ],
+      "hosts": [
+        "caves.tf:5000",
+        "caves.uk.net:5000"
+      ]
+    },
+    {
+      "name": "Central Perk",
+      "description": null,
+      "websites": [
+        "http://centralperk.us"
+      ],
+      "ewtooAbbr": "CP",
+      "emails": [
+        "centralperk.us@gmail.com",
+        "CentralPerkMonica@gmail.com"
+      ],
+      "screencaps": [
+        "centralperk.us_2323.png",
+        "presidium.org_2222.png"
+      ],
+      "hosts": [
+        "centralperk.us:2323",
+        "presidium.org:2222"
+      ]
+    },
+    {
+      "name": "BOBNet",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "cheekynet.com.au_4242.png"
+      ],
+      "hosts": [
+        "cheekynet.com.au:4242"
+      ]
+    },
+    {
+      "name": "Children of the Night",
+      "description": null,
+      "websites": [],
+      "ewtooAbbr": "cotn",
+      "emails": [
+        "cotn@enyc.org.uk"
+      ],
+      "screencaps": [
+        "cn.talkers.org_4040.png"
+      ],
+      "hosts": [
+        "cotn.subnigra.com:6969",
+        "cn.talkers.org:4040"
+      ]
+    },
+    {
+      "name": "Crazylands",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "crazylands.org_6969.png"
+      ],
+      "hosts": [
+        "crazylands.org:6969"
+      ]
+    },
+    {
+      "name": "Cultural Wasteland",
+      "description": null,
+      "websites": [
+        "http://culturalwasteland.tv/"
+      ],
+      "ewtooAbbr": "waste",
+      "screencaps": [
+        "culturalwasteland.tv_4000.png"
+      ],
+      "emails": [
+        "dockyard@culturalwasteland.tv"
+      ],
+      "hosts": [
+        "culturalwasteland.tv:4000"
+      ]
+    },
+    {
+      "name": "FurryMUCK",
+      "description": null,
+      "websites": [
+        "http://www.furrymuck.com/"
+      ],
+      "ewtooAbbr": "trump",
+      "screencaps": [
+        "furrymuck.com_8888.png"
+      ],
+      "hosts": [
+        "furrymuck.com:8888"
+      ]
+    },
+    {
+      "name": "Cut",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "cut.pre.org_4040.png"
+      ],
+      "hosts": [
+        "cut.pre.org:4040"
+      ]
+    },
+    {
+      "name": "Marooned",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "ddngr.org.uk_4001.png"
+      ],
+      "hosts": [
+        "ddngr.org.uk:4001"
+      ]
+    },
+    {
+      "name": "The Pub",
+      "description": null,
+      "websites": [
+        "http://thepub.doughnuts.co.uk"
+      ],
+      "screencaps": [
+        "doughnuts.co.uk_4000.png"
+      ],
+      "hosts": [
+        "doughnuts.co.uk:4000"
+      ]
+    },
+    {
+      "name": "Taz Wars",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "draconic.fyremoon.net_2424.png"
+      ],
+      "hosts": [
+        "draconic.fyremoon.net:2424"
+      ]
+    },
+    {
+      "name": "Fractured Singularity",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "dune.net_4560.png"
+      ],
+      "hosts": [
+        "dune.net:4560"
+      ]
+    },
+    {
+      "name": "Infinite Spirit",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "dune.net_3003.png"
+      ],
+      "hosts": [
+        "dune.net:3003"
+      ]
+    },
+    {
+      "name": "Dusk Till Dawn",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "duskdawn.mytalker.org_4444.png"
+      ],
+      "hosts": [
+        "duskdawn.mytalker.org:4444"
+      ]
+    },
+    {
+      "name": "Law And Order",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "eeek.org.uk_3000.png"
+      ],
+      "hosts": [
+        "eeek.org.uk:3000"
+      ]
+    },
+    {
+      "name": "Airport 25",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "eeek.org.uk_4321.png"
+      ],
+      "hosts": [
+        "eeek.org.uk:4321"
+      ]
+    },
+    {
+      "name": "Hollywood",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "eeek.org.uk_5000.png"
+      ],
+      "hosts": [
+        "eeek.org.uk:5000"
+      ]
+    },
+    {
+      "name": "Elemental World",
+      "description": null,
+      "websites": [
+        "http://www.elementalworld.net"
+      ],
+      "codebase": "ICE",
+      "screencaps": [
+        "elementalworld.net_5555.png"
+      ],
+      "hosts": [
+        "elementalworld.net:5555"
+      ]
+    },
+    {
+      "name": "Elite",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "elite.snowplains.org_8000.png"
+      ],
+      "hosts": [
+        "elite.snowplains.org:8000"
+      ]
+    },
+    {
+      "name": "Snowplains",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "snowplains.org_3456.png"
+      ],
+      "hosts": [
+        "snowplains.org:3456"
+      ]
+    },
+    {
+      "name": "Unknown",
+      "description": null,
+      "websites": [],
+      "hide": true,
+      "screencaps": [
+        "ewtoo.org_5252.png"
+      ],
+      "hosts": [
+        "ewtoo.org:5252"
+      ]
+    },
+    {
+      "name": "Foothills",
+      "description": null,
+      "websites": [
+        "http://foothills.tk"
+      ],
+      "screencaps": [
+        "foothills.tk_2010.png"
+      ],
+      "hosts": [
+        "foothills.tk:2010"
+      ]
+    },
+    {
+      "name": "Inspector Gadget's Talker",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "gadget.ewtoo.org_7000.png"
+      ],
+      "hosts": [
+        "gadget.ewtoo.org:7000"
+      ]
+    },
+    {
+      "name": "ICE-II",
+      "description": null,
+      "websites": [],
+      "codebase": "ICE",
+      "screencaps": [
+        "ice.offswn.net_4444.png"
+      ],
+      "hosts": [
+        "ice.offswn.net:4444"
+      ]
+    },
+    {
+      "name": "Island",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "island.subnigra.com_8000.png"
+      ],
+      "hosts": [
+        "island.subnigra.com:8000"
+      ]
+    },
+    {
+      "name": "Astral Planes",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "madrory.com_4444.png"
+      ],
+      "hosts": [
+        "madrory.com:4444"
+      ]
+    },
+    {
+      "name": "The Crystal Labyrinth",
+      "description": null,
+      "websites": [
+        "http://magic.kicks-ass.org"
+      ],
+      "screencaps": [
+        "magic.kicks-ass.org_4000.png"
+      ],
+      "hosts": [
+        "magic.kicks-ass.org:4000"
+      ]
+    },
+    {
+      "name": "Comatose",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "mysterious.mytalker.org_9999.png"
+      ],
+      "hosts": [
+        "mysterious.mytalker.org:9999"
+      ]
+    },
+    {
+      "name": "Amnesia House",
+      "description": null,
+      "websites": [
+        "http://amnesia.mytalker.org"
+      ],
+      "wayback": "http://web.archive.org/web/20080330223653/http://www.trollied.org/~amnesia/index.php",
+      "codebase": "talker",
+      "screencaps": [
+        "mytalker.org_2222.png"
+      ],
+      "hosts": [
+        "mytalker.org:2222"
+      ]
+    },
+    {
+      "name": "NCC-1701-D",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "ncc.spod.org_1701.png"
+      ],
+      "hosts": [
+        "ncc.spod.org:1701"
+      ]
+    },
+    {
+      "name": "Cats Cradle",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "phoenix.lsds.com_9876.png"
+      ],
+      "hosts": [
+        "phoenix.lsds.com:9876"
+      ]
+    },
+    {
+      "name": "Forest",
+      "description": null,
+      "websites": [],
+      "emails": [
+        "forest@realm.progsoc.uts.edu.au"
+      ],
+      "screencaps": [
+        "realm.progsoc.uts.edu.au_3000.png"
+      ],
+      "hosts": [
+        "realm.progsoc.uts.edu.au:3000"
+      ]
+    },
+    {
+      "name": "The Gimp",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "redclaw.org.uk_7777.png"
+      ],
+      "hosts": [
+        "redclaw.org.uk:7777"
+      ]
+    },
+    {
+      "name": "Sasslantis 2000",
+      "description": null,
+      "websites": [
+        "http://www.sass.jg.ee"
+      ],
+      "screencaps": [
+        "sass.jg.ee_2010.png"
+      ],
+      "hosts": [
+        "sass.jg.ee:2010"
+      ]
+    },
+    {
+      "name": "The Magic Toaster",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "sirius.zepa.net_8500.png"
+      ],
+      "hosts": [
+        "sirius.zepa.net:8500"
+      ]
+    },
+    {
+      "name": "Spod.org",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "spod.org_2010.png"
+      ],
+      "hosts": [
+        "spod.org:2010"
+      ]
+    },
+    {
+      "name": "The Pleasuredome",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "spod.org_3003.png"
+      ],
+      "hosts": [
+        "spod.org:3003"
+      ]
+    },
+    {
+      "name": "Glantri",
+      "description": null,
+      "websites": [
+        "http://talker.com/glantri"
+      ],
+      "screencaps": [
+        "talker.com_2200.png"
+      ],
+      "hosts": [
+        "talker.com:2200"
+      ]
+    },
+    {
+      "name": "Paradox",
+      "description": null,
+      "websites": [
+        "http://paradox.talker.com"
+      ],
+      "screencaps": [
+        "talker.com_4040.png"
+      ],
+      "hosts": [
+        "talker.com:4040"
+      ]
+    },
+    {
+      "name": "TW's Talker",
+      "description": null,
+      "websites": [
+        "http://talker.rekka.net"
+      ],
+      "screencaps": [
+        "talker.rekka.net_4242.png"
+      ],
+      "hosts": [
+        "talker.rekka.net:4242"
+      ]
+    },
+    {
+      "name": "Eire",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "tb.yi.org_1221.png"
+      ],
+      "hosts": [
+        "tb.yi.org:1221"
+      ]
+    },
+    {
+      "name": "Dark Shadows",
+      "description": null,
+      "websites": [],
+      "ewtooAbbr": "ds",
+      "emails": [
+        "ds@enyc.org.uk"
+      ],
+      "screencaps": [
+        "ds.enyc.org.uk_8688.png"
+      ],
+      "hosts": [
+        "ds.enyc.org.uk:8688"
+      ]
+    },
+    {
+      "name": "Dark Sins",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "tdf.ca_8888.png"
+      ],
+      "hosts": [
+        "tdf.ca:8888"
+      ]
+    },
+    {
+      "name": "The Resort",
+      "description": null,
+      "websites": [
+        "http://www.resort.org"
+      ],
+      "ewtooAbbr": "resort",
+      "emails": [
+        "resort@resort.org"
+      ],
+      "screencaps": [
+        "resort.org_2323.png"
+      ],
+      "hosts": [
+        "resort.org:2323"
+      ]
+    },
+    {
+      "name": "Surfers",
+      "description": null,
+      "websites": [
+        "http://surfers.org"
+      ],
+      "ewtooAbbr": "surfers",
+      "emails": [
+        "surfers@fysh.org"
+      ],
+      "screencaps": [
+        "surfers.fysh.org_4242.png"
+      ],
+      "hosts": [
+        "surfers.fysh.org:4242",
+        "surfers.org:4242"
+      ]
+    },
+    {
+      "name": "Scarlet Citadel",
+      "description": null,
+      "websites": [],
+      "ewtooAbbr": "sc",
+      "screencaps": [
+        "scarlet-citadel.co.uk_2000.png"
+      ],
+      "hosts": [
+        "scarlet-citadel.co.uk:2000"
+      ]
+    },
+    {
+      "name": "The World",
+      "description": null,
+      "websites": [
+        "https://nosuchluck.incredulous.org",
+        "https://slack.nosuchluck.net"
+      ],
+      "codebase": "ewtoo",
+      "ewtooAbbr": "TWD",
+      "screencaps": [
+        "nosuchluck.incredulous.org_7979.png"
+      ],
+      "hosts": [
+        "slack.nosuchluck.net:7979"
+      ]
+    },
+    {
+      "name": "Haven",
+      "description": null,
+      "websites": [],
+      "ewtooAbbr": "haven",
+      "emails": [
+        "thestory421@gmail.com"
+      ],
+      "screencaps": [
+        "haven.enyc.org.uk_7777.png"
+      ],
+      "ssh": true,
+      "hosts": [
+        "haven.enyc.org.uk:7777"
+      ]
+    },
+    {
+      "name": "Temple 2K",
+      "description": null,
+      "websites": [
+        "http://www.temple2k.org"
+      ],
+      "screencaps": [
+        "temple2k.org_2222.png"
+      ],
+      "hosts": [
+        "temple2k.org:2222"
+      ]
+    },
+    {
+      "name": "The Manor",
+      "description": null,
+      "websites": [
+        "http://www.themanor.org"
+      ],
+      "screencaps": [
+        "themanor.org_4242.png"
+      ],
+      "hosts": [
+        "themanor.org:4242"
+      ]
+    },
+    {
+      "name": "TrueFriends",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "truefriends.org.uk_3000.png"
+      ],
+      "hosts": [
+        "truefriends.org.uk:3000"
+      ]
+    },
+    {
+      "name": "The Village",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "ubervillage.org_3131.png"
+      ],
+      "hosts": [
+        "ubervillage.org:3131"
+      ]
+    },
+    {
+      "name": "Uberworld",
+      "description": null,
+      "websites": [
+        "http://www.uberworld.org"
+      ],
+      "screencaps": [
+        "uberworld.org_2020.png"
+      ],
+      "emails": [
+        "admin@uberworld.org"
+      ],
+      "hosts": [
+        "uberworld.org:2020"
+      ]
+    },
+    {
+      "name": "Universe",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "universe.tirsek.com_2631.png"
+      ],
+      "hosts": [
+        "universe.tirsek.com:2631"
+      ]
+    },
+    {
+      "name": "Unreal",
+      "description": null,
+      "websites": [
+        "http://www.madagascar.com/unreal"
+      ],
+      "screencaps": [
+        "unreal.snowplains.org_7777.png"
+      ],
+      "hosts": [
+        "unreal.snowplains.org:7777"
+      ]
+    },
+    {
+      "name": "Valdemar",
+      "description": null,
+      "websites": [
+        "http://www.valdemar.org"
+      ],
+      "screencaps": [
+        "valdemar.org_2345.png"
+      ],
+      "hosts": [
+        "valdemar.org:2345"
+      ]
+    },
+    {
+      "name": "Vega$",
+      "description": null,
+      "websites": [
+        "http://www.vegas.cep.net/~vegas"
+      ],
+      "waybackMachine": "https://web.archive.org/web/20030221075039/http://www.vegas.cep.net/~vegas/",
+      "screencaps": [
+        "vegas.cep.net_7979.png"
+      ],
+      "hosts": [
+        "vegas.cep.net:7979"
+      ]
+    },
+    {
+      "name": "Western World",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "western.mytalker.org_2010.png"
+      ],
+      "hosts": [
+        "western.mytalker.org:2010"
+      ]
+    },
+    {
+      "name": "Whisper's",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "whispers.org_4000.png"
+      ],
+      "hosts": [
+        "whispers.org:4000"
+      ]
+    },
+    {
+      "name": "Chicago",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "www.nsgso.co.uk_1929.png"
+      ],
+      "hosts": [
+        "www.nsgso.co.uk:1929"
+      ]
+    },
+    {
+      "name": "Furtoonia",
+      "description": null,
+      "websites": [
+        "http://furtoonia.net/"
+      ],
+      "ewtooAbbr": "wank",
+      "emails": [
+        "ftadmin@furtoonia.net"
+      ],
+      "screencaps": [
+        "ft.furtoonia.net_9999.png"
+      ],
+      "hosts": [
+        "ft.furtoonia.net:9999"
+      ]
+    },
+    {
+      "name": "zmc-place",
+      "description": null,
+      "websites": [],
+      "ewtooAbbr": "zp",
+      "screencaps": [
+        "zmc-place.enyc.org.uk_8682.png"
+      ],
+      "emails": [
+        "zmc-place@enyc.org.uk"
+      ],
+      "hosts": [
+        "zmc-place.enyc.org.uk:8682"
+      ]
+    },
+    {
+      "name": "Zeta Aquilae",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "zeta.aquilae.org_3456.png"
+      ],
+      "hosts": [
+        "zeta.aquilae.org:3456"
+      ]
+    }
+  ]
+}
