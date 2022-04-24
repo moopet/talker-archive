@@ -19,7 +19,7 @@ const TalkerList = (({talkers}) => {
   }
 
   return (
-    <Container>>
+    <Container>
       <ToggleButtonGroup exclusive onChange={handleChange}>
         <ToggleButton value="list" aria-label="list">
           <ViewListIcon />

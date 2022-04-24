@@ -13,19 +13,6 @@ import EmailIcon from '@mui/icons-material/Email';
 import Typography from '@mui/material/Typography';
 import slugify from 'slugify';
 
-interface Talker {
-  codebase?: string;
-  description?: string;
-  emails: string[];
-  ewtooAbbr: string;
-  hide?: boolean;
-  hosts: string[];
-  name: string;
-  screencaps: string[];
-  wayback?: string;
-  websites: string[];
-};
-
 const TalkerCard = ({talker}) => {
   if (talker?.websites?.length && !talker?.wayback) {
     talker.wayback = `https://web.archive.org/web/*/${talker.websites[0]}`;

@@ -110,7 +110,7 @@ const TalkerDetails = () => {
                   </ListItemText>
                 <Divider />
                 {talker.screencaps.length < 2 && nothingHere}
-                {talker.screencaps.slice(1).map((screencap, index) => <ListItem key={`screencap-${index}`}><img src={`/screencaps/${screencap}`} alt="" /></ListItem>)}
+                {talker.screencaps.slice(1).map((screencap, index) => <ListItem key={`screencap-${index}`}><Image width={400} height={208} src={`/screencaps/${screencap}`} alt="" /></ListItem>)}
               </List>
             </Grid>
           </Grid>
