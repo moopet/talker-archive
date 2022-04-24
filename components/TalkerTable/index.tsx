@@ -3,8 +3,10 @@ import BarChartIcon from '@mui/icons-material/BarChart';
 import HistoryIcon from '@mui/icons-material/History';
 import Image from 'next/image';
 import Link from '@mui/material/Link';
+import NextLink from 'next/link';
 import LinkIcon from '@mui/icons-material/Link';
 import { DataGrid, GridColDef, GridRenderCellParams, GridValueGetterParams } from '@mui/x-data-grid';
+import slugify from 'slugify';
 
 const TalkerTable = ({ talkers, codebases }) => {
 	const columns: GridColDef[] = [
@@ -12,7 +14,15 @@ const TalkerTable = ({ talkers, codebases }) => {
 			field: 'name',
 			headerName: 'Name',
 			width: 150,
-			editable: false
+			editable: false,
+      renderCell: (params: GridRenderCellParams) => {
+        const ignoreWords = new RegExp(/^(the|a)[^a-z]+/, 'i');
+        const slug = slugify(params.value.replace(ignoreWords, ""), {lower: true});
+
+				return (
+          <NextLink href={{pathname: "details/[slug]", query: {slug}}}>{params.value}</NextLink>
+				);
+			}
 		},
 		{
 			field: 'screencap',

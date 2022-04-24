@@ -6,8 +6,10 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import HistoryIcon from '@mui/icons-material/History';
+import NextLink from 'next/link';
 import Link from '@mui/material/Link';
 import LinkIcon from '@mui/icons-material/Link';
+import EmailIcon from '@mui/icons-material/Email';
 import Typography from '@mui/material/Typography';
 import slugify from 'slugify';
 
@@ -24,7 +26,7 @@ interface Talker {
   websites: string[];
 };
 
-const TalkerCard = ({talker : Talker}) => {
+const TalkerCard = ({talker}) => {
   if (talker?.websites?.length && !talker?.wayback) {
     talker.wayback = `https://web.archive.org/web/*/${talker.websites[0]}`;
   }
@@ -34,15 +36,17 @@ const TalkerCard = ({talker : Talker}) => {
 
   return (
     <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-      <Link href={`/details/${slug}`}>
-        <Box sx={{ height: 160, backgroundColor: "black" }}>
-          <CardMedia
-            component="img"
-            image={`/screencaps/${talker?.screencaps?.length ? talker.screencaps[0] : 'placeholder.png'}`}
-            alt=""
-          />
-        </Box>
-      </Link>
+      <NextLink href={{pathname: "details/[slug]", query: {slug}}}>
+        <a>
+          <Box sx={{ height: 160, backgroundColor: "black" }}>
+            <CardMedia
+              component="img"
+              image={`/screencaps/${talker?.screencaps?.length ? talker.screencaps[0] : 'placeholder.png'}`}
+              alt=""
+            />
+          </Box>
+        </a>
+      </NextLink>
 
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
@@ -54,9 +58,10 @@ const TalkerCard = ({talker : Talker}) => {
       </CardContent>
 
       <CardActions>
-        {talker?.websites?.length && <Link href={talker.websites[0]}><LinkIcon /></Link>}
-        {talker?.wayback?.length && <Link href={talker.wayback}><HistoryIcon /></Link>}
-        {talker?.ewtooAbbr?.length && <Link href={`http://list.ewtoo.org/details.cgi?abbr=${talker.ewtooAbbr}`}><BarChartIcon /></Link>}
+        {talker?.websites?.length > 0 && <Link href={talker.websites[0]}><LinkIcon /></Link>}
+        {talker?.wayback?.length > 0 && <Link href={talker.wayback}><HistoryIcon /></Link>}
+        {talker?.emails?.length > 0 && <Link href={`mailto:${talker.emails[0]}`}><EmailIcon /></Link>}
+        {talker?.ewtooAbbr?.length > 0 && <Link href={`http://list.ewtoo.org/details.cgi?abbr=${talker.ewtooAbbr}`}><BarChartIcon /></Link>}
       </CardActions>
     </Card>
   );

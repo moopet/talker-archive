@@ -13,6 +13,7 @@ import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
+import Footer from '../components/Footer';
 import TalkerGrid from '../components/TalkerGrid';
 import TalkerList from '../components/TalkerList';
 import TalkerTable from '../components/TalkerTable';
@@ -44,6 +45,7 @@ const TalkerListPage = () => {
         </Toolbar>
       </AppBar>
       <main>
+
         {/* Hero unit */}
         <Box
           sx={{
@@ -56,43 +58,23 @@ const TalkerListPage = () => {
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
               This is a collection of talkers. Some still exist!
             </Typography>
-            <Stack
-              sx={{ pt: 4 }}
-              direction="row"
-              spacing={2}
-              justifyContent="center"
-            >
-              <Button variant="contained">Main call to action</Button>
-              <Button variant="outlined">Secondary action</Button>
-            </Stack>
           </Container>
         </Box>
-        <Container sx={{ py: 8 }} maxWidth="lg">
-          {/* End hero unit */}
 
+        <Container sx={{ py: 8 }} maxWidth="lg">
+          <TalkerGrid talkers={talkers} />
+    {/*
           <Tabs>
             <Tab>Grid</Tab>
             <Tab>Table</Tab>
           </Tabs>
           <TalkerTable talkers={talkers} codebases={data.codebases} />
           <TalkerList talkers={talkers} codebases={data.codebases} />
+          */}
         </Container>
       </main>
-      {/* Footer */}
-      <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          align="center"
-          color="text.secondary"
-          component="p"
-        >
-          Something here to give the footer a purpose!
-        </Typography>
-      </Box>
-      {/* End footer */}
+
+      <Footer />
     </ThemeProvider>
   );
 };
