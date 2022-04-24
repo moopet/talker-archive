@@ -33,6 +33,16 @@
       "platform": "*nix",
       "language": "C"
     },
+    "summink": {
+      "repo": null,
+      "name": "Summink",
+      "platform": "*nix"
+    },
+    "talker": {
+      "repo": null,
+      "name": "SensiSummink",
+      "platform": "*nix"
+    },
     "talker": {
       "repo": "http://www.geoffswift.com/talker.html",
       "name": "Talker",
@@ -53,7 +63,7 @@
     },
     {
       "name": "Mope Mansions",
-      "description": null,
+      "description": "Mope was a quiet talker, mostly the testing area for features destined for <a href=\"/details/atlantis\">Atlantis</a>",
       "websites": [
         "http://mopemansions.org.uk"
       ],
@@ -183,6 +193,7 @@
     },
     {
       "name": "Central Perk",
+      "codebase": "pgplus",
       "description": null,
       "websites": [
         "http://centralperk.us"

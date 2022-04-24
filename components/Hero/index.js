@@ -30,9 +30,8 @@ const Hero = ({image, title, subtitle}) => {
                 align="center"
                 color="text.secondary"
                 component="p"
-              >
-                {subtitle}
-              </Typography>
+                dangerouslySetInnerHTML={{__html: subtitle}}
+              />
             </Grid>
           </Grid>
       </Paper>

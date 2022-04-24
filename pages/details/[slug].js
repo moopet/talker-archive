@@ -54,6 +54,7 @@ const TalkerDetails = () => {
   const emails = talker?.emails ?? [];
   const hosts = talker?.hosts ?? [];
   const screencap = `/screencaps/${talker?.screencaps?.length ? talker.screencaps[0] : 'placeholder.png'}`;
+  const nothingHere = <ListItem><ListItemText>Nothing here...</ListItemText></ListItem>;
 
   return (
     <ThemeProvider theme={theme}>
@@ -86,6 +87,7 @@ const TalkerDetails = () => {
                     Previous known hosts
                   </ListItemText>
                 <Divider />
+                {!hosts.length && nothingHere}
                 {hosts.map((host, index) => <ListItem key={`telnet-${index}`}><Link href={`telnet://${host}`}>{host}</Link></ListItem>)}
               </List>
             </Grid>
@@ -96,6 +98,7 @@ const TalkerDetails = () => {
                     Contacts
                   </ListItemText>
                 <Divider />
+                {!emails.length && nothingHere}
                 {emails.map((email, index) => <ListItem key={`email-${index}`}><Link href={`mailto://${email}`}>{email}</Link></ListItem>)}
               </List>
             </Grid>
@@ -106,7 +109,8 @@ const TalkerDetails = () => {
                     Other screen captures
                   </ListItemText>
                 <Divider />
-    {talker.screencaps.slice(1).map((screencap, index) => <ListItem key={`screencap-${index}`}><img src={`/screencaps/${screencap}`} alt="" /></ListItem>)}
+                {talker.screencaps.length < 2 && nothingHere}
+                {talker.screencaps.slice(1).map((screencap, index) => <ListItem key={`screencap-${index}`}><img src={`/screencaps/${screencap}`} alt="" /></ListItem>)}
               </List>
             </Grid>
           </Grid>

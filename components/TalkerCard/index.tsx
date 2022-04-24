@@ -52,9 +52,6 @@ const TalkerCard = ({talker}) => {
         <Typography gutterBottom variant="h5" component="h2">
           {talker.name}
         </Typography>
-        <Typography>
-          {talker.description}
-        </Typography>
       </CardContent>
 
       <CardActions>
