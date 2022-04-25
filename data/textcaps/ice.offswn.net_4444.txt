@@ -1,0 +1,17 @@
+          _________ _______  _______            __________________
+          \__   __/(  ____ \(  ____ \           \__   __/\__   __/
+             ) (   | (    \/| (    \/              ) (      ) (
+             | |   | |      | (__       _____      | |      | |
+             | |   | |      |  __)     (_____)     | |      | |
+             | |   | |      | (                    | |      | |
+          ___) (___| (____/\| (____/\           ___) (______) (___
+          \_______/(_______/(_______/           \_______/\_______/
+
+                              The Re-Freeze!
+
+              A 24 hour chat program written by Tim Gurney
+              (Offswn Version 0.1 - Based on Ice Version 4)
+
+You can type 'quit' at ANY prompt to disconnect
+
+Please enter your name:

@@ -1,0 +1,20 @@
+Connecting to Station Central Computer...
+Connection Established #
+
+             _______      ___          ___     __________      _______
+            /  ____/\    /  /\        /  /\   /___   ___/\    /  ____/\
+           /  /\___\/   /  / /       /  / /   \__/  /\__\/   /  /\___\/
+          /  ____/\    /  / /       /  / /      /  / /      /  ____/\
+         /  /\___\/   /  /_/__     /  / /      /  / /      /  /\___\/
+        /______/\    /_______/\   /_ / /      /__/ /      /______/\
+        \______\/    \_______\/   \__\/       \__\/       \______\/
+
+                 -=*> Welcome to Lave Orbital Station <*=-  
+ 
+
+           Station Commanders           Station Inhabitants : 237
+           Pooh                         Station Personnel   : 7
+           (elite@elite.snowplains.org) Current Dockings    : 0
+
+
+Please enter a name:

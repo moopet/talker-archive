@@ -1,0 +1,21 @@
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  Welcome to  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+      .o.                    .                      oooo    Coder:
+     .888.                 .o8                      `888    Madrory.
+    .8"888.      .oooo.o .o888oo oooo d8b  .oooo.    888    
+   .8' `888.    d88(  "8   888   `888""8P `P  )88b   888    Admin.  
+  .88ooo8888.   `"Y88b.    888    888      .oP"888   888     Kasha, Madrory.
+ .8'     `888.  o.  )88b   888 .  888     d8(  888   888                   
+o88o     o8888o 8""888P'   "888" d888b    `Y888""8o o888o   Lower Admin:-   
+                                                              ????
+                 ooooooooo.   oooo                                           
+ A 24-hour       `888   `Y88. `888                                           
+ multi-user       888   .d88'  888   .oooo.   ooo. .oo.    .ooooo.   .oooo.o 
+ chat program     888ooo88P'   888  `P  )88b  `888P"Y88b  d88' `88b d88(  "8 
+ based on         888          888   .oP"888   888   888  888ooo888 `"Y88b.  
+ Playground.      888          888  d8(  888   888   888  888    .o o.  )88b 
+                 o888o        o888o `Y888""8o o888o o888o `Y8bod8P' 8""888P' 
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Please enter your name:

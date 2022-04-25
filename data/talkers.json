@@ -1,6 +1,12 @@
 {
   "resources": [
     {
+      "type": "Repository",
+      "icon": "Github",
+      "name": "Talkers",
+      "url": "https://github.com/talkers/"
+    },
+    {
       "type": "Article",
       "icon": "Wikipedia",
       "name": "Talker",
@@ -259,6 +265,9 @@
       "screencaps": [
         "cn.talkers.org_4040.png"
       ],
+      "textcaps": [
+        "62.49.231.25_6969.txt"
+      ],
       "hosts": [
         "cotn.subnigra.com:6969",
         "cn.talkers.org:4040"
@@ -366,7 +375,12 @@
     {
       "name": "Infinite Spirit",
       "description": null,
-      "websites": [],
+      "websites": [
+        "http://www.anarch.org"
+      ],
+      "email": [
+        "catfive@dune.net"
+      ],
       "screencaps": [
         "dune.net_3003.png"
       ],
@@ -584,15 +598,11 @@
       ]
     },
     {
-      "name": "Inspector Gadget's Talker",
+      "name": "Tombstone",
       "description": null,
       "websites": [],
-      "screencaps": [
-        "gadget.ewtoo.org_7000.png"
-      ],
-      "hosts": [
-        "gadget.ewtoo.org:7000"
-      ]
+      "screencaps": [],
+      "hosts": []
     },
     {
       "name": "Inspector Gadget's Talker",
@@ -785,8 +795,22 @@
       ]
     },
     {
+      "name": "North Keep",
+      "description": "Gorean role play fantasy realm.",,
+      "emails": [],
+      "websites": [],
+      "screencaps": [
+      ],
+      "hosts": [
+        "dune.net:3333"
+      ]
+    },
+    {
       "name": "Paradox",
       "description": null,
+      "emails": [
+        "paradox@talker.com"
+      ],
       "websites": [
         "http://paradox.talker.com"
       ],
@@ -800,6 +824,9 @@
     {
       "name": "TW's Talker",
       "description": null,
+      "emails": [
+        "talker@rekka.net"
+      ],
       "websites": [
         "http://talker.rekka.net"
       ],
@@ -948,6 +975,9 @@
     {
       "name": "Temple 2K",
       "description": null,
+      "emails": [
+        "master@temple2k.org"
+      ],
       "websites": [
         "http://www.temple2k.org"
       ],
@@ -985,6 +1015,7 @@
     {
       "name": "The Village",
       "description": null,
+      "codebase": "tiptop",
       "websites": [],
       "screencaps": [
         "ubervillage.org_3131.png"
@@ -994,8 +1025,47 @@
       ]
     },
     {
+      "name": "Mars Base Alpha 4",
+      "description": "A.k.a MBA4",
+      "websites": [
+        "http://mba4.org/"
+      ],
+      "resources": [
+        {
+          "type": "Facebook community",
+          "icon": "Facebook",
+          "name": "MBA4",
+          "url": "https://www.facebook.com/groups/9144918228/"
+        }
+      ],
+      "screencaps": [],
+      "emails": [
+        "mba4@mba4.org"
+      ],
+      "hosts": [
+        "mba4.org:3214"
+      ]
+    },
+    {
+      "name": "The Chat Zone",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "emails": [],
+      "hosts": []
+    },
+    {
+      "name": "Tower",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "emails": [],
+      "hosts": []
+    },
+    {
       "name": "Underworld",
       "description": null,
+      "codebase":: "pgplus",
       "websites": [],
       "screencaps": [],
       "emails": [],
@@ -1015,6 +1085,15 @@
       ],
       "hosts": [
         "uberworld.org:2020"
+      ]
+    },
+    {
+      "name": "Honeycomb",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "cats.meow.at:3000"
       ]
     },
     {
@@ -1044,6 +1123,9 @@
     {
       "name": "Valdemar",
       "description": null,
+      "email": [
+        "admin@valdemar.org"
+      ],
       "websites": [
         "http://www.valdemar.org"
       ],
@@ -1071,6 +1153,7 @@
     {
       "name": "Western World",
       "description": null,
+      "codebase": "pg96",
       "websites": [],
       "screencaps": [
         "western.mytalker.org_2010.png"
@@ -1080,7 +1163,7 @@
       ]
     },
     {
-      "name": "Whisper's",
+      "name": "Whispers in the Dark",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -1136,6 +1219,7 @@
     {
       "name": "Zeta Aquilae",
       "description": null,
+      "codebase": "ewtoo",
       "websites": [],
       "screencaps": [
         "zeta.aquilae.org_3456.png"

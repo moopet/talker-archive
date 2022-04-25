@@ -1,0 +1,19 @@
+---,o@@@o ----------------------,@@@ ---+---------------,o@@@o ------------
+  o@@"""@@   * Surf's up.. *  ,@@@""    | * ..Later *  o@@"""@@            
+ o@@   ,@@                   ,@@f      |              o@@   ,@@    ___     
+ 9@o       d@@  d@@  d@@ o@ @@@@@@@  ,o@@@o    d@@ o@ 9@o       ,oooooo    
+ '9@@@@o  ,@@f ,@@f ,@@o@P ""@@f"" ,@@@"""@@  ,@@o@P  '9@@@@o oOOOOO"""",  
+     9@@@ d@@  d@@  d@@f    d@@   ,@@@oooo@@  d@@f      ,.9@@@ OOOOOOOOo,  
+@@'   ,@@ @@f  @@f ,@@f    ,@@f   @@@""""""' ,@@f  . @@'.O.,@@ OOOOOOOo,"; 
+@@o..o@@  9@@oo@@  d@@     d@@    9@@,  o@@  d@@ ,OO @@o..o@@ OOOOOo9OOOo, 
+ 9@@@@P   "9@@"@f ,@@f    ,@@f     "9@@@@"  ,@@f O"oo 9@@@@P NN;""OO ""OOo 
+    ,  ,o@@ooo@oo, ,  @'           |          oo"oOOOO;ooooo"NNNo. ";    ";
+,''@ o000000;@@@@@@o     .oOOo,oOo,|         ;" ,OOOO"OOP9O" 'NNNNN.       
+ , o0000000000o;@@@@@,' oOOOOOOOOO|         .o@ oOOO",OO'oV.   "NNNNo.     
+ ,00000POOO"000;@@@@@   OOOOOOOOOO|        @@@@ OOO"%OO'@@@@@   "NNNNNo ..%
+0000POOOO @@@9P@@@@@"    """"""""|        @@@@@ OO'@%V'@@@@@@@  ."NNNNNN"%%
+0POOOOOO;@@@@@@@@@@"OOOo---'-----|--------""""" V'"""""""""".%%%%%"NNNNNN%%
+OOOOOOOOO;@@@@@@@;OOOOOOOOo::';:|  ~~  ~~~ ~~~ ~~ ~~~~ ~.%%%%%%%%%%"NNNNNN%
+OOOOOOOOOOoOoooooooo,.OOOOOOOOo;| ~~~~~~ ~~~~ ~~~~ ~~.%%%%%%%%%%%%%% Shade 
+++++ A 24-hour, multi-user chat program based on EW-too by Simon Marsh ++++
+Please enter your name:

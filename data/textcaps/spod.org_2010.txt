@@ -1,0 +1,10 @@
+.d8888. d8888b.  .d88b.  d8888b.         .d88b.  d8888b.  d888b  
+88'  YP 88  `8D .8P  Y8. 88  `8D        .8P  Y8. 88  `8D 88' Y8b  2
+`8bo.   88oodD' 88    88 88   88        88    88 88oobY' 88       0
+  `Y8b. 88~~~   88    88 88   88        88    88 88`8b   88  ooo  1
+db   8D 88      `8b  d8' 88  .8D   db   `8b  d8' 88 `88. 88. ~8~  0
+`8888Y' 88       `Y88P'  Y8888D'   VP    `Y88P'  88   YD  Y888P  
+
+Its a talker. Its arse.
+
+Please enter a name:

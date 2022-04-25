@@ -1,0 +1,20 @@
+                                                                                
+                                                    aaaaaaaaaaa      No. 1
+ aaaaaaaaa                                      aaa aa       aa           
+ aaaaaaaaaa                                     aaa aa       aa           
+ aaa    aaa                                     aaa  aa     aa           
+ aaa    aaa   aaaaaaa  aaaaaaa  aaaaaaa    aaaaaaaa  aa     aa aaaa   aaaa
+ aaa    aaa aaaaaaaaa  aaaaaaa aaaaaaaaa  aaaaaaaaa  aa     aa  aaaa aaaa 
+ aaaaaaaaa  aaa   aaa  aaaa    aaa   aaa  aaa   aaa   aa   aa    aaaaaaa  
+ aaaaaaaa     aaaaaaa  aaa       aaaaaaa aaa    aaa   aa   aa     aaaaa   
+ aaa        aaaaaaaaa  aaa     aaaaaaaaa aaa    aaa   aa   aa     aaaaa   
+ aaa        aaa   aaa  aaa     aaa   aaa aaaa   aaa    aa aa     aaaaaaa  
+ aaa        aaa  aaaa  aaa     aaa  aaaa  aaaa aaaa    aa aa    aaaa aaaa 
+ aaa        aaaaaaaaa  aaa     aaaaaaaaa  aaaaaaaaa    aa aa   aaaa   aaaa
+ aaa         aaaa  aaa aaa      aaaa  aaa   aaa aaa     aaa    aaa     aaa
+                                                         a  
+                                                                         
+<<-- talker.com 4040 - paradox@talker.com - http://paradox.talker.com -->>
+<<----------------- Admin: Roark, Overjoyed and Taita ------------------>>
+
+Please enter a name:

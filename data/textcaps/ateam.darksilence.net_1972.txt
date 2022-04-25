@@ -1,0 +1,27 @@
+ 
+.....the
+                   ;;;;;;
+                   ;;;;;;
+                   ;;;;;;
+                   ;;;;;;
+                    ;;;;;
+                  ; ;;;;;;
+                  ; ;;;;;;
+                  ; ;;;;;;
+                 ;  ;;;;;;
+                ;   ;;;;;;       TTTTTT  EEEE	   AA      MM       MM
+                ;;   ;;;;;;  ==	   TT    EE       AAAA     MMMM   MMMM
+                ;     ;;;;;  ==	   TT    EEEE    AA  AA    MM MM MM MM
+                ; ;;;;;;;;;        TT    EE     AAAAAAAA   MM   M   MM
+                ; ;;;;;;;;;;       TT    EEEE  AA      AA  MM       MM   
+               ;;     ;;;;;;     
+               ;      ;;;;;;         T     A     L     K     E    R
+              ;;;     ;;;;;;
+             ;;;;;   ;;;;;;;;;
+
+	  ==============================================================  
+	    HCADMIN/CODER: Mace
+
+There are 5 people connected to the A-Team.
+
+Please enter your name:

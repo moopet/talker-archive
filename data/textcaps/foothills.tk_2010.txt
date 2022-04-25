@@ -1,0 +1,23 @@
+  -----JOOOOOOOOOOOOOOP---,oOOOOo,-,oOOOo,------------------------------
+      ,OOOOOOOOOOOOOOO' oOOOOOOOOOOOOOOOOOOo,oOOOo,                      
+      JOOOP            oOOOOOOOOOOOOOOOOOOOOOOOOOOOOo,oOOOo,       
+     ,OOOO'            OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOo,oOOOOo,
+     JOOOOOOOOOOOOOP    OOOOOOOP"""9OP"""9OOOOOOP"""9P"""9P"""9OOP""""9O   
+    ,OOOOOOOOOOOOOO'     """""",OO'  ,OO' """""",OO' ,OO' ,OO' ",oOOOo,'
+    JOOOP   ,oooo,   ,oooo,    JOP   JOP             JOP  JOP  oOO"""OO
+   ,OOOO'  OOf""OO  OOf""OO ,OOOOOO',OOoOOOOo  ,OO' ,OO' ,OO' 9OO   '""
+   JOOOP  JOf   OO JOf   OO   JOP   JOP"""OOP  JOP  JOP  JOP  '9OOOOb,
+  ,OOOO'  OO   ,Of OO   ,Of  ,OO'  ,OO'  ,OO' ,OO' ,OO' ,OO'      "OOP
+  JOOOP   9O,.,OP  9O,.,OP   JOP   JOP   JOP  JOP  JOP  JOP  OOo..oOO'
+  OP.o@o. '9OOO"   '9OOO"    9OOP',OO'  ,OO' ,OO' ,OO' ,OO'  '9OOOOP'
+  .o@@@@@@o.      .ooo.                                  
+  @@@@@@@@@@@@o..o0000000o. .oOo.            .oOOOOo.    Oo....
+  @@@@@@@@@@@@@@o."""0000000o."OOOOo.        OOOOOOOO             o...
+  @@@@@@@@@@@@@@@@@@o."0000000o.""OOOOo.-----""""""""-------------------  
+  @@@@@@@@@@@@@@@@@@@@o."""000000o.          +-----------------------+
+  @@@@@@@@@@@@@@@@@@@@@@@@o."""00000o.       | A 24-hour, multi-user |
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@o.             | chat program based on | 
+  @by Shade@@@@@@@@@@@@@@@@@@@@@@@-----------+ EW-too by Simon Marsh +--
+   [Foothills (c) 1994 Foothills Administration -  All rights reserved]
+	   [For further information read "help copyright"]
+Please enter your name:

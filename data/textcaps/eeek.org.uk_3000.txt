@@ -1,0 +1,19 @@
+
+======================================================================
+||   Welcome to                                                     ||  
+||          LL     AAAA  WW    WW    AAAA  NN   NN DDDDD            ||
+||          LL    AA  AA WW    WW   AA  AA NNNN NN DDDDDD           ||
+||          LL    AAAAAA WW WW WW   AAAAAA NN NNNN DD  DD           ||
+||          LL    AA  AA WWW  WWW   AA  AA NN  NNN DDDDDD           ||
+||          LLLLL AA  AA  WW  WW    AA  AA NN   NN DDDDD            ||
+||                                                                  || 
+||                OOOOOO RRRR   DDDDD  EEEEE RRRR                   ||
+||                OOOOOO RR  R  DDDDDD EE    RR  R                  ||
+||                OO  OO RRRRR  DD  DD EEEE  RRRRR                  ||
+||                OOOOOO RR RR  DDDDDD EE    RR RR                  ||
+||                OOOOOO RR  RR DDDDD  EEEEE RR  RR                 ||
+||                                                                  ||
+======================================================================
+                       There are 2 people online
+
+Please enter a name:
