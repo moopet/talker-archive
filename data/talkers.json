@@ -444,6 +444,13 @@
       ],
       "wayback": null,
       "codebase": "pgplus",
+      "resources": {
+        "facebook" : {
+          "type": "Facebook community",
+          "name": "Revival Talker",
+          "url": "https://www.facebook.com/groups/revivaltalker"
+        }
+      },
       "screencaps": [
         "revivaltalker.com_7779.png"
       ],
