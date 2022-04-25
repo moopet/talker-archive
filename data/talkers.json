@@ -144,6 +144,7 @@
       "ewtooAbbr": "Brig",
       "codebase": "pgplus",
       "screencaps": [
+        "bandicoot.merseine.nu_9390_2.png",
         "bandicoot.merseine.nu_9390.png"
       ],
       "hosts": [
@@ -156,6 +157,7 @@
       "description": null,
       "websites": [],
       "screencaps": [
+        "blamecanada.bering.gl_1977_2.png",
         "blamecanada.bering.gl_1977.png"
       ],
       "hosts": [
@@ -411,7 +413,7 @@
       ]
     },
     {
-      "name": "Airport 25",
+      "name": "Airport",
       "description": null,
       "websites": [],
       "screencaps": [
