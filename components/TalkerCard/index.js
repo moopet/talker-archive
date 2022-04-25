@@ -14,7 +14,7 @@ import Typography from '@mui/material/Typography';
 import slugify from 'slugify';
 
 const TalkerCard = ({talker}) => {
-  if (talker?.websites?.length && !talker?.wayback) {
+  if (talker?.websites?.length && !talker.hasOwnProperty('wayback')) {
     talker.wayback = `https://web.archive.org/web/*/${talker.websites[0]}`;
   }
 

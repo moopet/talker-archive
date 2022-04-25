@@ -437,6 +437,21 @@
       ]
     },
     {
+      "name": "Revival",
+      "description": null,
+      "websites": [
+        "http://www.revivaltalker.com"
+      ],
+      "wayback": null,
+      "codebase": "pgplus",
+      "screencaps": [
+        "revivaltalker.com_7779.png"
+      ],
+      "hosts": [
+        "revivaltalker.com:7779"
+      ]
+    },
+    {
       "name": "Unknown",
       "description": null,
       "websites": [],
