@@ -422,13 +422,13 @@
       "name": "Snowplains",
       "description": null,
       "websites": [],
-      "resources": {
-        "facebook" : {
+      "resources": [
+        {
           "type": "Facebook community",
           "name": "snowplains",
           "url": "https://www.facebook.com/groups/2431592282/"
         }
-      },
+      ],
       "screencaps": [
         "snowplains.org_3456.png"
       ],
@@ -444,13 +444,13 @@
       ],
       "wayback": null,
       "codebase": "pgplus",
-      "resources": {
-        "facebook" : {
+      "resources": [
+        {
           "type": "Facebook community",
           "name": "Revival Talker",
           "url": "https://www.facebook.com/groups/revivaltalker"
         }
-      },
+      ],
       "screencaps": [
         "revivaltalker.com_7779.png"
       ],
@@ -476,13 +476,13 @@
       "websites": [
         "http://foothills.tk"
       ],
-      "resources": {
-        "facebook" : {
+      "resources": [
+        {
           "type": "Facebook community",
           "name": "Facebook was the best talker ever, even though I never met burble",
           "url": "https://www.facebook.com/groups/15990781471/"
         }
-      },
+      ],
       "screencaps": [
         "foothills.tk_2010.png"
       ],
@@ -767,13 +767,13 @@
         "http://surfers.org"
       ],
       "ewtooAbbr": "surfers",
-      "resources": {
-        "facebook" : {
+      "resources": [
+        {
           "type": "Facebook community",
           "name": "surfers.org",
           "url": "https://www.facebook.com/groups/7427021823/"
         }
-      },
+      ],
       "emails": [
         "surfers@fysh.org"
       ],

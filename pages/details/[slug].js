@@ -25,6 +25,9 @@ import slugify from 'slugify';
 
 import Footer from '../../components/Footer';
 import Hero from '../../components/Hero';
+import ContactList from '../../components/ContactList';
+import HostList from '../../components/HostList';
+import ScreenCapturesList from '../../components/ScreenCapturesList';
 import data from '../../data/talkers.json';
 
 const theme = createTheme({
@@ -53,6 +56,7 @@ const TalkerDetails = () => {
 
   const emails = talker?.emails ?? [];
   const hosts = talker?.hosts ?? [];
+  const resources = talker?.resources ?? [];
   const screencap = `/screencaps/${talker?.screencaps?.length ? talker.screencaps[0] : 'placeholder.png'}`;
   const nothingHere = <ListItem><ListItemText>Nothing here...</ListItemText></ListItem>;
 
@@ -82,37 +86,28 @@ const TalkerDetails = () => {
           <Grid container spacing={3} justifyContent="space-between">
 
             <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
-              <List>
-                  <ListItemText>
-                    Previous known hosts
-                  </ListItemText>
-                <Divider />
-                {!hosts.length && nothingHere}
-                {hosts.map((host, index) => <ListItem key={`telnet-${index}`}><Link href={`telnet://${host}`}>{host}</Link></ListItem>)}
-              </List>
+              <HostList hosts={talker?.hosts ?? []} />
+            </Grid>
+
+            <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
+              <ContactList contacts={talker?.contacts ?? []} />
+            </Grid>
+
+            <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
+              <ScreenCapturesList screencaps={talker?.screencaps ?? []} />
             </Grid>
 
             <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
               <List>
                   <ListItemText>
-                    Contacts
+                    Other resources
                   </ListItemText>
                 <Divider />
-                {!emails.length && nothingHere}
-                {emails.map((email, index) => <ListItem key={`email-${index}`}><Link href={`mailto://${email}`}>{email}</Link></ListItem>)}
+                {!resources.length && nothingHere}
+                {resources.map((resource, index) => <ListItem key={`resource-${index}`}><ListItemText secondary={resource.type}><Link href={resource.url}>{resource.name}</Link></ListItemText></ListItem>)}
               </List>
             </Grid>
 
-            <Grid item xl={4} lg={3} md={4} sm={6} xs={12} >
-              <List>
-                  <ListItemText>
-                    Other screen captures
-                  </ListItemText>
-                <Divider />
-                {talker.screencaps.length < 2 && nothingHere}
-                {talker.screencaps.slice(1).map((screencap, index) => <ListItem key={`screencap-${index}`}><Image width={400} height={208} src={`/screencaps/${screencap}`} alt="" /></ListItem>)}
-              </List>
-            </Grid>
           </Grid>
         </Container>
       </main>
