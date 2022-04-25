@@ -9,6 +9,12 @@
     {
       "type": "Article",
       "icon": "Article",
+      "name": "IRC History -- Talkers",
+      "url": "https://livinginternet.com/r/ri_talkers.htm"
+    },
+    {
+      "type": "Article",
+      "icon": "Article",
       "name": "Talkers - Elusive Internet Chat Rooms",
       "url": "https://h2g2.com/edited_entry/A1010106"
     }
@@ -17,6 +23,11 @@
     "amnuts": {
       "repo": "https://github.com/talkersource/amnuts",
       "name": "Andy's modified NUTS",
+      "platform": "*nix"
+    },
+    "nuts": {
+      "repo": null,
+      "name": "NUTS",
       "platform": "*nix"
     },
     "rnuts": {
@@ -480,7 +491,6 @@
       "name": "Unknown",
       "description": null,
       "websites": [],
-      "hide": true,
       "screencaps": [
         "ewtoo.org_5252.png"
       ],
@@ -489,8 +499,53 @@
       ]
     },
     {
+      "name": "Cat Chat",
+      "codebase": "lpmud",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": []
+    },
+    {
+      "name": "Cheeseplants House",
+      "description": null,
+      "codebase": "ewtoo",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "orchid.warwick.ac.uk"
+      ]
+    },
+    {
+      "name": "Vineyard",
+      "description": null,
+      "codebase": "ewtoo",
+      "websites": [],
+      "screencaps": [],
+      "hosts": []
+    },
+    {
+      "name": "Elsewhere",
+      "description": null,
+      "codebase": "ewtoo",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "lily.warwick.ac.uk"
+      ]
+    },
+    {
+      "name": "Somewhere Else",
+      "description": null,
+      "codebase": "ewtoo",
+      "websites": [],
+      "screencaps": [],
+      "hosts": []
+    },
+    {
       "name": "Foothills",
       "description": null,
+      "codebase": "ewtoo",
       "websites": [
         "http://foothills.tk"
       ],
@@ -507,7 +562,22 @@
         "foothills.tk_2010.png"
       ],
       "hosts": [
-        "foothills.tk:2010"
+        "foothills.tk:2010",
+        "loligo.cc.fsu.edu",
+        "backus.mtsu.edu",
+        "vulture.dcs.king.ac.uk",
+        "marble.bu.edu"
+      ]
+    },
+    {
+      "name": "Inspector Gadget's Talker",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "gadget.ewtoo.org_7000.png"
+      ],
+      "hosts": [
+        "gadget.ewtoo.org:7000"
       ]
     },
     {
@@ -781,6 +851,16 @@
       ]
     },
     {
+      "name": "Marble Madness",
+      "description": null,
+      "websites": [],
+      "emails": [],
+      "screencaps": [],
+      "hosts": [
+        "shadowfax.surr.ac.uk"
+      ]
+    },
+    {
       "name": "Surfers",
       "description": null,
       "websites": [
@@ -803,7 +883,8 @@
       ],
       "hosts": [
         "surfers.fysh.org:4242",
-        "surfers.org:4242"
+        "surfers.org:4242",
+        "muscle.rai.kcl.ac.uk"
       ]
     },
     {
@@ -897,6 +978,14 @@
       "hosts": [
         "ubervillage.org:3131"
       ]
+    },
+    {
+      "name": "Underworld",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "emails": [],
+      "hosts": []
     },
     {
       "name": "Uberworld",
