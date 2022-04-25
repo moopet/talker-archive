@@ -529,7 +529,9 @@
       "websites": [
         "https://uglymug.org.uk/"
       ],
-      "screencaps": [],
+      "screencaps": [
+        "uglymug.org.uk_6239.png"
+      ],
       "hosts": [
         "uglymug.org.uk:6239"
       ]
