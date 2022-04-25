@@ -104,7 +104,7 @@ const TalkerDetails = () => {
             </Grid>
 
             <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
-              <ContactList contacts={talker?.contacts ?? []} />
+              <ContactList contacts={talker?.emails ?? []} />
             </Grid>
 
             <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
