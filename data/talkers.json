@@ -183,6 +183,18 @@
       ]
     },
     {
+      "name": "Forgotten Island",
+      "description": null,
+      "websites": [
+        "http://island.talkernet.net"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "island.talkernet.net:8100",
+        "island.tdf.ca:8100"
+      ]
+    },
+    {
       "name": "Blame Canada",
       "description": null,
       "websites": [],
@@ -207,7 +219,8 @@
         "burbs@burbs.org"
       ],
       "hosts": [
-        "burbs.org:4567"
+        "burbs.org:4567",
+        "toybox.infomagic.com:4567"
       ]
     },
     {
@@ -222,7 +235,9 @@
       "hosts": [
         "camelot.subnigra.com:8888",
         "tangent.dune.net:3333",
-        "vampire.dune.net:3333"
+        "vampire.dune.net:3333",
+        "talker.com:3000",
+        "talkernet.net:3500"
       ]
     },
     {
@@ -626,6 +641,7 @@
       ],
       "hosts": [
         "foothills.tk:2010",
+        "toybox.infomagic.com:2010",
         "loligo.cc.fsu.edu",
         "backus.mtsu.edu",
         "vulture.dcs.king.ac.uk",
@@ -1079,7 +1095,8 @@
         "ubervillage.org_3131.png"
       ],
       "hosts": [
-        "ubervillage.org:3131"
+        "ubervillage.org:3131",
+        "village.pb.net:5000"
       ]
     },
     {
@@ -1171,7 +1188,8 @@
         "madhatter@taker.com"
       ],
       "hosts": [
-        "alg.dune.net:4405"
+        "alg.dune.net:4405",
+        "talker.net:4405"
       ]
     },
     {
@@ -1392,7 +1410,8 @@
         "talker4748@yahoo.com"
       ],
       "hosts": [
-        "dune.net:4748"
+        "dune.net:4748",
+        "abyss.bcl.net:7000"
       ]
     },
     {
