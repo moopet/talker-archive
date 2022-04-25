@@ -14,6 +14,8 @@ const HostList = ({hosts}) => {
 
   if (hosts.length) {
     hostListItems = hosts.map((host, index) => {
+      const link = host.indexOf(':') !== -1 ? <Link href={`telnet:${host}`}>{host}</Link> : host;
+
       return (
         <ListItem key={`host-${index}`}>
           <ListItemAvatar>
@@ -23,7 +25,7 @@ const HostList = ({hosts}) => {
           </ListItemAvatar>
 
           <ListItemText>
-            <Link href={host}>{host}</Link>
+            {link}
           </ListItemText>
         </ListItem>
       );
@@ -33,7 +35,7 @@ const HostList = ({hosts}) => {
   return (
     <List>
       <ListItemText>
-        Previous known hosts
+        Hosts
       </ListItemText>
 
       <Divider />

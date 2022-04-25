@@ -23,7 +23,7 @@ const ContactList = ({contacts}) => {
           </ListItemAvatar>
 
           <ListItemText>
-            <Link href={`mailto://${email}`}>{email}</Link>
+            <Link href={`mailto://${contact}`}>{contact}</Link>
           </ListItemText>
         </ListItem>
       );
