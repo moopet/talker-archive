@@ -507,6 +507,20 @@
       "hosts": []
     },
     {
+      "name": "UglyMUG",
+      "description": null,
+      "emails": [
+        "suggestions@uglymug.org.uk"
+      ],
+      "websites": [
+        "https://uglymug.org.uk/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "uglymug.org.uk:6239"
+      ]
+    },
+    {
       "name": "Cheeseplants House",
       "description": null,
       "codebase": "ewtoo",
