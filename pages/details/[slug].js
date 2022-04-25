@@ -57,9 +57,22 @@ const TalkerDetails = () => {
 
   const emails = talker?.emails ?? [];
   const hosts = talker?.hosts ?? [];
-  const resources = talker?.resources ?? [];
+  let resources = talker?.resources ?? [];
   const screencap = `/screencaps/${talker?.screencaps?.length ? talker.screencaps[0] : 'placeholder.png'}`;
   const nothingHere = <ListItem><ListItemText>Nothing here...</ListItemText></ListItem>;
+
+  if (talker?.wayback) {
+    resources = resources.filter(resource => {
+      return resource.url != talker.wayback;
+    });
+
+    resources.push({
+      name: "Website snapshot",
+      type: "Wayback machine archive",
+      icon: "History",
+      url: talker.wayback
+    });
+  }
 
   return (
     <ThemeProvider theme={theme}>

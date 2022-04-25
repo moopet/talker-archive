@@ -1,4 +1,18 @@
 {
+  "resources": [
+    {
+      "type": "Article",
+      "icon": "Wikipedia",
+      "name": "Talker",
+      "url": "https://en.wikipedia.org/wiki/Talker"
+    },
+    {
+      "type": "Article",
+      "icon": "Article",
+      "name": "Talkers - Elusive Internet Chat Rooms",
+      "url": "https://h2g2.com/edited_entry/A1010106"
+    }
+  ],
   "codebases": {
     "amnuts": {
       "repo": "https://github.com/talkersource/amnuts",
@@ -457,7 +471,9 @@
         "revivaltalker.com_7779.png"
       ],
       "hosts": [
-        "revivaltalker.com:7779"
+        "revivaltalker.com:7779",
+        "revival.pgplus.org:8000",
+        "talker.pgplus.org:8000"
       ]
     },
     {
@@ -478,11 +494,12 @@
       "websites": [
         "http://foothills.tk"
       ],
+      "wayback": "https://web.archive.org/web/20071006182503/http://www.foothills.tk/",
       "resources": [
         {
           "type": "Facebook community",
           "icon": "Facebook",
-          "name": "Facebook was the best talker ever, even though I never met burble",
+          "name": "Foothills was the best talker ever, even though I never met burble",
           "url": "https://www.facebook.com/groups/15990781471/"
         }
       ],
