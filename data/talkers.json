@@ -796,7 +796,7 @@
     },
     {
       "name": "North Keep",
-      "description": "Gorean role play fantasy realm.",,
+      "description": "Gorean role play fantasy realm.",
       "emails": [],
       "websites": [],
       "screencaps": [
@@ -1065,7 +1065,7 @@
     {
       "name": "Underworld",
       "description": null,
-      "codebase":: "pgplus",
+      "codebase": "pgplus",
       "websites": [],
       "screencaps": [],
       "emails": [],
