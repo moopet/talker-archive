@@ -9,7 +9,7 @@ import EmptyListItem from '../EmptyListItem';
 const ContactList = ({contacts}) => {
   let contactListItems = <EmptyListItem />;
 
-  if (contacts.length > 1) {
+  if (contacts.length) {
     contactListItems = contacts.map((contact, index) => {
       return (
         <ListItem key={`contact-${index}`}>

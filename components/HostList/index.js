@@ -9,7 +9,7 @@ import EmptyListItem from '../EmptyListItem';
 const HostList = ({hosts}) => {
   let hostListItems = <EmptyListItem />;
 
-  if (hosts.length > 1) {
+  if (hosts.length) {
     hostListItems = hosts.map((host, index) => {
       return (
         <ListItem key={`host-${index}`}>

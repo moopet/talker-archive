@@ -27,6 +27,7 @@ import Footer from '../../components/Footer';
 import Hero from '../../components/Hero';
 import ContactList from '../../components/ContactList';
 import HostList from '../../components/HostList';
+import ResourceList from '../../components/ResourceList';
 import ScreenCapturesList from '../../components/ScreenCapturesList';
 import data from '../../data/talkers.json';
 
@@ -98,14 +99,7 @@ const TalkerDetails = () => {
             </Grid>
 
             <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
-              <List>
-                  <ListItemText>
-                    Other resources
-                  </ListItemText>
-                <Divider />
-                {!resources.length && nothingHere}
-                {resources.map((resource, index) => <ListItem key={`resource-${index}`}><ListItemText secondary={resource.type}><Link href={resource.url}>{resource.name}</Link></ListItemText></ListItem>)}
-              </List>
+              <ResourceList resources={talker?.resources ?? []} />
             </Grid>
 
           </Grid>
