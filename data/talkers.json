@@ -1,6 +1,36 @@
 {
   "resources": [
     {
+      "type": "Hosting",
+      "icon": "Article",
+      "name": "Dune internet hosting",
+      "url": "http://dune.net/"
+    },
+    {
+      "type": "Website",
+      "icon": "Article",
+      "name": "The MUD Connector",
+      "url": "https://www.mudconnect.com/"
+    },
+    {
+      "type": "Website",
+      "icon": "Article",
+      "name": "MUDStats.com",
+      "url": "http://mudstats.com/"
+    },
+    {
+      "type": "Website",
+      "icon": "Article",
+      "name": "TalkerSource.com",
+      "url": "https://talkersource.com/"
+    },
+    {
+      "type": "Repository",
+      "icon": "Github",
+      "name": "TalkerSource",
+      "url": "https://github.com/talkersource"
+    },
+    {
       "type": "Repository",
       "icon": "Github",
       "name": "Talkers",
@@ -139,7 +169,8 @@
       "name": "Brigandine",
       "description": null,
       "websites": [
-        "http://brigandine.org/"
+        "http://brigandine.org/",
+        "http://bandicoot.merseine.nu/~talker/"
       ],
       "ewtooAbbr": "Brig",
       "codebase": "pgplus",
@@ -212,7 +243,9 @@
     {
       "name": "Caves",
       "description": null,
-      "websites": [],
+      "websites": [
+        "http://www.caves.uk.net"
+      ],
       "screencaps": [
         "caves.uk.net_5000.png",
         "caves.tf_5000.png"
@@ -814,7 +847,8 @@
         "paradox@talker.com"
       ],
       "websites": [
-        "http://paradox.talker.com"
+        "http://paradox.talker.com",
+        "http://www.geocities.com/doxer4life/"
       ],
       "screencaps": [
         "talker.com_4040.png"
@@ -1015,6 +1049,28 @@
       ]
     },
     {
+      "name": "Enchantment Under The Sea",
+      "description": null,
+      "codebase": "nuts",
+      "websites": [
+        "http://euts.org/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "euts.org:2000"
+      ]
+    },
+    {
+      "name": "The Bottomless Pit",
+      "description": null,
+      "codebase": "pgplus",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "pit.enyc.org.uk:7422"
+      ]
+    },
+    {
       "name": "The Village",
       "description": null,
       "codebase": "tiptop",
@@ -1049,12 +1105,96 @@
       ]
     },
     {
-      "name": "The Chat Zone",
+      "name": "Emerald Isle",
+      "description": null,
+      "websites": [
+        "http://emisle.com"
+      ],
+      "resources": [
+        {
+          "type": "Facebook community",
+          "icon": "Facebook",
+          "name": "[ei] The Emerald Isle Talker",
+          "url": "https://www.facebook.com/groups/2400110497/"
+        }
+      ],
+      "screencaps": [],
+      "emails": [],
+      "hosts": [
+        "emisle.com:5000"
+      ]
+    },
+    {
+      "name": "Cuban Bar",
+      "description": null,
+      "websites": [
+        "https://cubanbar.hochstenbach.net/"
+      ],
+      "screencaps": [],
+      "emails": [],
+      "hosts": [
+        "cubanbar.hochstenbach.net:1234"
+      ]
+    },
+    {
+      "name": "Bicol Channel",
+      "description": null,
+      "websites": [
+        "http://hades-talker.org"
+      ],
+      "screencaps": [],
+      "emails": [],
+      "hosts": [
+        "bc.kelotz.net:2018"
+      ]
+    },
+    {
+      "name": "Hades",
+      "description": null,
+      "websites": [
+        "http://hades-talker.org"
+      ],
+      "screencaps": [],
+      "emails": [],
+      "hosts": [
+        "hades-talker.org:6660"
+      ]
+    },
+    {
+      "name": "Alice's Looking Glass",
+      "description": "A very friendly adult talker with a Lewis Carroll theme!",
+      "websites": [
+        "http://alg.dune.net/"
+      ],
+      "screencaps": [],
+      "emails": [
+        "madhatter@taker.com"
+      ],
+      "hosts": [
+        "alg.dune.net:4405"
+      ]
+    },
+    {
+      "name": "Hot Mess",
+      "description": null,
+      "websites": [
+        "https://hot-mess.net/"
+      ],
+      "screencaps": [],
+      "emails": [],
+      "hosts": [
+        "hot-mess.net:9900"
+      ]
+    },
+    {
+      "name": "The Chatting Zone",
       "description": null,
       "websites": [],
       "screencaps": [],
       "emails": [],
-      "hosts": []
+      "hosts": [
+        "thechattingzone.uk:8342"
+      ]
     },
     {
       "name": "Tower",
@@ -1072,6 +1212,31 @@
       "screencaps": [],
       "emails": [],
       "hosts": []
+    },
+    {
+      "name": "The Dominion",
+      "codebase": "ewtoo",
+      "description": null,
+      "websites": [
+        "http://dominion.net.uk/"
+      ],
+      "screencaps": [],
+      "emails": [],
+      "hosts": []
+    },
+    {
+      "name": "The Gathering",
+      "description": null,
+      "websites": [
+        "http://gathering.org.uk"
+      ],
+      "screencaps": [],
+      "emails": [
+        "webmaster@gathering.org.uk"
+      ],
+      "hosts": [
+        "gathering.org.uk:5000"
+      ]
     },
     {
       "name": "Uberworld",
@@ -1216,6 +1381,58 @@
       ],
       "hosts": [
         "zmc-place.enyc.org.uk:8682"
+      ]
+    },
+    {
+      "name": "Castle of Desire",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "emails": [
+        "talker4748@yahoo.com"
+      ],
+      "hosts": [
+        "dune.net:4748"
+      ]
+    },
+    {
+      "name": "NoWhereLand",
+      "description": null,
+      "websites": [
+        "http://nowhereland.dune.net"
+      ],
+      "screencaps": [],
+      "emails": [
+        "nwlang@dune.net"
+      ],
+      "hosts": [
+        "nowhereland.dune.net:1234"
+      ]
+    },
+    {
+      "name": "Illusions of Grandeur",
+      "description": null,
+      "websites": [
+        "http://illusions.dune.net/"
+      ],
+      "screencaps": [],
+      "emails": [
+        "pixelsheeprl@gmail.com"
+      ],
+      "hosts": [
+        "illusions.dune.net:1234"
+      ]
+    },
+    {
+      "name": "DC: 52 Mux",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "emails": [
+        "dc52mux@yahoo.com"
+      ],
+      "hosts": [
+        "tangent.dune.net:7070"
       ]
     },
     {
