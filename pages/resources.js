@@ -1,13 +1,13 @@
-import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
+import CssBaseline from '@mui/material/CssBaseline';
+import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-import CodebaseTable from '../components/CodebaseTable';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
+import ResourceList from '../components/ResourceList';
+
 import data from '../data/talkers.json';
 
 const theme = createTheme({
@@ -16,11 +16,11 @@ const theme = createTheme({
   }
 });
 
-const CodebasesPage = () => {
+const ResourcesPage = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Navigation title="codebases" />
+      <Navigation title="resources" />
 
       <main>
         {/* Hero unit */}
@@ -33,14 +33,18 @@ const CodebasesPage = () => {
         >
           <Container maxWidth="sm">
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              A list of the most commonly-used talker codebases.
+              This is an attempt to collect talker-related resources that might get missed on a casual web search.
             </Typography>
+
+            <Typography variant="h5" align="center" color="text.secondary" paragraph>
+              This sort of page used to be called "bookmarks", or "useful links" back in the day. Nobody used to read them then, either.
+            </Typography>
+
           </Container>
         </Box>
         <Container sx={{ py: 8 }} maxWidth="lg">
-          {/* End hero unit */}
 
-          <CodebaseTable codebases={data.codebases} />
+          <ResourceList title="External resources" resources={data.resources} />
         </Container>
       </main>
 
@@ -49,4 +53,4 @@ const CodebasesPage = () => {
   );
 };
 
-export default CodebasesPage;
+export default ResourcesPage;

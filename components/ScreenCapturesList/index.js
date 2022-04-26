@@ -5,7 +5,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-const ScreenCapturesList = ({screencaps}) => {
+const ScreenCapturesList = (props) => {
+  const { screencaps } = props;
   let screencapListItems = <EmptyListItem />;
 
   if (screencaps.length > 1) {
@@ -21,7 +22,7 @@ const ScreenCapturesList = ({screencaps}) => {
   return (
     <List>
       <ListItemText>
-        Other screen captures
+        {props?.title || "Other screen captures"}
       </ListItemText>
 
       <Divider />

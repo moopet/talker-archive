@@ -1,19 +1,15 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
-import ChatIcon from '@mui/icons-material/Chat';
 import CssBaseline from '@mui/material/CssBaseline';
-import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
-import Tabs from '@mui/material/Tabs';
-import Toolbar from '@mui/material/Toolbar';
+// import Tab from '@mui/material/Tab';
+// import Tabs from '@mui/material/Tabs';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import Footer from '../components/Footer';
+import Navigation from '../components/Navigation';
 import TalkerGrid from '../components/TalkerGrid';
 import TalkerList from '../components/TalkerList';
 import TalkerTable from '../components/TalkerTable';
@@ -36,14 +32,8 @@ const TalkerListPage = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <AppBar position="relative">
-        <Toolbar>
-          <ChatIcon sx={{ mr: 2 }} />
-          <Typography variant="h1" sx={{ fontSize: "1rem" }} color="inherit" noWrap>
-            Talker archive
-          </Typography>
-        </Toolbar>
-      </AppBar>
+      <Navigation />
+
       <main>
 
         {/* Hero unit */}

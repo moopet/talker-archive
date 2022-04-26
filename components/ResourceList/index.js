@@ -9,7 +9,8 @@ import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 import * as Icons from '@mui/icons-material';
 
-const ResourceList = ({resources}) => {
+const ResourceList = (props) => {
+  const { resources } = props;
   let resourceListItems = <EmptyListItem />;
 
   if (resources.length) {
@@ -39,7 +40,7 @@ const ResourceList = ({resources}) => {
   return (
     <List>
       <ListItemText>
-        Other resources
+        {props?.title || "Other resources"}
       </ListItemText>
 
       <Divider />
