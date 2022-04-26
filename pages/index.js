@@ -22,7 +22,17 @@ const theme = createTheme({
 });
 
 const TalkerListPage = () => {
+	const hideEmptyEntries = false;
+
   const talkers = data.talkers.filter(talker => {
+    if (!talker.name) {
+      return false;
+    }
+
+    if (hideEmptyEntries && !talker?.screencaps?.lengths && !talker?.emails?.length && !talker?.websites?.length ) {
+      return false;
+    }
+
     return !talker?.hide;
   });
 
