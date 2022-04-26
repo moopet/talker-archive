@@ -1,6 +1,7 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import CssBaseline from '@mui/material/CssBaseline';
+import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
@@ -17,6 +18,11 @@ const theme = createTheme({
 });
 
 const ResourcesPage = () => {
+  const resources = data.resources.sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
+
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -37,14 +43,35 @@ const ResourcesPage = () => {
             </Typography>
 
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              This sort of page used to be called "bookmarks", or "useful links" back in the day. Nobody used to read them then, either.
+              This sort of page used to be called &quot;bookmarks&quot;, or &quot;useful links&quot; back in the day. Nobody used to read them then, either.
             </Typography>
 
           </Container>
         </Box>
-        <Container sx={{ py: 8 }} maxWidth="lg">
 
-          <ResourceList title="External resources" resources={data.resources} />
+        <Container sx={{ py: 8 }} maxWidth="lg">
+          <Grid container spacing={4}>
+            <Grid item xs={12} sm={6} md={4}>
+              <ResourceList
+                title="Source code"
+                resources={resources.filter(resource => resource.type == "Repository")}
+              />
+            </Grid>
+
+            <Grid item xs={12} sm={6} md={4}>
+              <ResourceList
+                title="Articles"
+                resources={resources.filter(resource => resource.type == "Article")}
+              />
+            </Grid>
+
+            <Grid item xs={12} sm={6} md={4}>
+              <ResourceList
+                title="Hosting"
+                resources={resources.filter(resource => resource.type == "Hosting")}
+              />
+            </Grid>
+          </Grid>
         </Container>
       </main>
 

@@ -28,6 +28,7 @@ import Hero from '../../components/Hero';
 import ContactList from '../../components/ContactList';
 import HostList from '../../components/HostList';
 import ResourceList from '../../components/ResourceList';
+import WebsiteList from '../../components/WebsiteList';
 import ScreenCapturesList from '../../components/ScreenCapturesList';
 import data from '../../data/talkers.json';
 
@@ -62,9 +63,7 @@ const TalkerDetails = () => {
   const nothingHere = <ListItem><ListItemText>Nothing here...</ListItemText></ListItem>;
 
   if (talker?.wayback) {
-    resources = resources.filter(resource => {
-      return resource.url != talker.wayback;
-    });
+    resources = resources.filter(resource => resource.url != talker.wayback);
 
     resources.push({
       name: "Website snapshot",
@@ -99,20 +98,24 @@ const TalkerDetails = () => {
         <Container sx={{ py: 8 }} maxWidth="xl">
           <Grid container spacing={3} justifyContent="space-between">
 
-            <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
+            <Grid item xl={2} lg={3} md={4} sm={6} xs={12} >
               <HostList hosts={talker?.hosts ?? []} />
             </Grid>
 
-            <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
+            <Grid item xl={2} lg={3} md={4} sm={6} xs={12} >
               <ContactList contacts={talker?.emails ?? []} />
+            </Grid>
+
+            <Grid item xl={2} lg={3} md={4} sm={6} xs={12} >
+              <WebsiteList websites={talker?.websites ?? []} />
+            </Grid>
+
+            <Grid item xl={2} lg={3} md={4} sm={6} xs={12} >
+              <ResourceList resources={resources} />
             </Grid>
 
             <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
               <ScreenCapturesList screencaps={talker?.screencaps ?? []} />
-            </Grid>
-
-            <Grid item xl={3} lg={3} md={4} sm={6} xs={12} >
-              <ResourceList resources={talker?.resources ?? []} />
             </Grid>
 
           </Grid>

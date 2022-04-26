@@ -22,7 +22,7 @@ const theme = createTheme({
 });
 
 const TalkerListPage = () => {
-	const hideEmptyEntries = false;
+	const hideEmptyEntries = true;
 
   const talkers = data.talkers.filter(talker => {
     if (!talker.name) {

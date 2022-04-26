@@ -26,19 +26,19 @@
     },
     {
       "type": "Repository",
-      "icon": "Github",
+      "icon": "GitHub",
       "name": "TalkerSource",
       "url": "https://github.com/talkersource"
     },
     {
       "type": "Repository",
-      "icon": "Github",
+      "icon": "GitHub",
       "name": "Talkers",
       "url": "https://github.com/talkers/"
     },
     {
       "type": "Article",
-      "icon": "Wikipedia",
+      "icon": "School",
       "name": "Talker",
       "url": "https://en.wikipedia.org/wiki/Talker"
     },
@@ -1262,13 +1262,17 @@
       "name": "Alice's Looking Glass",
       "description": "A very friendly adult talker with a Lewis Carroll theme!",
       "websites": [
-        "http://alg.dune.net/"
+        "http://alg.dune.net/",
+        "http://users.nac.net/kesey/alg.htm"
       ],
-      "screencaps": [],
+      "screencaps": [
+        "dune.net_4405.png"
+      ],
       "emails": [
         "madhatter@taker.com"
       ],
       "hosts": [
+        "dune.net:4405",
         "alg.dune.net:4405",
         "talker.net:4405"
       ]

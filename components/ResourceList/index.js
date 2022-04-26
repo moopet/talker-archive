@@ -15,19 +15,17 @@ const ResourceList = (props) => {
 
   if (resources.length) {
     resourceListItems = resources.map((resource, index) => {
-      let avatar = <Avatar />;
+      let avatar = null;
 
       if (resource?.icon && Icons.hasOwnProperty(resource.icon)) {
         const IconComponent = Icons[resource.icon];
 
-        avatar = <Avatar><IconComponent /></Avatar>;
+        avatar = <ListItemAvatar><Avatar><IconComponent /></Avatar></ListItemAvatar>;
       }
 
       return (
         <ListItem key={`resource-${index}`}>
-          <ListItemAvatar>
-            {avatar}
-          </ListItemAvatar>
+          {avatar}
 
           <ListItemText secondary={resource.type}>
             <Link href={resource.url}>{resource.name}</Link>
@@ -52,4 +50,3 @@ const ResourceList = (props) => {
 };
 
 export default ResourceList;
-
