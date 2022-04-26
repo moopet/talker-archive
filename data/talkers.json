@@ -1147,11 +1147,13 @@
       "name": "Enchantment Under The Sea",
       "dataOrigin": "spodlist.org",
       "description": null,
-      "codebase": "nuts",
+      "codebase": "ArIEN",
       "websites": [
-        "http://euts.org/"
+        "http://www.euts.org/"
       ],
-      "screencaps": [],
+      "screencaps": [
+        "euts.org_2000.png"
+      ],
       "hosts": [
         "euts.org:2000"
       ]
