@@ -15,6 +15,12 @@
     {
       "type": "Website",
       "icon": "Article",
+      "name": "'Talkers' Fandom entry",
+      "url": "https://www.mudconnect.com/"
+    },
+    {
+      "type": "Website",
+      "icon": "Article",
       "name": "The MUD Connector",
       "url": "https://www.mudconnect.com/"
     },
@@ -250,8 +256,12 @@
     {
       "name": "Camelot",
       "dataOrigin": "spodlist.org",
-      "description": null,
-      "websites": [],
+      "description": " An all ages talker embracing the romance from the greatest legend ever -- Camelot. There is a collection of files online dealing with romance and relationships that is avaiable to all users. The staff is friendly and courteous, and atmosphere is light and fun. Many socials and original features are there to make your stay as enjoyable as possible.",
+      "emails": "camelot@talker.com",
+      "websites": [
+        "http://www.talker.com/camelot"
+      ],
+      "wayback": "https://web.archive.org/web/19990220071148/http://talker.com/camelot",
       "screencaps": [
         "vampire.dune.net_3333.png",
         "camelot.subnigra.com_8888.png",
@@ -613,6 +623,14 @@
       "name": "Cat Chat",
       "codebase": "lpmud",
       "description": null,
+      "resources": [
+        {
+          "type": "Fandom entry",
+          "name": "Cat Chat",
+          "icon": null,
+          "url": "https://muds.fandom.com/wiki/Cat_Chat"
+        }
+      ],
       "websites": [],
       "screencaps": [],
       "hosts": []
@@ -638,7 +656,22 @@
       "name": "Cheeseplants House",
       "description": null,
       "codebase": "ewtoo",
-      "websites": [],
+      "resources": [
+        {
+          "type": "Cheeseplant's thoughts",
+          "name": "Cheeseplant's House",
+          "icon": null,
+          "url": "http://www.cheeseplant.org/~daniel/pages/cph.html"
+        },
+        {
+          "type": "Fandom entry",
+          "name": "Cheeseplant's House",
+          "icon": null,
+          "url": "https://muds.fandom.com/wiki/Cheeseplant%27s_House"
+        }
+      ],
+      "websites": [
+      ],
       "screencaps": [],
       "hosts": [
         "orchid.warwick.ac.uk"
@@ -937,7 +970,8 @@
     {
       "name": "Paradox",
       "dataOrigin": "spodlist.org",
-      "description": null,
+      "description": "Ours is a queer safe talker that has been on the net for the past 5 years or so. We are a large community of people from around the world who share many interests and come online to meet new friends and chat with old ones. We protect all our users against any persons who come to our talker to harass our community and will take whatever measures are necessary to resolve those problems.",
+      "codebase": "pgplus",
       "emails": [
         "paradox@talker.com"
       ],
@@ -2573,6 +2607,650 @@
       "screencaps": [],
       "hosts": [
         "talker.com:5000"
+      ]
+    },
+    {
+      "name": "Candyland",
+      "description": null,
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "adult": true,
+      "emails": [
+        "candy@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7577"
+      ]
+    },
+    {
+      "name": "Chakrams & Scrolls",
+      "description": "This talker is based on Xena: Warrior Princess and is a place where fans of the show can meet and discuss episodes, etc. Many games to play and new commands in this ancient Greek world! ",
+      "codebase": "Iforms",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "xena@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/xena"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8001"
+      ]
+    },
+    {
+      "name": "City Of Dreams",
+      "description": "City of Dreams is an under-18 talker. Join everyone there and follow your dreams, laugh and have lots of fun!",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "dreams@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/dreams"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4605"
+      ]
+    },
+    {
+      "name": "Crimson Dawn",
+      "description": null,
+      "codebase": "ewtoo",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "sarwat@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/crimsondawn"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7414"
+      ]
+    },
+    {
+      "name": "Cross Roads",
+      "description": "CrossRoads, The Next Generation, is a place for friends, both old and new, to gather and chat about almost anything. Opened shortly after the original CrossRoads closed in early 1997, CrossRoads TNG carries on the tradition started by Jesse, Sparky and all the others who made CrossRoads one of the mosr popular talkers on the net. Please stop by, kick your shoes off, grab something to drink and enjoy your stay.",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "aviator@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/crossroads"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:5150"
+      ]
+    },
+    {
+      "name": "Cyber City",
+      "description": "Cyber City is based on the theme of what it would be like if people actually lived in Cyberspace. it is set up very much like a city. This talker is open to all ages, so come on in and enjoy the fun!",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "duck@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/cybercity"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3030"
+      ]
+    },
+    {
+      "name": "Eye of the World",
+      "description": "The Eye of the World was started in February of 1995, based on the Wheel of Time saga by Robert Jordan. It is not a role-playing environment. It IS a very colorful, friendly environment where we encourage users to take part in the life of the talker. We do this by giving our users the opportunity to own one of our 36 rooms.",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "zack@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/EOTW"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9502"
+      ]
+    },
+    {
+      "name": "Harem",
+      "description": "Harem is a talker for adults 18 and over. Harem is a mature atmosphere, dedicated to alternitive life-styles, role-play and interacting with others.",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/harem"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:6200"
+      ]
+    },
+    {
+      "name": "Heaven",
+      "description": "The heaven: el mejor chat en espaniol del mundo. :)",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "heaven@talker.com"
+      ],
+      "websites": [ ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7770"
+      ]
+    },
+    {
+      "name": "Hideaway",
+      "description": "The place to run and hide...your fantasy getaway! Anything you could imagine is waiting for you at Hideaway. If you don't see it, then ask for it...your wish just may come true for you! But don't get your hopes up! ;) If anything, just come and get away from the people you despise most at the other talkers.",
+      "codebase": "amnuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "hideaway@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4752"
+      ]
+    },
+    {
+      "name": "An Illville",
+      "description": "A talker based on a city where everybody is game.",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "dman@talker.com"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3234"
+      ]
+    },
+    {
+      "name": "Insane World",
+      "description": "It's an insane world out there, so why can't it be an insane internet world? That's what the talker is all about.",
+      "codebase": "ewtoo",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "insane@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7411"
+      ]
+    },
+    {
+      "name": "Interstate America",
+      "description": "Lonesome is a truck driver from Texas. We based this talker on his journeys. We welcome all travelers to come in and have some coffee, or just sit around to shoot the breeze. Ya may be surprised! Ya'll come see us!",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "lonesome@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3300"
+      ]
+    },
+    {
+      "name": "Invasion",
+      "description": "This is a talker where anything can happen, but watch out 'cause you could be abducted! This talker has it's own spaceship. You may go to Earth or Mars. Visit with the cute aliens. Keep watch though because they could be in disguise!",
+      "dataOrigin": "talker.com",
+      "codebase": "nuts",
+      "emails": [
+        "coolcat@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9786"
+      ]
+    },
+    {
+      "name": "The Jungle",
+      "description": "The Jungle is a fun and friendly place to chat!",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "jungle@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/jungle"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3050"
+      ]
+    },
+    {
+      "name": "Journeys",
+      "description": "Journeys is an all-ages talker based on travelling (Journeys :-). Everyone is welcome here to meet new people of all ages and backgrounds and enjoy themselves. Enjoy your Journeys!",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "journeys@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/journeys"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8999"
+      ]
+    },
+    {
+      "name": "KAOS",
+      "description": "Key kids! KAOS is the best talker there is! Hands down! See ya there!!",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "Kaosinxs@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/kaos"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7010"
+      ]
+    },
+    {
+      "name": "Mountain Ranch",
+      "description": "A BDSM talker for those who areserious about their D/s lifestyles. Come and make your fantasies and dreams come true with us!",
+      "dataOrigin": "talker.com",
+      "codebase": "nuts",
+      "emails": [
+        "ranch@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/mountainranch"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:5013"
+      ]
+    },
+    {
+      "name": "Movie Megaplex",
+      "description": "The Movie Megaplex is a relaxing atmosphere to, well, relax! :) All decent topics are welcome, keeping in mind that we are a talker, not a mud, mush, or anything of that sort.",
+      "dataOrigin": "talker.com",
+      "codebase": "ncohafmuta",
+      "emails": [
+        "devil@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/devil"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7002"
+      ]
+    },
+    {
+      "name": "Myst",
+      "description": "Myst is a new and exciting talker set in the idyllic surrounds of a mystical island. Operating in real time, 24 hours a day, 7 days a week, 365 days a year, Myst is a free and secure chat-service for people from around the world to meet, talk and exchange messages. Myst is an Ew-Too style talker, based on the popular PlayGround96 code, with heavy modifications made in presentation, features and usage.",
+      "codebase": "pg96",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "myst@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4545"
+      ]
+    },
+    {
+      "name": "Mystic Forces of Evil",
+      "codebase": "nuts",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "sean@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8600"
+      ]
+    },
+    {
+      "name": "Pan Pipes",
+      "description": "This talker is a zoo talker and fur friendly for those looking for good friends to chat with.",
+      "dataOrigin": "talker.com",
+      "codebase": "nuts",
+      "emails": [
+        "furpaws@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/panpipes"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4207"
+      ]
+    },
+    {
+      "name": "Paradise Island",
+      "description": null,
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "sd@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/paradiseisland"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9257"
+      ]
+    },
+    {
+      "name": "Paris By Night",
+      "description": "-=[Paris By Night]=- Who Never Dreamed of Visiting Paris, The Most Romantic City in the World?  You Are Looking For A Romantic Place?  You Are Looking For A Funny Place?  Come On Paris By Night, Chat in The Louvre, Meet In The Eiffel Tower, Have Fun in The Hotel… We Are All Waiting For You!  -=[Paris By Night]=- Main Port: 3210 Sysadmin(s): Arny & Spicey Who Port: 3212 Http:// www.talker.com/paris ",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "paris@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/paris"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3210"
+      ]
+    },
+    {
+      "name": "Party Time",
+      "codebase": "nuts",
+      "description": "A talker for all ages. Come, chat, play games, or do whatever else you want to do. We are continually updating code to make your stay more enjoyable. Stop on by and check us out.",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "partytim@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/partytim"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7777"
+      ]
+    },
+    {
+      "name": "Philadelphia",
+      "description": "A general talker, based on the City of Philadelphia. Streets and points of interest in the city comprise the majority of the talker.",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "philly@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/philadelphia"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7676"
+      ]
+    },
+    {
+      "name": "Reality",
+      "description": "A fun place to go!!" ,
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "josh@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/reality"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9007"
+      ]
+    },
+    {
+      "name": "Realm Of The Seeker",
+      "description": "Realm of the Seeker is based on the 'Sword of Truth' series of books by Terry Goodkind. Come join one of the most promising talkers online.",
+      "codebase": "amnuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "richard@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/realm"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8246"
+      ]
+    },
+    {
+      "name": "Rome",
+      "description": "Ancient Rome was a myriad of contradiction and irony, a military-based civilization celebrating the beauty of classical Greece, architecture, poetry and philosophy, but also thriving on brutality of amphitheatres and slavery and on the politics of religion. Although too complex for acurate representation in our humble talker, the ancient empire inspires this atmosphere of pleasure & terror, peace & imprisionment, spirituality & passion. The purpose here is to break physical limits through communication. Make sure you are prepared.", 
+      "codebase": "rome",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "rawhide@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:6050"
+      ]
+    },
+    {
+      "name": "Your World",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "josh@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9002"
+      ]
+    },
+    {
+      "name": "Xanth",
+      "description": "Xanth: you have read the books by Piers Anthony, now come play the MUD loosely based on his series. 'Xanth' and all references to it are copyrighted by Piers Anthony and are used by us only by his permission.",
+      "codebase": "rom",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "ddi@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/xanth"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4279"
+      ]
+    },
+    {
+      "name": "Utopia",
+      "description": "Utopia is a talker for adults that started in 1995. We only permit users over 18 and strive to maintain a warm, friendly and mostly mature atmosphere, while still having fun. Utopia is set in an imaginary town where you will find a growing yet still close-knit community of wonderful people.",
+      "codebase": "ncohafmuta",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "utopia@talker.com"
+      ],
+      "wayback": "https://web.archive.org/web/19990429070918/http://www.geocities.com/SunsetStrip/4333",
+      "websites": [
+        "http://www.geocities.com/SunsetStrip/4333"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "The Urge",
+      "description": "",
+      "codebase": "moenuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "music@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/urge"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4567"
+      ]
+    },
+    {
+      "name": "Unforgiven",
+      "description": null,
+      "codebase": "pg96",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "computaz@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3307"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
       ]
     },
     {

@@ -51,24 +51,31 @@ const ResourcesPage = () => {
 
         <Container sx={{ py: 8 }} maxWidth="lg">
           <Grid container spacing={4}>
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item xs={12} sm={6} md={4} xl={3}>
               <ResourceList
                 title="Source code"
                 resources={resources.filter(resource => resource.type == "Repository")}
               />
             </Grid>
 
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item xs={12} sm={6} md={4} xl={3}>
               <ResourceList
                 title="Articles"
                 resources={resources.filter(resource => resource.type == "Article")}
               />
             </Grid>
 
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item xs={12} sm={6} md={4} xl={3}>
               <ResourceList
                 title="Hosting"
                 resources={resources.filter(resource => resource.type == "Hosting")}
+              />
+            </Grid>
+
+            <Grid item xs={12} sm={6} md={4} xl={3}>
+              <ResourceList
+                title="Other"
+                resources={resources.filter(resource => ['Article', 'Hosting', 'Repository'].indexOf(resource.type) === -1)}
               />
             </Grid>
           </Grid>
