@@ -7,7 +7,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
-import CableIcon from '@mui/icons-material/Cable';
 
 const HostList = ({hosts}) => {
   let hostListItems = <EmptyListItem />;
@@ -18,12 +17,6 @@ const HostList = ({hosts}) => {
 
       return (
         <ListItem key={`host-${index}`}>
-          <ListItemAvatar>
-            <Avatar>
-              <CableIcon />
-            </Avatar>
-          </ListItemAvatar>
-
           <ListItemText>
             {link}
           </ListItemText>

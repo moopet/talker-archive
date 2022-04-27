@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
+import Chip from '@mui/material/Chip';
 import HistoryIcon from '@mui/icons-material/History';
 import NextLink from 'next/link';
 import Image from 'next/image';
@@ -20,6 +21,21 @@ const TalkerCard = ({talker}) => {
 
   const ignoreWords = new RegExp(/^(the|a)[^a-z]+/, 'i');
   const slug = slugify(talker.name.replace(ignoreWords, ""), {lower: true});
+  const codebaseNames = {
+    amnuts: "AMNUTS",
+    bolts: "BOLTS",
+    crypt: "The Crypt",
+    ewtoo: "EW-Too",
+    ncohafmuta: "Ncohafmuta",
+    nuts: "NUTS",
+    pg96: "Playground '96",
+    pgplus: "Playground Plus",
+    rnuts: "RNUTS",
+    sensi: "Sensi-Summink",
+    summink: "Summink",
+    talker: "Talker",
+    talkernode: "TalkerNode"
+  };
 
   return (
     <Card sx={{ maxWidth: 400, borderWidth: 1, borderStyle: "solid", borderColor: "#333" }}>
@@ -46,6 +62,9 @@ const TalkerCard = ({talker}) => {
         {talker?.wayback?.length > 0 && <Link href={talker.wayback}><HistoryIcon /></Link>}
         {talker?.emails?.length > 0 && <Link href={`mailto:${talker.emails[0]}`}><EmailIcon /></Link>}
         {talker?.ewtooAbbr?.length > 0 && <Link href={`http://list.ewtoo.org/details.cgi?abbr=${talker.ewtooAbbr}`}><BarChartIcon /></Link>}
+    {/*
+    {talker?.codebase?.length > 0 && <Chip label={codebaseNames[talker.codebase] ?? talker.codebase} variant="outlined" />}
+    */}
       </CardActions>
     </Card>
   );

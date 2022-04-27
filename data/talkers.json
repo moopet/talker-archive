@@ -94,6 +94,12 @@
       "name": "BOLTS",
       "platform": "*nix"
     },
+    "ncohafmuta": {
+      "repo": "http://ncohafmuta.net/index.shtml",
+      "name": "Ncohafmuta",
+      "platform": null,
+      "language": null
+    },
     "ewtoo": {
       "repo": "https://github.com/talkersource/ew-too",
       "name": "EW-Too",
@@ -111,9 +117,9 @@
       "name": "Summink",
       "platform": "*nix"
     },
-    "talker": {
+    "sensi": {
       "repo": null,
-      "name": "SensiSummink",
+      "name": "Sensi-Summink",
       "platform": "*nix"
     },
     "talker": {
@@ -155,17 +161,21 @@
       "name": "Atlantis",
       "dataOrigin": "spodlist.org",
       "description": null,
+      "emails": [
+        "admin@atlantis.org",
+        "me@moopet.net"
+      ],
       "websites": [
         "http://atlantis.org.uk"
       ],
-      "codebase": "sensisummink",
+      "codebase": "sensi",
       "screencaps": [
         "yuss.org_5050.png",
         "atlantis.org.uk_5050.png",
         "mopemansions.org_5050.png"
       ],
       "hosts": [
-        "atlantis.org",
+        "atlantis.org:5050",
         "mopemansions.org:5050",
         "yuss.org:5050"
       ]
@@ -566,6 +576,9 @@
       "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
+      "emails": [
+        "snowadm@snowplains.org"
+      ],
       "resources": [
         {
           "type": "Facebook community",

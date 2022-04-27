@@ -7,7 +7,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
-import EmailIcon from '@mui/icons-material/Email';
 
 const ContactList = ({contacts}) => {
   let contactListItems = <EmptyListItem />;
@@ -16,12 +15,6 @@ const ContactList = ({contacts}) => {
     contactListItems = contacts.map((contact, index) => {
       return (
         <ListItem key={`contact-${index}`}>
-          <ListItemAvatar>
-            <Avatar>
-              <EmailIcon />
-            </Avatar>
-          </ListItemAvatar>
-
           <ListItemText>
             <Link href={`mailto://${contact}`}>{contact}</Link>
           </ListItemText>
