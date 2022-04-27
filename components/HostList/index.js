@@ -1,14 +1,12 @@
-import Avatar from '@mui/material/Avatar';
 import Divider from '@mui/material/Divider';
-import Image from 'next/image';
 import Link from '@mui/material/Link';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-const HostList = ({hosts}) => {
+const HostList = (props) => {
+  const { hosts } = props;
   let hostListItems = <EmptyListItem />;
 
   if (hosts.length) {
@@ -16,7 +14,7 @@ const HostList = ({hosts}) => {
       const link = host.indexOf(':') !== -1 ? <Link href={`telnet:${host}`}>{host}</Link> : host;
 
       return (
-        <ListItem key={`host-${index}`}>
+        <ListItem disableGutters key={`host-${index}`}>
           <ListItemText>
             {link}
           </ListItemText>
@@ -26,15 +24,9 @@ const HostList = ({hosts}) => {
   }
 
   return (
-    <List>
-      <ListItemText>
-        Hosts
-      </ListItemText>
-
+    <List subheader={props?.title || "Hosts"}>
       <Divider />
-
       {hostListItems}
-
     </List>
   );
 };

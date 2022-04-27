@@ -1,20 +1,18 @@
-import Avatar from '@mui/material/Avatar';
 import Divider from '@mui/material/Divider';
-import Image from 'next/image';
 import Link from '@mui/material/Link';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-const ContactList = ({contacts}) => {
+const ContactList = (props) => {
+  const { contacts } = props;
   let contactListItems = <EmptyListItem />;
 
   if (contacts.length) {
     contactListItems = contacts.map((contact, index) => {
       return (
-        <ListItem key={`contact-${index}`}>
+        <ListItem disableGutters key={`contact-${index}`}>
           <ListItemText>
             <Link href={`mailto://${contact}`}>{contact}</Link>
           </ListItemText>
@@ -24,15 +22,9 @@ const ContactList = ({contacts}) => {
   }
 
   return (
-    <List>
-      <ListItemText>
-        Contacts
-      </ListItemText>
-
+    <List subheader={props?.title || "Contacts"}>
       <Divider />
-
       {contactListItems}
-
     </List>
   );
 };

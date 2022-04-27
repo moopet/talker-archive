@@ -1,13 +1,10 @@
-import Avatar from '@mui/material/Avatar';
 import Divider from '@mui/material/Divider';
 import Image from 'next/image';
 import Link from '@mui/material/Link';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
-import * as Icons from '@mui/icons-material';
 
 const ResourceList = (props) => {
   const { resources } = props;
@@ -15,18 +12,8 @@ const ResourceList = (props) => {
 
   if (resources.length) {
     resourceListItems = resources.map((resource, index) => {
-      let avatar = null;
-
-      if (resource?.icon && Icons.hasOwnProperty(resource.icon)) {
-        const IconComponent = Icons[resource.icon];
-
-        avatar = <ListItemAvatar><Avatar><IconComponent /></Avatar></ListItemAvatar>;
-      }
-
       return (
-        <ListItem key={`resource-${index}`}>
-          {avatar}
-
+        <ListItem disableGutters key={`resource-${index}`}>
           <ListItemText secondary={resource.type}>
             <Link href={resource.url}>{resource.name}</Link>
           </ListItemText>
@@ -36,15 +23,9 @@ const ResourceList = (props) => {
   }
 
   return (
-    <List>
-      <ListItemText>
-        {props?.title || "Other resources"}
-      </ListItemText>
-
+    <List subheader={props?.title || "Other resources"}>
       <Divider />
-
       {resourceListItems}
-
     </List>
   );
 };

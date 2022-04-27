@@ -12,7 +12,7 @@ const ScreenCapturesList = (props) => {
   if (screencaps.length > 1) {
     screencapListItems = screencaps.slice(1).map((screencap, index) => {
       return (
-        <ListItem key={`screencap-${index}`}>
+        <ListItem disableGutters key={`screencap-${index}`}>
           <Image
             src={`/screencaps/${screencap}`}
             alt=""
@@ -25,15 +25,9 @@ const ScreenCapturesList = (props) => {
   }
 
   return (
-    <List>
-      <ListItemText>
-        {props?.title || "Other screen captures"}
-      </ListItemText>
-
+    <List subheader={props?.title || "Other screen captures"}>
       <Divider />
-
       {screencapListItems}
-
     </List>
   );
 };
