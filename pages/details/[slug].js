@@ -96,7 +96,7 @@ const TalkerDetails = () => {
         />
 
         <Container sx={{ py: 8 }} maxWidth="xl">
-          <Grid container spacing={3} justifyContent="space-between">
+          <Grid container spacing={3} justifyContent="flex-start">
 
             <Grid item xl={2} lg={3} md={4} sm={6} xs={12} >
               <HostList hosts={talker?.hosts ?? []} />
