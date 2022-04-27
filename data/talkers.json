@@ -61,6 +61,11 @@
       "name": "Andy's modified NUTS",
       "platform": "*nix"
     },
+    "cams": {
+      "repo": null,
+      "name": "CAMS",
+      "plaform": "*nix"
+    },
     "nuts": {
       "repo": null,
       "name": "NUTS",
@@ -155,6 +160,18 @@
       ]
     },
     {
+      "name": "Wilderness Chat",
+      "codebase": "cams",
+      "description": null,
+      "websites": [],
+      "screencaps": [
+        "bagend.tzo.org_2060.png"
+      ],
+      "hosts": [
+        "bagend.tzo.org:2060"
+      ]
+    },
+    {
       "name": "Bag End",
       "description": null,
       "websites": [],
@@ -171,6 +188,9 @@
       "websites": [
         "http://brigandine.org/",
         "http://bandicoot.merseine.nu/~talker/"
+      ],
+      "emails": [
+        "iamthecheeze@gmail.com"
       ],
       "ewtooAbbr": "Brig",
       "codebase": "pgplus",
@@ -979,6 +999,7 @@
       "hosts": [
         "surfers.fysh.org:4242",
         "surfers.org:4242",
+        "surfers.spods.co.uk:4242",
         "muscle.rai.kcl.ac.uk"
       ]
     },
@@ -1455,6 +1476,27 @@
       "hosts": [
         "tangent.dune.net:7070"
       ]
+    },
+    {
+      "name": "Retro Chat",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": []
+    },
+    {
+      "name": "Dreamers",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": []
+    },
+    {
+      "name": "Twilight Zone",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": []
     },
     {
       "name": "Zeta Aquilae",
