@@ -907,9 +907,12 @@
       ]
     },
     {
-      "name": "Glantri",
+      "name": "Glantri's Labyrinth II",
       "description": null,
       "dataOrigin": "spodlist.org",
+      "emails": [
+        "glantri@talker.com",
+      ],
       "websites": [
         "http://talker.com/glantri"
       ],
@@ -917,7 +920,7 @@
         "talker.com_2200.png"
       ],
       "hosts": [
-        "talker.com:2200"
+        "talker.com:2203"
       ]
     },
     {
@@ -1275,13 +1278,15 @@
       "description": "A very friendly adult talker with a Lewis Carroll theme!",
       "websites": [
         "http://alg.dune.net/",
-        "http://users.nac.net/kesey/alg.htm"
+        "http://users.nac.net/kesey/alg.htm",
+        "http://www.talker.com/alice"
       ],
       "screencaps": [
         "dune.net_4405.png"
       ],
       "emails": [
-        "madhatter@taker.com"
+        "madhatter@taker.com",
+        "alice@talker.com"
       ],
       "hosts": [
         "dune.net:4405",
@@ -1583,6 +1588,9 @@
       "name": "The Abyss",
       "description": null,
       "dataOrigin": "talkers.ws",
+      "emails": [
+        "abyss@talker.com"
+      ],
       "websites": [
         "http://abyss.talker.com"
       ],
@@ -1685,7 +1693,12 @@
       "name": "Brew City",
       "dataOrigin": "talkers.ws",
       "description": null,
-      "websites": [],
+      "emails": [
+        "brewcity@talker.com"
+      ],
+      "websites": [
+        "http://www.geocities.com/timessquare/arcade/6542"
+      ],
       "screencaps": [],
       "hosts": [
         "talker.com:6886"
@@ -1764,11 +1777,42 @@
     {
       "name": "The Crypt",
       "dataOrigin": "talkers.ws",
+      "codebase": "crypt",
+      "description": null,
+      "websites": [
+        "http://churchnet2.ucsm.ac.uk/~crypt",
+        "http://www.tendril.force9.co.uk/crypt/index.html"
+      ],
+      "wayback": "http://churchnet2.ucsm.ac.uk/~crypt/",
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:6660",
+        "churchnet2.uscm.ac.uk:666"
+      ]
+    },
+    {
+      "name": "Lodis Island",
+      "dataOrigin": "crypt",
+      "codebase": "crypt",
+      "description": null,
+      "websites": [
+        "http://www.talker.com/lodis"
+      ],
+      "wayback": "https://web.archive.org/web/19990202164419/http://www.talker.com/lodis/",
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2340"
+      ]
+    },
+    {
+      "name": "Surfside Inn",
+      "dataOrigin": "crypt",
+      "codebase": "crypt",
       "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
-        "amber.org.uk:6660"
+        "206.245.154.72:8900"
       ]
     },
     {
@@ -2312,83 +2356,431 @@
       ]
     },
     {
-      "name": "Oracle",
-      "dataorigin": "talkers.ws",
+      "name": "Gates Of Heaven",
       "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "cruiser@talker.com"
+      ],
       "websites": [],
       "screencaps": [],
       "hosts": [
-        ""
+        "talker.com:4415"
+      ]
+    },
+    {
+      "name": "The Globe",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "globe@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9052"
+      ]
+    },
+    {
+      "name": "Abbey Road",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "abbey@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2502"
+      ]
+    },
+    {
+      "name": "Above The Clouds",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "above@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2707"
+      ]
+    },
+    {
+      "name": "AfterDEATH",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "Aftrdeth@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/aftrdeth"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:5678"
+      ]
+    },
+    {
+      "name": "Alpha House",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "elissa@talker.com"
+      ],
+      "websites": [
+        "http://www.geocities.com/CollegePark/Campus/9704"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8040"
+      ]
+    },
+    {
+      "name": "American Romance",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "Romance@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/romance"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4305"
+      ]
+    },
+    {
+      "name": "Ancient Worlds",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "Aworlds@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4113"
+      ]
+    },
+    {
+      "name": "Animal House",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "animal@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3456"
+      ]
+    },
+    {
+      "name": "Austin Chat",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "austin@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4400"
+      ]
+    },
+    {
+      "name": "Avalon Isle",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "avalon@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7050"
+      ]
+    },
+    {
+      "name": "Belle's Sanctuary",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "sanctuary@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/sanctuary"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2535"
+      ]
+    },
+    {
+      "name": "Bimini Bay",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "bimini@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2222"
+      ]
+    },
+    {
+      "name": "The Black Cat",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "nevar@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2112"
+      ]
+    },
+    {
+      "name": "Blue Ridge",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "smiley@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/blueridge"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2614"
+      ]
+    },
+    {
+      "name": "Brecktown",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "yacko@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/brecktown"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:5000"
       ]
     },
     {
       "name": "",
-      "dataorigin": "talkers.ws",
       "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
       "websites": [],
       "screencaps": [],
       "hosts": [
-        ""
+        "talker.com:"
       ]
     },
     {
       "name": "",
-      "dataorigin": "talkers.ws",
       "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
       "websites": [],
       "screencaps": [],
       "hosts": [
-        ""
+        "talker.com:"
       ]
     },
     {
       "name": "",
-      "dataorigin": "talkers.ws",
       "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
       "websites": [],
       "screencaps": [],
       "hosts": [
-        ""
+        "talker.com:"
       ]
     },
     {
       "name": "",
-      "dataorigin": "talkers.ws",
       "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
       "websites": [],
       "screencaps": [],
       "hosts": [
-        ""
+        "talker.com:"
       ]
     },
     {
       "name": "",
-      "dataorigin": "talkers.ws",
       "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
       "websites": [],
       "screencaps": [],
       "hosts": [
-        ""
+        "talker.com:"
       ]
     },
     {
       "name": "",
-      "dataorigin": "talkers.ws",
       "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
       "websites": [],
       "screencaps": [],
       "hosts": [
-        ""
+        "talker.com:"
       ]
     },
     {
       "name": "",
-      "dataorigin": "talkers.ws",
       "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
       "websites": [],
       "screencaps": [],
       "hosts": [
-        ""
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
       ]
     },
     {
