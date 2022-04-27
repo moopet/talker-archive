@@ -1,10 +1,22 @@
 {
   "resources": [
     {
+      "type": "Newsgroup",
+      "icon": "Article",
+      "name": "alt.talkers",
+      "url": "https://groups.google.com/g/alt.talkers"
+    },
+    {
       "type": "Hosting",
       "icon": "Article",
       "name": "Dune internet hosting",
       "url": "http://dune.net/"
+    },
+    {
+      "type": "Website",
+      "icon": "Article",
+      "name": "'Talkers' Fandom entry",
+      "url": "https://www.mudconnect.com/"
     },
     {
       "type": "Website",
@@ -26,19 +38,19 @@
     },
     {
       "type": "Repository",
-      "icon": "Github",
+      "icon": "GitHub",
       "name": "TalkerSource",
       "url": "https://github.com/talkersource"
     },
     {
       "type": "Repository",
-      "icon": "Github",
+      "icon": "GitHub",
       "name": "Talkers",
       "url": "https://github.com/talkers/"
     },
     {
       "type": "Article",
-      "icon": "Wikipedia",
+      "icon": "School",
       "name": "Talker",
       "url": "https://en.wikipedia.org/wiki/Talker"
     },
@@ -87,6 +99,12 @@
       "name": "BOLTS",
       "platform": "*nix"
     },
+    "ncohafmuta": {
+      "repo": "http://ncohafmuta.net/index.shtml",
+      "name": "Ncohafmuta",
+      "platform": null,
+      "language": null
+    },
     "ewtoo": {
       "repo": "https://github.com/talkersource/ew-too",
       "name": "EW-Too",
@@ -104,9 +122,9 @@
       "name": "Summink",
       "platform": "*nix"
     },
-    "talker": {
+    "sensi": {
       "repo": null,
-      "name": "SensiSummink",
+      "name": "Sensi-Summink",
       "platform": "*nix"
     },
     "talker": {
@@ -118,17 +136,20 @@
   "talkers": [
     {
       "name": "The A-Team",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
         "ateam.darksilence.net_1972.png"
       ],
       "hosts": [
-        "ateam.darksilence.net:1972"
+        "ateam.darksilence.net:1972",
+        "amber.org.uk:1972"
       ]
     },
     {
       "name": "Mope Mansions",
+      "dataOrigin": "spodlist.org",
       "description": "Mope was a quiet talker, mostly the testing area for features destined for Atlantis.",
       "websites": [
         "http://mopemansions.org.uk"
@@ -143,18 +164,23 @@
     },
     {
       "name": "Atlantis",
+      "dataOrigin": "spodlist.org",
       "description": null,
+      "emails": [
+        "admin@atlantis.org",
+        "me@moopet.net"
+      ],
       "websites": [
         "http://atlantis.org.uk"
       ],
-      "codebase": "sensisummink",
+      "codebase": "sensi",
       "screencaps": [
         "yuss.org_5050.png",
         "atlantis.org.uk_5050.png",
         "mopemansions.org_5050.png"
       ],
       "hosts": [
-        "atlantis.org",
+        "atlantis.org:5050",
         "mopemansions.org:5050",
         "yuss.org:5050"
       ]
@@ -173,6 +199,7 @@
     },
     {
       "name": "Bag End",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -184,6 +211,7 @@
     },
     {
       "name": "Brigandine",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://brigandine.org/",
@@ -195,12 +223,20 @@
       "ewtooAbbr": "Brig",
       "codebase": "pgplus",
       "screencaps": [
+        "brigandine.org_9390_4.png",
         "bandicoot.merseine.nu_9390_2.png",
-        "bandicoot.merseine.nu_9390.png"
+        "bandicoot.merseine.nu_9390.png",
+        "brigandine.org_9390_3.png",
+        "brigandine.org_9390_5.png",
+        "brigandine.org_9390_6.png",
+        "brigandine.org_9390_7.png",
+        "brigandine.org_9390_8.png",
+        "brigandine.org_9390_9.png"
       ],
       "hosts": [
         "brigandine.org:9390",
-        "bandicoot.merseine.nu:9390"
+        "bandicoot.merseine.nu:9390",
+        "brigandine.black-ops.net:9390"
       ]
     },
     {
@@ -217,6 +253,7 @@
     },
     {
       "name": "Blame Canada",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -229,6 +266,7 @@
     },
     {
       "name": "The 'Burbs",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://www.burbs.org"
@@ -247,8 +285,13 @@
     },
     {
       "name": "Camelot",
-      "description": null,
-      "websites": [],
+      "dataOrigin": "spodlist.org",
+      "description": " An all ages talker embracing the romance from the greatest legend ever -- Camelot. There is a collection of files online dealing with romance and relationships that is avaiable to all users. The staff is friendly and courteous, and atmosphere is light and fun. Many socials and original features are there to make your stay as enjoyable as possible.",
+      "emails": "camelot@talker.com",
+      "websites": [
+        "http://www.talker.com/camelot"
+      ],
+      "wayback": "https://web.archive.org/web/19990220071148/http://talker.com/camelot",
       "screencaps": [
         "vampire.dune.net_3333.png",
         "camelot.subnigra.com_8888.png",
@@ -264,6 +307,7 @@
     },
     {
       "name": "Castle",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://www.castle2k.org.uk"
@@ -279,6 +323,7 @@
     },
     {
       "name": "Caves",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://www.caves.uk.net"
@@ -294,6 +339,7 @@
     },
     {
       "name": "Central Perk",
+      "dataOrigin": "spodlist.org",
       "codebase": "pgplus",
       "description": null,
       "websites": [
@@ -315,6 +361,7 @@
     },
     {
       "name": "BOBNet",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -326,6 +373,7 @@
     },
     {
       "name": "Children of the Night",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "ewtooAbbr": "cotn",
@@ -340,11 +388,13 @@
       ],
       "hosts": [
         "cotn.subnigra.com:6969",
-        "cn.talkers.org:4040"
+        "cn.talkers.org:4040",
+        "cotn.tetsuo.cx:6969"
       ]
     },
     {
       "name": "Crazylands",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -356,6 +406,7 @@
     },
     {
       "name": "Cultural Wasteland",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://culturalwasteland.tv/"
@@ -387,6 +438,7 @@
     },
     {
       "name": "Cut",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -398,6 +450,7 @@
     },
     {
       "name": "Marooned",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -409,6 +462,7 @@
     },
     {
       "name": "The Pub",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://thepub.doughnuts.co.uk"
@@ -422,6 +476,7 @@
     },
     {
       "name": "Taz Wars",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -445,6 +500,7 @@
     {
       "name": "Infinite Spirit",
       "description": null,
+      "dataOrigin": "spodlist.org",
       "websites": [
         "http://www.anarch.org"
       ],
@@ -460,6 +516,7 @@
     },
     {
       "name": "Dusk Till Dawn",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -471,6 +528,7 @@
     },
     {
       "name": "Law And Order",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -482,6 +540,7 @@
     },
     {
       "name": "Airport",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -492,7 +551,8 @@
       ]
     },
     {
-      "name": "Hollywood",
+      "name": "Hollywood Central",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -504,6 +564,7 @@
     },
     {
       "name": "Elemental World",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://www.elementalworld.net"
@@ -518,19 +579,26 @@
     },
     {
       "name": "Elite",
-      "description": null,
+      "dataOrigin": "spodlist.org",
+      "description": "Heavily modified ewtoo talker based on Elite",
+      "codebase": "ewtoo",
       "websites": [],
       "screencaps": [
         "elite.snowplains.org_8000.png"
       ],
       "hosts": [
-        "elite.snowplains.org:8000"
+        "elite.snowplains.org:8000",
+        "amber.org.uk:8000"
       ]
     },
     {
       "name": "Snowplains",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
+      "emails": [
+        "snowadm@snowplains.org"
+      ],
       "resources": [
         {
           "type": "Facebook community",
@@ -548,6 +616,7 @@
     },
     {
       "name": "Revival",
+      "dataOrigin": "facebook",
       "description": null,
       "websites": [
         "http://www.revivaltalker.com"
@@ -573,6 +642,7 @@
     },
     {
       "name": "Unknown",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -586,12 +656,21 @@
       "name": "Cat Chat",
       "codebase": "lpmud",
       "description": null,
+      "resources": [
+        {
+          "type": "Fandom entry",
+          "name": "Cat Chat",
+          "icon": null,
+          "url": "https://muds.fandom.com/wiki/Cat_Chat"
+        }
+      ],
       "websites": [],
       "screencaps": [],
       "hosts": []
     },
     {
       "name": "UglyMUG",
+      "dataOrigin": "user",
       "description": null,
       "emails": [
         "suggestions@uglymug.org.uk"
@@ -610,7 +689,22 @@
       "name": "Cheeseplants House",
       "description": null,
       "codebase": "ewtoo",
-      "websites": [],
+      "resources": [
+        {
+          "type": "Cheeseplant's thoughts",
+          "name": "Cheeseplant's House",
+          "icon": null,
+          "url": "http://www.cheeseplant.org/~daniel/pages/cph.html"
+        },
+        {
+          "type": "Fandom entry",
+          "name": "Cheeseplant's House",
+          "icon": null,
+          "url": "https://muds.fandom.com/wiki/Cheeseplant%27s_House"
+        }
+      ],
+      "websites": [
+      ],
       "screencaps": [],
       "hosts": [
         "orchid.warwick.ac.uk"
@@ -618,6 +712,7 @@
     },
     {
       "name": "Vineyard",
+      "dataOrigin": "user",
       "description": null,
       "codebase": "ewtoo",
       "websites": [],
@@ -626,6 +721,7 @@
     },
     {
       "name": "Elsewhere",
+      "dataOrigin": "user",
       "description": null,
       "codebase": "ewtoo",
       "websites": [],
@@ -636,6 +732,7 @@
     },
     {
       "name": "Somewhere Else",
+      "dataOrigin": "user",
       "description": null,
       "codebase": "ewtoo",
       "websites": [],
@@ -644,6 +741,7 @@
     },
     {
       "name": "Foothills",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "codebase": "ewtoo",
       "websites": [
@@ -679,6 +777,7 @@
     },
     {
       "name": "Inspector Gadget's Talker",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -690,6 +789,7 @@
     },
     {
       "name": "ICE-II",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "codebase": "ICE",
@@ -708,11 +808,13 @@
         "island.subnigra.com_8000.png"
       ],
       "hosts": [
-        "island.subnigra.com:8000"
+        "island.subnigra.com:8000",
+        "island.ekto.org:8008"
       ]
     },
     {
       "name": "Astral Planes",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -724,6 +826,7 @@
     },
     {
       "name": "The Crystal Labyrinth",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://magic.kicks-ass.org"
@@ -737,6 +840,7 @@
     },
     {
       "name": "Comatose",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -748,9 +852,11 @@
     },
     {
       "name": "Amnesia House",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
-        "http://amnesia.mytalker.org"
+        "http://amnesia.mytalker.org",
+        "http://amnesiahouse.org"
       ],
       "wayback": "http://web.archive.org/web/20080330223653/http://www.trollied.org/~amnesia/index.php",
       "codebase": "talker",
@@ -758,11 +864,13 @@
         "mytalker.org_2222.png"
       ],
       "hosts": [
-        "mytalker.org:2222"
+        "mytalker.org:2222",
+        "amnesiahouse.org:2222"
       ]
     },
     {
       "name": "NCC-1701-D",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -774,6 +882,7 @@
     },
     {
       "name": "Cats Cradle",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -785,6 +894,7 @@
     },
     {
       "name": "Forest",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "emails": [
@@ -799,17 +909,21 @@
     },
     {
       "name": "The Gimp",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
         "redclaw.org.uk_7777.png"
       ],
       "hosts": [
-        "redclaw.org.uk:7777"
+        "redclaw.org.uk:7777",
+        "puzlebox.dynip.com:7777"
       ]
     },
     {
       "name": "Sasslantis 2000",
+      "codebase": "nuts",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://www.sass.jg.ee"
@@ -818,11 +932,13 @@
         "sass.jg.ee_2010.png"
       ],
       "hosts": [
-        "sass.jg.ee:2010"
+        "sass.jg.ee:2010",
+        "altantis.sk"
       ]
     },
     {
       "name": "The Magic Toaster",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -834,6 +950,7 @@
     },
     {
       "name": "Spod.org",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -845,6 +962,7 @@
     },
     {
       "name": "The Pleasuredome",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -855,8 +973,12 @@
       ]
     },
     {
-      "name": "Glantri",
+      "name": "Glantri's Labyrinth II",
       "description": null,
+      "dataOrigin": "spodlist.org",
+      "emails": [
+        "glantri@talker.com"
+      ],
       "websites": [
         "http://talker.com/glantri"
       ],
@@ -864,7 +986,7 @@
         "talker.com_2200.png"
       ],
       "hosts": [
-        "talker.com:2200"
+        "talker.com:2203"
       ]
     },
     {
@@ -880,7 +1002,9 @@
     },
     {
       "name": "Paradox",
-      "description": null,
+      "dataOrigin": "spodlist.org",
+      "description": "Ours is a queer safe talker that has been on the net for the past 5 years or so. We are a large community of people from around the world who share many interests and come online to meet new friends and chat with old ones. We protect all our users against any persons who come to our talker to harass our community and will take whatever measures are necessary to resolve those problems.",
+      "codebase": "pgplus",
       "emails": [
         "paradox@talker.com"
       ],
@@ -897,6 +1021,7 @@
     },
     {
       "name": "TW's Talker",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "emails": [
         "talker@rekka.net"
@@ -913,6 +1038,7 @@
     },
     {
       "name": "Eire",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -924,6 +1050,7 @@
     },
     {
       "name": "Dark Shadows",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "ewtooAbbr": "ds",
@@ -934,11 +1061,13 @@
         "ds.enyc.org.uk_8688.png"
       ],
       "hosts": [
-        "ds.enyc.org.uk:8688"
+        "ds.enyc.org.uk:8688",
+        "talon.wolfpaw.net:2323"
       ]
     },
     {
       "name": "Dark Sins",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -950,6 +1079,7 @@
     },
     {
       "name": "The Resort",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://www.resort.org"
@@ -977,6 +1107,7 @@
     },
     {
       "name": "Surfers",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://surfers.org"
@@ -1005,18 +1136,21 @@
     },
     {
       "name": "Scarlet Citadel",
-      "description": null,
+      "dataOrigin": "spodlist.org",
+      "description": "A friendly place to chitchat",
       "websites": [],
       "ewtooAbbr": "sc",
       "screencaps": [
         "scarlet-citadel.co.uk_2000.png"
       ],
       "hosts": [
-        "scarlet-citadel.co.uk:2000"
+        "scarlet-citadel.co.uk:2000",
+        "amber.org.uk:2000"
       ]
     },
     {
       "name": "The World",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "https://nosuchluck.incredulous.org",
@@ -1049,6 +1183,7 @@
     },
     {
       "name": "Temple 2K",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "emails": [
         "master@temple2k.org"
@@ -1065,6 +1200,7 @@
     },
     {
       "name": "The Manor",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://www.themanor.org"
@@ -1078,6 +1214,7 @@
     },
     {
       "name": "TrueFriends",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -1089,12 +1226,15 @@
     },
     {
       "name": "Enchantment Under The Sea",
+      "dataOrigin": "spodlist.org",
       "description": null,
-      "codebase": "nuts",
+      "codebase": "ArIEN",
       "websites": [
-        "http://euts.org/"
+        "http://www.euts.org/"
       ],
-      "screencaps": [],
+      "screencaps": [
+        "euts.org_2000.png"
+      ],
       "hosts": [
         "euts.org:2000"
       ]
@@ -1146,6 +1286,7 @@
     },
     {
       "name": "Emerald Isle",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [
         "http://emisle.com"
@@ -1204,13 +1345,19 @@
       "name": "Alice's Looking Glass",
       "description": "A very friendly adult talker with a Lewis Carroll theme!",
       "websites": [
-        "http://alg.dune.net/"
+        "http://alg.dune.net/",
+        "http://users.nac.net/kesey/alg.htm",
+        "http://www.talker.com/alice"
       ],
-      "screencaps": [],
+      "screencaps": [
+        "dune.net_4405.png"
+      ],
       "emails": [
-        "madhatter@taker.com"
+        "madhatter@taker.com",
+        "alice@talker.com"
       ],
       "hosts": [
+        "dune.net:4405",
         "alg.dune.net:4405",
         "talker.net:4405"
       ]
@@ -1263,7 +1410,9 @@
       ],
       "screencaps": [],
       "emails": [],
-      "hosts": []
+      "hosts": [
+        "dominion.net.uk:2468"
+      ]
     },
     {
       "name": "The Gathering",
@@ -1317,15 +1466,18 @@
     },
     {
       "name": "Unreal",
-      "description": null,
+      "description": " A place out of sync with reality",
       "websites": [
+        "http://www.unreal.amber.org.uk",
         "http://www.madagascar.com/unreal"
       ],
       "screencaps": [
         "unreal.snowplains.org_7777.png"
       ],
       "hosts": [
-        "unreal.snowplains.org:7777"
+        "unreal.snowplains.org:7777",
+        "unreal.snowplains.org:7777",
+        "amber.org.uk:7777"
       ]
     },
     {
@@ -1500,6 +1652,7 @@
     },
     {
       "name": "Zeta Aquilae",
+      "dataOrigin": "spodlist.org",
       "description": null,
       "codebase": "ewtoo",
       "websites": [],
@@ -1508,6 +1661,1661 @@
       ],
       "hosts": [
         "zeta.aquilae.org:3456"
+      ]
+    },
+    {
+      "name": "AlTeReD BeAsTs",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ab.spod.org:6000"
+      ]
+    },
+    {
+      "name": "The Abyss",
+      "description": null,
+      "dataOrigin": "talkers.ws",
+      "emails": [
+        "abyss@talker.com"
+      ],
+      "websites": [
+        "http://abyss.talker.com"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "abyss.talker.com:6669"
+      ]
+    },
+    {
+      "name": "36 Chambers",
+      "description": null,
+      "dataOrigin": "talkers.ws",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "valinor.rivendel.com:4000"
+      ]
+    },
+    {
+      "name": "America",
+      "description": null,
+      "dataOrigin": "talkers.ws",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "thereeses.net:4040"
+      ]
+    },
+    {
+      "name": "Ansalon",
+      "description": null,
+      "websites": [],
+      "dataOrigin": "talkers.ws",
+      "screencaps": [],
+      "hosts": [
+        "pi.dune.net:7679"
+      ]
+    },
+    {
+      "name": "Attitude",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ewtoo.org:4000"
+      ]
+    },
+    {
+      "name": "Atomic Gardens",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "morgon.dyndns.org"
+      ]
+    },
+    {
+      "name": "Asylum",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "premis.lod.com:4242"
+      ]
+    },
+    {
+      "name": "Argoed",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "argoed.ilserv.com:3000"
+      ]
+    },
+    {
+      "name": "Appeal's chat rooms",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "dark.x.dtu.dk"
+      ]
+    },
+    {
+      "name": "Circus World",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "tamarisk.ab.ca:1414"
+      ]
+    },
+    {
+      "name": "Brew City",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "emails": [
+        "brewcity@talker.com"
+      ],
+      "websites": [
+        "http://www.geocities.com/timessquare/arcade/6542"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:6886"
+      ]
+    },
+    {
+      "name": "Bored, The Talker",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "hambleton.net:1111"
+      ]
+    },
+    {
+      "name": "Bare Necessities",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "subnigra.com:8888"
+      ]
+    },
+    {
+      "name": "B.H.S.",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "yerevan.acp.da.ru:7777"
+      ]
+    },
+    {
+      "name": "Cirque De Chaos",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "dune.net:6969"
+      ]
+    },
+    {
+      "name": "ApHrOdItE",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ncohafmuta.com:1978"
+      ]
+    },
+    {
+      "name": "Aetheria",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [ ],
+      "screencaps": [],
+      "hosts": [
+        "emc2.caltech.edu:9390"
+      ]
+    },
+    {
+      "name": "Crimson Dawn",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "crimson.talker.com:7404"
+      ]
+    },
+    {
+      "name": "The Crypt",
+      "dataOrigin": "talkers.ws",
+      "codebase": "crypt",
+      "description": null,
+      "websites": [
+        "http://churchnet2.ucsm.ac.uk/~crypt",
+        "http://www.tendril.force9.co.uk/crypt/index.html"
+      ],
+      "wayback": "http://churchnet2.ucsm.ac.uk/~crypt/",
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:6660",
+        "churchnet2.uscm.ac.uk:666"
+      ]
+    },
+    {
+      "name": "Lodis Island",
+      "dataOrigin": "crypt",
+      "codebase": "crypt",
+      "description": null,
+      "websites": [
+        "http://www.talker.com/lodis"
+      ],
+      "wayback": "https://web.archive.org/web/19990202164419/http://www.talker.com/lodis/",
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2340"
+      ]
+    },
+    {
+      "name": "Surfside Inn",
+      "dataOrigin": "crypt",
+      "codebase": "crypt",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "206.245.154.72:8900"
+      ]
+    },
+    {
+      "name": "Cyber Eden",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "208.200.226.2:5000"
+      ]
+    },
+    {
+      "name": "CyberCoven",
+      "dataOrigin": "talkers.ws",
+      "description": "A very friendly pagan oriented talker",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "cybercoven.com:9669",
+        "amber.org.uk:9669"
+      ]
+    },
+    {
+      "name": "Da Luv Thing",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8071"
+      ]
+    },
+    {
+      "name": "Darknyte Manor",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "darkfantastic.net:3333"
+      ]
+    },
+    {
+      "name": "De",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talkersworld.com:3669"
+      ]
+    },
+    {
+      "name": "Deep Space 36",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "globegate.utm.edu:9624"
+      ]
+    },
+    {
+      "name": "Deep Space 9",
+      "dataOrigin": "talkers.ws",
+      "description": "Talker based on the popular Deep Space Nine",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "208.200.226.2:3000",
+        "amber.org.uk:9000"
+      ]
+    },
+    {
+      "name": "Delta Force",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:7890"
+      ]
+    },
+    {
+      "name": "Dimensions",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "dm.trica.com:8888"
+      ]
+    },
+    {
+      "name": "Dolphim",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "host213-1-81-219.btinternet.com:5555"
+      ]
+    },
+    {
+      "name": "Dragonsbane",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "dragonsbane.skl.com:6677"
+      ]
+    },
+    {
+      "name": "Ektosphere",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ekto.org:7070"
+      ]
+    },
+    {
+      "name": "The Eleventh Kingdom",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "gobbyland.co.uk:5000"
+      ]
+    },
+    {
+      "name": "Dragon's Lair",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "rivendel.com:7777"
+      ]
+    },
+    {
+      "name": "Dream Island",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "dream.custarg.org:2222"
+      ]
+    },
+    {
+      "name": "Dreamscape",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "dreamscape.bernstein.com:4040"
+      ]
+    },
+    {
+      "name": "Embers",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talkers.skl.com:5000"
+      ]
+    },
+    {
+      "name": "Enchanted Bayou",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "cafe.mudservices.com:4567"
+      ]
+    },
+    {
+      "name": "Fantasy Land",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "fantasy.talkers.ws:7777"
+      ]
+    },
+    {
+      "name": "Fear The Penguin",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "whispers.org:9000"
+      ]
+    },
+    {
+      "name": "Freehold",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "freehold.signwave.com:1313"
+      ]
+    },
+    {
+      "name": "The Future",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "futurecode.net:2121"
+      ]
+    },
+    {
+      "name": "The Global Summer Camp",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "polypc47.chem.rug.nl:5000"
+      ]
+    },
+    {
+      "name": "Globe Chat",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "globegate.utm.edu:8000"
+      ]
+    },
+    {
+      "name": "GNAT",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "rhun.satanic.net:4242"
+      ]
+    },
+    {
+      "name": "Gotham City 2000",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "tb.yi.org:5055"
+      ]
+    },
+    {
+      "name": "H(o)(o)TERS",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "tb.yi.org:4321"
+      ]
+    },
+    {
+      "name": "Homecoming",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "evros.cc.ece.ntua.gr:5050"
+      ]
+    },
+    {
+      "name": "The Institution",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ns.kconline.com:2600"
+      ]
+    },
+    {
+      "name": "Jaffa",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "jaffa.custard.org:4040"
+      ]
+    },
+    {
+      "name": "The Jolly Butt",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "aldus.northnet.org:3400"
+      ]
+    },
+    {
+      "name": "Labyrinth",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "allitnil.df.lth.se:6100"
+      ]
+    },
+    {
+      "name": "Legacy Of The Damned",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8008"
+      ]
+    },
+    {
+      "name": "Legends Of The Night",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "legends.talker.com:6606"
+      ]
+    },
+    {
+      "name": "Limbo",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "limbo.dune.net:3333"
+      ]
+    },
+    {
+      "name": "MadHouse",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "madhouse.signwave.com:5000"
+      ]
+    },
+    {
+      "name": "The Metaverse",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "innismir.sweet.com:4242"
+      ]
+    },
+    {
+      "name": "Midnight",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "midnight.zipcon.com:7979"
+      ]
+    },
+    {
+      "name": "Milliways",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ewtoo.org:5559"
+      ]
+    },
+    {
+      "name": "Monty Python's Flying Talker",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "mpft.dhs.org:2010"
+      ]
+    },
+    {
+      "name": "Mostly Harmless",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "harmless.ewtoo.org:4242"
+      ]
+    },
+    {
+      "name": "PL Chat",
+      "dataorigin": "amber",
+      "description": "UK Parent-Link chat rooms",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:9990"
+      ]
+    },
+    {
+      "name": "Red Dwarf",
+      "dataorigin": "amber",
+      "description": "Based on the TV program Red Dwarf",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        ""
+      ]
+    },
+    {
+      "name": "The Metro Hotel",
+      "dataorigin": "amber",
+      "codebase": "nuts",
+      "description": "Popular, heavily modified NUTS, very different",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:3456"
+      ]
+    },
+    {
+      "name": "Excalibur",
+      "dataorigin": "amber",
+      "codebase": "pgplus",
+      "description": "Brilliant pgplus talker, based on Excalibur",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:3333"
+      ]
+    },
+    {
+      "name": "Amiga Forever",
+      "dataorigin": "amber",
+      "description": "The Amiga Forever talker, for amiga fans",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:1200"
+      ]
+    },
+    {
+      "name": "Wentworth",
+      "dataorigin": "amber",
+      "description": "Based on the cult series, Prisoner Cell Block H",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:4321"
+      ]
+    },
+    {
+      "name": "Miracle",
+      "dataorigin": "amber",
+      "description": "A compact 'from scratch' Su-less code",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:5555"
+      ]
+    },
+    {
+      "name": "Terminus",
+      "dataorigin": "amber",
+      "description": "Good staff, great residents, excellent code, basically we're fantastic!",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:6556"
+      ]
+    },
+    {
+      "name": "Revival Of Evil",
+      "dataorigin": "amber",
+      "description": "The Revival Of evil Mud is totally original",
+      "hide": true,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:1111"
+      ]
+    },
+    {
+      "name": "Hysteria",
+      "codebase": "nuts",
+      "description": null,
+      "websites": [
+        "http://hysteria.sk/talker/"
+      ],
+      "wayback": "https://web.archive.org/web/20000918112252/http://hysteria.sk:80/talker/",
+      "screencaps": [],
+      "hosts": [
+        "hysteria.sk:7000"
+      ]
+    },
+    {
+      "name": "1st Mission",
+      "codebase": "lpmud",
+      "hide": true,
+      "dataorigin": "amber",
+      "description": "Amber's 1st LP-MUD with 100s of areas to play.",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:4242"
+      ]
+    },
+    {
+      "name": "Fox",
+      "dataorigin": "amber",
+      "description": "The Su-Free spodding area",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:9999"
+      ]
+    },
+    {
+      "name": "Gates Of Heaven",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "cruiser@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4415"
+      ]
+    },
+    {
+      "name": "The Globe",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "globe@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9052"
+      ]
+    },
+    {
+      "name": "Abbey Road",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "abbey@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2502"
+      ]
+    },
+    {
+      "name": "Above The Clouds",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "above@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2707"
+      ]
+    },
+    {
+      "name": "AfterDEATH",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "Aftrdeth@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/aftrdeth"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:5678"
+      ]
+    },
+    {
+      "name": "Alpha House",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "elissa@talker.com"
+      ],
+      "websites": [
+        "http://www.geocities.com/CollegePark/Campus/9704"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8040"
+      ]
+    },
+    {
+      "name": "American Romance",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "Romance@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/romance"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4305"
+      ]
+    },
+    {
+      "name": "Ancient Worlds",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "Aworlds@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4113"
+      ]
+    },
+    {
+      "name": "Animal House",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "animal@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3456"
+      ]
+    },
+    {
+      "name": "Austin Chat",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "austin@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4400"
+      ]
+    },
+    {
+      "name": "Avalon Isle",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "avalon@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7050"
+      ]
+    },
+    {
+      "name": "Belle's Sanctuary",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "sanctuary@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/sanctuary"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2535"
+      ]
+    },
+    {
+      "name": "Bimini Bay",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "bimini@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2222"
+      ]
+    },
+    {
+      "name": "The Black Cat",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "nevar@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2112"
+      ]
+    },
+    {
+      "name": "Blue Ridge",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "smiley@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/blueridge"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2614"
+      ]
+    },
+    {
+      "name": "Brecktown",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "yacko@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/brecktown"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:5000"
+      ]
+    },
+    {
+      "name": "Candyland",
+      "description": null,
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "adult": true,
+      "emails": [
+        "candy@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7577"
+      ]
+    },
+    {
+      "name": "Chakrams & Scrolls",
+      "description": "This talker is based on Xena: Warrior Princess and is a place where fans of the show can meet and discuss episodes, etc. Many games to play and new commands in this ancient Greek world! ",
+      "codebase": "Iforms",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "xena@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/xena"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8001"
+      ]
+    },
+    {
+      "name": "City Of Dreams",
+      "description": "City of Dreams is an under-18 talker. Join everyone there and follow your dreams, laugh and have lots of fun!",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "dreams@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/dreams"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4605"
+      ]
+    },
+    {
+      "name": "Crimson Dawn",
+      "description": null,
+      "codebase": "ewtoo",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "sarwat@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/crimsondawn"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7414"
+      ]
+    },
+    {
+      "name": "Cross Roads",
+      "description": "CrossRoads, The Next Generation, is a place for friends, both old and new, to gather and chat about almost anything. Opened shortly after the original CrossRoads closed in early 1997, CrossRoads TNG carries on the tradition started by Jesse, Sparky and all the others who made CrossRoads one of the mosr popular talkers on the net. Please stop by, kick your shoes off, grab something to drink and enjoy your stay.",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "aviator@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/crossroads"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:5150"
+      ]
+    },
+    {
+      "name": "Cyber City",
+      "description": "Cyber City is based on the theme of what it would be like if people actually lived in Cyberspace. it is set up very much like a city. This talker is open to all ages, so come on in and enjoy the fun!",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "duck@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/cybercity"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3030"
+      ]
+    },
+    {
+      "name": "Eye of the World",
+      "description": "The Eye of the World was started in February of 1995, based on the Wheel of Time saga by Robert Jordan. It is not a role-playing environment. It IS a very colorful, friendly environment where we encourage users to take part in the life of the talker. We do this by giving our users the opportunity to own one of our 36 rooms.",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "zack@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/EOTW"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9502"
+      ]
+    },
+    {
+      "name": "Harem",
+      "description": "Harem is a talker for adults 18 and over. Harem is a mature atmosphere, dedicated to alternitive life-styles, role-play and interacting with others.",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/harem"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:6200"
+      ]
+    },
+    {
+      "name": "Heaven",
+      "description": "The heaven: el mejor chat en espaniol del mundo. :)",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "heaven@talker.com"
+      ],
+      "websites": [ ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7770"
+      ]
+    },
+    {
+      "name": "Hideaway",
+      "description": "The place to run and hide...your fantasy getaway! Anything you could imagine is waiting for you at Hideaway. If you don't see it, then ask for it...your wish just may come true for you! But don't get your hopes up! ;) If anything, just come and get away from the people you despise most at the other talkers.",
+      "codebase": "amnuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "hideaway@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4752"
+      ]
+    },
+    {
+      "name": "An Illville",
+      "description": "A talker based on a city where everybody is game.",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "dman@talker.com"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3234"
+      ]
+    },
+    {
+      "name": "Insane World",
+      "description": "It's an insane world out there, so why can't it be an insane internet world? That's what the talker is all about.",
+      "codebase": "ewtoo",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "insane@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7411"
+      ]
+    },
+    {
+      "name": "Interstate America",
+      "description": "Lonesome is a truck driver from Texas. We based this talker on his journeys. We welcome all travelers to come in and have some coffee, or just sit around to shoot the breeze. Ya may be surprised! Ya'll come see us!",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "lonesome@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3300"
+      ]
+    },
+    {
+      "name": "Invasion",
+      "description": "This is a talker where anything can happen, but watch out 'cause you could be abducted! This talker has it's own spaceship. You may go to Earth or Mars. Visit with the cute aliens. Keep watch though because they could be in disguise!",
+      "dataOrigin": "talker.com",
+      "codebase": "nuts",
+      "emails": [
+        "coolcat@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9786"
+      ]
+    },
+    {
+      "name": "The Jungle",
+      "description": "The Jungle is a fun and friendly place to chat!",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "jungle@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/jungle"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3050"
+      ]
+    },
+    {
+      "name": "Journeys",
+      "description": "Journeys is an all-ages talker based on travelling (Journeys :-). Everyone is welcome here to meet new people of all ages and backgrounds and enjoy themselves. Enjoy your Journeys!",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "journeys@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/journeys"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8999"
+      ]
+    },
+    {
+      "name": "KAOS",
+      "description": "Key kids! KAOS is the best talker there is! Hands down! See ya there!!",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "Kaosinxs@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/kaos"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7010"
+      ]
+    },
+    {
+      "name": "Mountain Ranch",
+      "description": "A BDSM talker for those who areserious about their D/s lifestyles. Come and make your fantasies and dreams come true with us!",
+      "dataOrigin": "talker.com",
+      "codebase": "nuts",
+      "emails": [
+        "ranch@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/mountainranch"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:5013"
+      ]
+    },
+    {
+      "name": "Movie Megaplex",
+      "description": "The Movie Megaplex is a relaxing atmosphere to, well, relax! :) All decent topics are welcome, keeping in mind that we are a talker, not a mud, mush, or anything of that sort.",
+      "dataOrigin": "talker.com",
+      "codebase": "ncohafmuta",
+      "emails": [
+        "devil@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/devil"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7002"
+      ]
+    },
+    {
+      "name": "Myst",
+      "description": "Myst is a new and exciting talker set in the idyllic surrounds of a mystical island. Operating in real time, 24 hours a day, 7 days a week, 365 days a year, Myst is a free and secure chat-service for people from around the world to meet, talk and exchange messages. Myst is an Ew-Too style talker, based on the popular PlayGround96 code, with heavy modifications made in presentation, features and usage.",
+      "codebase": "pg96",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "myst@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4545"
+      ]
+    },
+    {
+      "name": "Mystic Forces of Evil",
+      "codebase": "nuts",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "sean@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8600"
+      ]
+    },
+    {
+      "name": "Pan Pipes",
+      "description": "This talker is a zoo talker and fur friendly for those looking for good friends to chat with.",
+      "dataOrigin": "talker.com",
+      "codebase": "nuts",
+      "emails": [
+        "furpaws@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/panpipes"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4207"
+      ]
+    },
+    {
+      "name": "Paradise Island",
+      "description": null,
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "sd@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/paradiseisland"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9257"
+      ]
+    },
+    {
+      "name": "Paris By Night",
+      "description": "-=[Paris By Night]=- Who Never Dreamed of Visiting Paris, The Most Romantic City in the World?  You Are Looking For A Romantic Place?  You Are Looking For A Funny Place?  Come On Paris By Night, Chat in The Louvre, Meet In The Eiffel Tower, Have Fun in The Hotel… We Are All Waiting For You!  -=[Paris By Night]=- Main Port: 3210 Sysadmin(s): Arny & Spicey Who Port: 3212 Http:// www.talker.com/paris ",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "paris@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/paris"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3210"
+      ]
+    },
+    {
+      "name": "Party Time",
+      "codebase": "nuts",
+      "description": "A talker for all ages. Come, chat, play games, or do whatever else you want to do. We are continually updating code to make your stay more enjoyable. Stop on by and check us out.",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "partytim@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/partytim"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7777"
+      ]
+    },
+    {
+      "name": "Philadelphia",
+      "description": "A general talker, based on the City of Philadelphia. Streets and points of interest in the city comprise the majority of the talker.",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "philly@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/philadelphia"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7676"
+      ]
+    },
+    {
+      "name": "Reality",
+      "description": "A fun place to go!!" ,
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "josh@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/reality"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9007"
+      ]
+    },
+    {
+      "name": "Realm Of The Seeker",
+      "description": "Realm of the Seeker is based on the 'Sword of Truth' series of books by Terry Goodkind. Come join one of the most promising talkers online.",
+      "codebase": "amnuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "richard@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/realm"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8246"
+      ]
+    },
+    {
+      "name": "Rome",
+      "description": "Ancient Rome was a myriad of contradiction and irony, a military-based civilization celebrating the beauty of classical Greece, architecture, poetry and philosophy, but also thriving on brutality of amphitheatres and slavery and on the politics of religion. Although too complex for acurate representation in our humble talker, the ancient empire inspires this atmosphere of pleasure & terror, peace & imprisionment, spirituality & passion. The purpose here is to break physical limits through communication. Make sure you are prepared.", 
+      "codebase": "rome",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "rawhide@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:6050"
+      ]
+    },
+    {
+      "name": "Your World",
+      "description": null,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "josh@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9002"
+      ]
+    },
+    {
+      "name": "Xanth",
+      "description": "Xanth: you have read the books by Piers Anthony, now come play the MUD loosely based on his series. 'Xanth' and all references to it are copyrighted by Piers Anthony and are used by us only by his permission.",
+      "codebase": "rom",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "ddi@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/xanth"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4279"
+      ]
+    },
+    {
+      "name": "Utopia",
+      "description": "Utopia is a talker for adults that started in 1995. We only permit users over 18 and strive to maintain a warm, friendly and mostly mature atmosphere, while still having fun. Utopia is set in an imaginary town where you will find a growing yet still close-knit community of wonderful people.",
+      "codebase": "ncohafmuta",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "utopia@talker.com"
+      ],
+      "wayback": "https://web.archive.org/web/19990429070918/http://www.geocities.com/SunsetStrip/4333",
+      "websites": [
+        "http://www.geocities.com/SunsetStrip/4333"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "The Urge",
+      "description": "",
+      "codebase": "moenuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "music@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/urge"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4567"
+      ]
+    },
+    {
+      "name": "Unforgiven",
+      "description": null,
+      "codebase": "pg96",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "computaz@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3307"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:"
+      ]
+    },
+    {
+      "name": "The Hotel",
+      "dataOrigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "hotel.dune.net:6969"
       ]
     }
   ]

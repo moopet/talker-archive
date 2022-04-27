@@ -5,16 +5,16 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-const ContactList = (props) => {
-  const { contacts } = props;
-  let contactListItems = <EmptyListItem />;
+const WesbiteList = (props) => {
+  const { websites } = props;
+  let websiteListItems = <EmptyListItem />;
 
-  if (contacts.length) {
-    contactListItems = contacts.map((contact, index) => {
+  if (websites.length) {
+    websiteListItems = websites.map((website, index) => {
       return (
-        <ListItem disableGutters key={`contact-${index}`}>
+        <ListItem disableGutters key={`website-${index}`}>
           <ListItemText>
-            <Link href={`mailto://${contact}`}>{contact}</Link>
+            <Link href={website}>{website}</Link>
           </ListItemText>
         </ListItem>
       );
@@ -22,13 +22,11 @@ const ContactList = (props) => {
   }
 
   return (
-    <List subheader={props?.title || "Contacts"}>
+    <List subheader={props?.title || "Websites"}>
       <Divider />
-      {contactListItems}
+      {websiteListItems}
     </List>
   );
 };
 
-export default ContactList;
-
-
+export default WesbiteList;
