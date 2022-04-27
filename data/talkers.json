@@ -1,6 +1,12 @@
 {
   "resources": [
     {
+      "type": "Newsgroup",
+      "icon": "Article",
+      "name": "alt.talkers",
+      "url": "https://groups.google.com/g/alt.talkers"
+    },
+    {
       "type": "Hosting",
       "icon": "Article",
       "name": "Dune internet hosting",
@@ -120,7 +126,8 @@
         "ateam.darksilence.net_1972.png"
       ],
       "hosts": [
-        "ateam.darksilence.net:1972"
+        "ateam.darksilence.net:1972",
+        "amber.org.uk:1972"
       ]
     },
     {
@@ -533,7 +540,8 @@
     {
       "name": "Elite",
       "dataOrigin": "spodlist.org",
-      "description": null,
+      "description": "Heavily modified ewtoo talker based on Elite",
+      "codebase": "ewtoo",
       "websites": [],
       "screencaps": [
         "elite.snowplains.org_8000.png"
@@ -858,7 +866,8 @@
         "sass.jg.ee_2010.png"
       ],
       "hosts": [
-        "sass.jg.ee:2010"
+        "sass.jg.ee:2010",
+        "altantis.sk"
       ]
     },
     {
@@ -1057,14 +1066,15 @@
     {
       "name": "Scarlet Citadel",
       "dataOrigin": "spodlist.org",
-      "description": null,
+      "description": "A friendly place to chitchat",
       "websites": [],
       "ewtooAbbr": "sc",
       "screencaps": [
         "scarlet-citadel.co.uk_2000.png"
       ],
       "hosts": [
-        "scarlet-citadel.co.uk:2000"
+        "scarlet-citadel.co.uk:2000",
+        "amber.org.uk:2000"
       ]
     },
     {
@@ -1383,15 +1393,18 @@
     },
     {
       "name": "Unreal",
-      "description": null,
+      "description": " A place out of sync with reality",
       "websites": [
+        "http://www.unreal.amber.org.uk",
         "http://www.madagascar.com/unreal"
       ],
       "screencaps": [
         "unreal.snowplains.org_7777.png"
       ],
       "hosts": [
-        "unreal.snowplains.org:7777"
+        "unreal.snowplains.org:7777",
+        "unreal.snowplains.org:7777",
+        "amber.org.uk:7777"
       ]
     },
     {
@@ -1771,11 +1784,12 @@
     {
       "name": "CyberCoven",
       "dataOrigin": "talkers.ws",
-      "description": null,
+      "description": "A very friendly pagan oriented talker",,
       "websites": [],
       "screencaps": [],
       "hosts": [
-        "cybercoven.com:9669"
+        "cybercoven.com:9669",
+        "amber.org.uk:9669"
       ]
     },
     {
@@ -1821,11 +1835,12 @@
     {
       "name": "Deep Space 9",
       "dataOrigin": "talkers.ws",
-      "description": null,
+      "description": "Talker based on the popular Deep Space Nine",
       "websites": [],
       "screencaps": [],
       "hosts": [
-        "208.200.226.2:3000"
+        "208.200.226.2:3000",
+        "amber.org.uk:9000"
       ]
     },
     {
@@ -2166,6 +2181,214 @@
       "screencaps": [],
       "hosts": [
         "harmless.ewtoo.org:4242"
+      ]
+    },
+    {
+      "name": "PL Chat",
+      "dataorigin": "amber",
+      "description": "UK Parent-Link chat rooms",,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:9990"
+      ]
+    },
+    {
+      "name": "Red Dwarf",
+      "dataorigin": "amber",
+      "description": "Based on the TV program Red Dwarf",,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        ""
+      ]
+    },
+    {
+      "name": "The Metro Hotel",
+      "dataorigin": "amber",
+      "codebase": "nuts",
+      "description": "Popular, heavily modified NUTS, very different",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:3456"
+      ]
+    },
+    {
+      "name": "Excalibur",
+      "dataorigin": "amber",
+      "codebase": "pgplus",
+      "description": "Brilliant pgplus talker, based on Excalibur",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:3333"
+      ]
+    },
+    {
+      "name": "Amiga Forever",
+      "dataorigin": "amber",
+      "description": "The Amiga Forever talker, for amiga fans",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:1200"
+      ]
+    },
+    {
+      "name": "Wentworth",
+      "dataorigin": "amber",
+      "description": "Based on the cult series, Prisoner Cell Block H",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:4321"
+      ]
+    },
+    {
+      "name": "Miracle",
+      "dataorigin": "amber",
+      "description": "A compact 'from scratch' Su-less code",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:5555"
+      ]
+    },
+    {
+      "name": "Terminus",
+      "dataorigin": "amber",
+      "description": "Good staff, great residents, excellent code, basically we're fantastic!",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:6556"
+      ]
+    },
+    {
+      "name": "Revival Of Evil",
+      "dataorigin": "amber",
+      "description": "The Revival Of evil Mud is totally original",
+      "hide": true,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:1111"
+      ]
+    },
+    {
+      "name": "Hysteria",
+      "codebase": "nuts",
+      "description": null,
+      "websites": [
+        "http://hysteria.sk/talker/"
+      ],
+      "wayback": "https://web.archive.org/web/20000918112252/http://hysteria.sk:80/talker/",
+      "screencaps": [],
+      "hosts": [
+        "hysteria.sk:7000"
+      ]
+    },
+    {
+      "name": "1st Mission",
+      "codebase": "lpmud",
+      "hide": true,
+      "dataorigin": "amber",
+      "description": "Amber's 1st LP-MUD with 100s of areas to play.",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:4242"
+      ]
+    },
+    {
+      "name": "Fox",
+      "dataorigin": "amber",
+      "description": "The Su-Free spodding area",
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:9999"
+      ]
+    },
+    {
+      "name": "Oracle",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        ""
+      ]
+    },
+    {
+      "name": "",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        ""
+      ]
+    },
+    {
+      "name": "",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        ""
+      ]
+    },
+    {
+      "name": "",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        ""
+      ]
+    },
+    {
+      "name": "",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        ""
+      ]
+    },
+    {
+      "name": "",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        ""
+      ]
+    },
+    {
+      "name": "",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        ""
+      ]
+    },
+    {
+      "name": "",
+      "dataorigin": "talkers.ws",
+      "description": null,
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        ""
       ]
     },
     {
