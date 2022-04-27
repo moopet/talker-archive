@@ -22,7 +22,7 @@ const TalkerCard = ({talker}) => {
   const slug = slugify(talker.name.replace(ignoreWords, ""), {lower: true});
 
   return (
-    <Card sx={{ maxWidth: 400 }}>
+    <Card sx={{ maxWidth: 400, borderWidth: 1, borderStyle: "solid", borderColor: "#333" }}>
       <NextLink href={{pathname: "details/[slug]", query: {slug}}}>
         <a>
           <Image
