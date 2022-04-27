@@ -3,8 +3,8 @@ import ListItemText from '@mui/material/ListItemText';
 
 const EmptyListItem = () => {
   return (
-    <ListItem>
-      <ListItemText>
+    <ListItem disableGutters>
+      <ListItemText sx={{ color: '#777' }}>
         Nothing here...
       </ListItemText>
     </ListItem>
