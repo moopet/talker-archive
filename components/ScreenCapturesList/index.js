@@ -13,7 +13,12 @@ const ScreenCapturesList = (props) => {
     screencapListItems = screencaps.slice(1).map((screencap, index) => {
       return (
         <ListItem key={`screencap-${index}`}>
-          <Image width={400} height={208} src={`/screencaps/${screencap}`} alt="" />
+          <Image
+            src={`/screencaps/${screencap}`}
+            alt=""
+            width={640}
+            height={400}
+          />
         </ListItem>
       );
     });

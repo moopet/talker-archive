@@ -4,9 +4,9 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import HistoryIcon from '@mui/icons-material/History';
 import NextLink from 'next/link';
+import Image from 'next/image';
 import Link from '@mui/material/Link';
 import LinkIcon from '@mui/icons-material/Link';
 import EmailIcon from '@mui/icons-material/Email';
@@ -22,24 +22,24 @@ const TalkerCard = ({talker}) => {
   const slug = slugify(talker.name.replace(ignoreWords, ""), {lower: true});
 
   return (
-    <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+    <Card sx={{ maxWidth: 400 }}>
       <NextLink href={{pathname: "details/[slug]", query: {slug}}}>
         <a>
-          <Box sx={{ height: 160, backgroundColor: "black" }}>
-            <CardMedia
-              component="img"
-              image={`/screencaps/${talker?.screencaps?.length ? talker.screencaps[0] : 'placeholder.png'}`}
-              alt=""
-            />
-          </Box>
+          <Image
+            src={`/screencaps/${talker?.screencaps?.length ? talker.screencaps[0] : 'placeholder.png'}`}
+            alt=""
+            width={640}
+            height={400}
+            layout="responsive"
+          />
+
+          <CardContent>
+            <Typography variant="subtitle1">
+              {talker.name}
+            </Typography>
+          </CardContent>
         </a>
       </NextLink>
-
-      <CardContent sx={{ flexGrow: 1 }}>
-        <Typography gutterBottom variant="h5" component="h2">
-          {talker.name}
-        </Typography>
-      </CardContent>
 
       <CardActions>
         {talker?.websites?.length > 0 && <Link href={talker.websites[0]}><LinkIcon /></Link>}
