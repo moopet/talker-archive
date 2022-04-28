@@ -20,16 +20,19 @@ const Hero = ({image, title, subtitle}) => {
             <Grid item xs={4}>
               <Image src={image} alt="" width={400} height={208} />
             </Grid>
-            <Grid item xs={8}>
-              <Typography variant="h5" align="center" color="text.secondary" paragraph>
+            <Grid item xs={5}>
+              <Typography
+                variant="h5"
+                color="text.secondary"
+                paragraph
+              >
                 {title}
               </Typography>
 
               <Typography
-                variant="subtitle1"
-                align="center"
+                variant="body"
                 color="text.secondary"
-                component="p"
+                paragraph
               >
                 {subtitle}
               </Typography>
