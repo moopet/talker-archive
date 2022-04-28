@@ -20,7 +20,6 @@ import Tabs from '@mui/material/Tabs';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import slugify from 'slugify';
 
 import Footer from '../../components/Footer';
@@ -31,12 +30,6 @@ import ResourceList from '../../components/ResourceList';
 import WebsiteList from '../../components/WebsiteList';
 import ScreenCapturesList from '../../components/ScreenCapturesList';
 import data from '../../data/talkers.json';
-
-const theme = createTheme({
-  palette: {
-    mode: 'dark'
-  }
-});
 
 const TalkerDetails = () => {
   const router = useRouter();
@@ -74,9 +67,7 @@ const TalkerDetails = () => {
   }
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-
+    <>
       <AppBar position="relative">
         <Toolbar>
           <Link href="/">
@@ -123,9 +114,12 @@ const TalkerDetails = () => {
       </main>
 
       <Footer />
-    </ThemeProvider>
+    </>
   );
 };
 
-export default TalkerDetails;
+TalkerDetails.getInitialProps = ({ query }) => ({
+    key: query.slug
+});
 
+export default TalkerDetails;

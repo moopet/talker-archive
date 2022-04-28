@@ -3,22 +3,14 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-
 import CodebaseTable from '../components/CodebaseTable';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import data from '../data/talkers.json';
 
-const theme = createTheme({
-  palette: {
-    mode: 'dark'
-  }
-});
-
 const CodebasesPage = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <>
       <CssBaseline />
       <Navigation title="codebases" />
 
@@ -45,7 +37,7 @@ const CodebasesPage = () => {
       </main>
 
       <Footer />
-    </ThemeProvider>
+    </>
   );
 };
 

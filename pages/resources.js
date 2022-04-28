@@ -1,21 +1,13 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import ResourceList from '../components/ResourceList';
 
 import data from '../data/talkers.json';
-
-const theme = createTheme({
-  palette: {
-    mode: 'dark'
-  }
-});
 
 const ResourcesPage = () => {
   const resources = data.resources.sort((a, b) => {
@@ -24,8 +16,7 @@ const ResourcesPage = () => {
 
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    <>
       <Navigation title="resources" />
 
       <main>
@@ -83,7 +74,7 @@ const ResourcesPage = () => {
       </main>
 
       <Footer />
-    </ThemeProvider>
+    </>
   );
 };
 

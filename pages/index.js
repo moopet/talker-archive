@@ -6,7 +6,6 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
@@ -14,12 +13,6 @@ import TalkerGrid from '../components/TalkerGrid';
 import TalkerList from '../components/TalkerList';
 import TalkerTable from '../components/TalkerTable';
 import data from '../data/talkers.json';
-
-const theme = createTheme({
-  palette: {
-    mode: 'dark'
-  }
-});
 
 const TalkerListPage = () => {
 	const hideEmptyEntries = false;
@@ -36,12 +29,11 @@ const TalkerListPage = () => {
     return !talker?.hide;
   });
 
-  const ignnoreWords = new RegExp(/^(the|a)[^a-z]+/, 'i');
-  talkers.sort((a, b) => a.name.replace(ignnoreWords, "").localeCompare(b.name.replace(ignnoreWords, "")));
+  const ignoreWords = new RegExp(/^(the|a)[^a-z]+/, 'i');
+  talkers.sort((a, b) => a.name.replace(ignoreWords, "").localeCompare(b.name.replace(ignoreWords, "")));
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    <>
       <Navigation />
 
       <main>
@@ -75,7 +67,7 @@ const TalkerListPage = () => {
       </main>
 
       <Footer />
-    </ThemeProvider>
+    </>
   );
 };
 
