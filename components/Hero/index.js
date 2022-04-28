@@ -15,12 +15,12 @@ const Hero = ({image, title, subtitle}) => {
       }}
     >
       <Container maxWidth="xl">
-        <Paper variant="outlined">
-          <Grid container justifyContent="flex-start" alignItems="center" direction="row">
-            <Grid item xs={4}>
-              <Image src={image} alt="" width={400} height={208} />
+        <Paper variant="elevation">
+          <Grid container justifyContent="space-between" alignItems="center" direction="row">
+            <Grid item xs={12} sm={6} md={3}>
+              <Image src={image} alt="" width={320} height={240} layout="responsive" />
             </Grid>
-            <Grid item xs={5}>
+            <Grid item xs={12} sm={5} md={8}>
               <Typography
                 variant="h5"
                 color="text.secondary"

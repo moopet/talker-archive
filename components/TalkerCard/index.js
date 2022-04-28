@@ -50,7 +50,7 @@ const TalkerCard = ({talker}) => {
           />
 
           <CardContent>
-            <Typography variant="subtitle1">
+            <Typography variant="subtitle1" subheader="hello">
               {talker.name}
             </Typography>
           </CardContent>
