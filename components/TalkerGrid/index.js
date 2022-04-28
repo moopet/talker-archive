@@ -1,15 +1,16 @@
 import { useEffect, useState } from "react";
 import Grid from '@mui/material/Grid';
+import PhotoIcon from '@mui/icons-material/Photo';
 import TextField from '@mui/material/TextField';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
-import PhotoIcon from '@mui/icons-material/Photo';
+import Toolbar from '@mui/material/Toolbar';
 import TalkerCard from '../TalkerCard';
 
 const TalkerGrid = ({ talkers }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredItems, setFilteredItems] = useState(talkers);
-  const [filters, setFilters] = useState([]);
+  const [filters, setFilters] = useState(['screencap']);
 
   const talkerGridItems = filteredItems.map((talker, index) => {
     return (
@@ -38,17 +39,19 @@ const TalkerGrid = ({ talkers }) => {
 
   return (
     <>
-      <TextField variant="outlined" placeholder="Filter..." onChange={handleSearch} />
+    <Toolbar disableGutters sx={{display: "flex", justifyContent: "space-between", marginBottom:2}}>
+        <TextField variant="outlined" placeholder="Filter..." onChange={handleSearch} />
 
-      <ToggleButtonGroup
-        value={filters}
-        onChange={handleFilters}
-        aria-label="result filters"
-      >
-        <ToggleButton value="screencap" aria-label="only show talkers with screen captures">
-          <PhotoIcon />
-        </ToggleButton>
-      </ToggleButtonGroup>
+        <ToggleButtonGroup
+          value={filters}
+          onChange={handleFilters}
+          aria-label="result filters"
+        >
+          <ToggleButton value="screencap" aria-label="only show talkers with screen captures">
+            <PhotoIcon />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </Toolbar>
 
       <Grid container spacing={4}>{talkerGridItems}</Grid>
     </>
