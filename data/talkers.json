@@ -291,7 +291,7 @@
     {
       "name": "Camelot",
       "dataOrigin": "spodlist.org",
-      "description": " An all ages talker embracing the romance from the greatest legend ever -- Camelot. There is a collection of files online dealing with romance and relationships that is avaiable to all users. The staff is friendly and courteous, and atmosphere is light and fun. Many socials and original features are there to make your stay as enjoyable as possible.",
+      "description": "An all ages talker embracing the romance from the greatest legend ever -- Camelot. There is a collection of files online dealing with romance and relationships that is avaiable to all users. The staff is friendly and courteous, and atmosphere is light and fun. Many socials and original features are there to make your stay as enjoyable as possible.",
       "emails": "camelot@talker.com",
       "websites": [
         "http://www.talker.com/camelot"
@@ -1681,7 +1681,8 @@
     },
     {
       "name": "The Abyss",
-      "description": null,
+      "description": "The main room is an abyss. A deep, dark pit with multi-colored holes in the walls. Each one of these holes leads to a different room. There are several magic/rune socials, among many others, available to characters.",
+      "codebase": "ewtoo",
       "dataOrigin": "talkers.ws",
       "emails": [
         "abyss@talker.com"
@@ -1787,7 +1788,8 @@
     {
       "name": "Brew City",
       "dataOrigin": "talkers.ws",
-      "description": null,
+      "codebase": "pgplus",
+      "description": "Our talker is just a place to sit back and enjoy talking to your friends, with less lag than a bigger talker. We have a Milwaukee theme to ourselves, and yes beer is somewhat on the mind. We look to expand, and we look to become one of the better known places out there.",
       "emails": [
         "brewcity@talker.com"
       ],
@@ -2478,7 +2480,8 @@
     },
     {
       "name": "Abbey Road",
-      "description": null,
+      "description": "Beatles, Classic Rock and music in general.",
+      "codebase": "nuts",
       "dataOrigin": "talker.com",
       "emails": [
         "abbey@talker.com"
@@ -2504,7 +2507,8 @@
     },
     {
       "name": "AfterDEATH",
-      "description": null,
+      "description": "A talker based on the theme 'What happens next?', you start off life (or whatever) as a Spirit, and if you're lucky, wind up an Angel or Demon with your own personal room. Once on, you can battle to the death (or whatever) in Valhalla with another user, have a few glasses of beer, or turn into a tap-dancing penguin for the amusement of others. If you're not feeling adventurous though, you can just talk to people. The only rules are no swearing and don't annoy other users. And don't ask for promotion. And no multiple accounts. And don't...",
+      "codebase": "nuts",
       "dataOrigin": "talker.com",
       "emails": [
         "Aftrdeth@talker.com"
@@ -2519,7 +2523,8 @@
     },
     {
       "name": "Alpha House",
-      "description": null,
+      "description": "Alpha House is based on a sorority house. Frat house is the jail. We do try to have fun. Nice place to hang out and meet new friends. Like a big, happy family there, and growing !",
+      "codebase": "amnuts",
       "dataOrigin": "talker.com",
       "emails": [
         "elissa@talker.com"
@@ -2534,7 +2539,9 @@
     },
     {
       "name": "American Romance",
-      "description": null,
+      "codebase": "nuts",
+      "description": "American Romance is an over-18 talker. Enjoy laughter with friends or get away to a romantic setting.",
+      "adult": true,
       "dataOrigin": "talker.com",
       "emails": [
         "Romance@talker.com"
@@ -2549,7 +2556,8 @@
     },
     {
       "name": "Ancient Worlds",
-      "description": null,
+      "codebase": "nuts",
+      "description": "Open to all ages; come and have a good time!",
       "dataOrigin": "talker.com",
       "emails": [
         "Aworlds@talker.com"
@@ -2563,6 +2571,7 @@
     {
       "name": "Animal House",
       "description": null,
+      "codebase": "pg96",
       "dataOrigin": "talker.com",
       "emails": [
         "animal@talker.com"
@@ -2588,7 +2597,8 @@
     },
     {
       "name": "Avalon Isle",
-      "description": null,
+      "description": "Exciting, new, advanced talker run by very friendly staff!",
+      "codebase": "nuts",
       "dataOrigin": "talker.com",
       "emails": [
         "avalon@talker.com"
@@ -2602,6 +2612,7 @@
     {
       "name": "Belle's Sanctuary",
       "description": null,
+      "codebase": "ncohafmuta",
       "dataOrigin": "talker.com",
       "emails": [
         "sanctuary@talker.com"
@@ -2629,7 +2640,8 @@
     },
     {
       "name": "The Black Cat",
-      "description": null,
+      "codebase": "nuts",
+      "description": "The Black Cat is a techno club for people who enjoy techno music and the Rave culture. All ages are welcome. But mature subjects only. Chat about your favorite artists, DJ's, or rekkids. Learn about upcoming parties, and meet many more people with your same interests.",
       "dataOrigin": "talker.com",
       "emails": [
         "nevar@talker.com"
@@ -2642,7 +2654,7 @@
     },
     {
       "name": "Blue Ridge",
-      "description": null,
+      "description": "A talker based on the blue ridge mountains of North Carolina. It is hopefully going to be a peaceful, fun place for users to go to.... it is an 'everyone' talker that we hope people will want to come to.",
       "dataOrigin": "talker.com",
       "emails": [
         "smiley@talker.com"
@@ -2657,7 +2669,8 @@
     },
     {
       "name": "Brecktown",
-      "description": null,
+      "description": "Based on the real-life town of Breckenridge, Colorado, the rooms at Brecktown reflect the aura and atmosphere of real places. Wander at your leisure through our town, get to know the locals and for God's sake, don't GAPE at everything!  The talker is open to all ages, all opinions and we welcome maturity and respect for others.",
+      "codebase": "Iforms",
       "dataOrigin": "talker.com",
       "emails": [
         "yacko@talker.com"
