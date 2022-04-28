@@ -14,7 +14,7 @@ const WesbiteList = (props) => {
       return (
         <ListItem disableGutters key={`website-${index}`}>
           <ListItemText>
-            <Link href={website}>{website}</Link>
+            <Link href={website}>{website.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}</Link>
           </ListItemText>
         </ListItem>
       );
