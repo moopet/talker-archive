@@ -68,6 +68,11 @@
     }
   ],
   "codebases": {
+    "http": {
+      "repo": null,
+      "name": "HTTP Chat",
+      "platform": null
+    },
     "amnuts": {
       "repo": "https://github.com/talkersource/amnuts",
       "name": "Andy's modified NUTS",
@@ -3181,67 +3186,236 @@
       ]
     },
     {
-      "name": "",
+      "name": "Toon Town",
       "description": "",
-      "codebase": "",
+      "codebase": "nuts",
       "dataOrigin": "talker.com",
       "emails": [
-        "@talker.com"
+        "toontown@talker.com"
       ],
       "websites": [
-        "http://www.talker.com/"
+        "http://www.talker.com/toontown"
       ],
       "screencaps": [],
       "hosts": [
-        "talker.com:"
+        "talker.com:6020"
       ]
     },
     {
-      "name": "",
+      "name": "Trauma Bay",
       "description": "",
-      "codebase": "",
+      "codebase": "amnuts",
       "dataOrigin": "talker.com",
       "emails": [
-        "@talker.com"
+        "vfib@talker.com"
       ],
       "websites": [
         "http://www.talker.com/"
       ],
       "screencaps": [],
       "hosts": [
-        "talker.com:"
+        "talker.com:2850"
       ]
     },
     {
-      "name": "",
-      "description": "",
+      "name": "The Tropics",
+      "description": "The breeze in your hair and the sound of the steel drums This the tropics. This talker's theme is one of the islands where every thing is eire man.",
       "codebase": "",
       "dataOrigin": "talker.com",
       "emails": [
-        "@talker.com"
+        "trpoics@talker.com"
       ],
       "websites": [
-        "http://www.talker.com/"
+        "http://www.talker.com/tropics"
       ],
       "screencaps": [],
       "hosts": [
-        "talker.com:"
+        "talker.com:7500"
       ]
     },
     {
-      "name": "",
+      "name": "TypoTown",
       "description": "",
-      "codebase": "",
+      "codebase": null,
       "dataOrigin": "talker.com",
       "emails": [
-        "@talker.com"
+        "typotown@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/typotown"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:6666"
+      ]
+    },
+    {
+      "name": "Tyson's Corner",
+      "description": "A unique 'Mall' atmosphere talker for college aged students",
+      "codebase": "BDTalkerD",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "tycorn@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/tysonscorners"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9797"
+      ]
+    },
+    {
+      "name": "Way Out West",
+      "description": "West is a friendly place set in a wild west town. It's really for all ages, but anything usually goes ;) (gotta love private rooms ;) It's laid back, fun, and the people are nice and always ready to help out a newbie. So why don't you stop into town one day? You'll like it... Trust me ;)",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "west@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2574"
+      ]
+    },
+    {
+      "name": "WhoDunIt",
+      "description": "WhoDunIt. A talker with a twist. Come solve the mystery of Who Dun It (the murder), what room, and with what weapon. If this is not your cup of tea, please come and enjoy the chat and all the neat features in this new talker.",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "shadow@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/whodonit"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4260"
+      ]
+    },
+    {
+      "name": "Wild West",
+      "description": "Western theme, +18 talker. Meet people, have fun and enjoy!",
+      "codebase": "nuts",
+      "adult": true,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "wildwest@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/wildwest"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:6500"
+      ]
+    },
+    {
+      "name": "Worlds Of Syrius",
+      "description": "The talkers are here to give a laid-back atmosphere for those over 18 years old. It focuses heavily on roleplaying one's personal life-style and interacting with others.",
+      "codebase": "nuts",
+      "adult": true,
+      "dataOrigin": "talker.com",
+      "emails": [
+        "syrius@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/syrius"
+      ],
+      "screencaps": [],
+      "hosts": []
+    },
+    {
+      "name": "Writers BBS Chat Room",
+      "description": "A friendly place to meet authors and poets. Discussions range from using the Internet to pets to getting one's writing published for the first time. All are welcome to join in",
+      "codebase": "http",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "writersb@talker.com"
       ],
       "websites": [
         "http://www.talker.com/"
       ],
       "screencaps": [],
       "hosts": [
-        "talker.com:"
+        "talker.com:3334"
+      ]
+    },
+    {
+      "name": "School Chat",
+      "description": "This talker is based on a school theme and is open to all ages. Feel free to ask any of our staff if you have any problems.",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "talker@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/schoolchat"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8100"
+      ]
+    },
+    {
+      "name": "Seventh Heaven",
+      "description": "If you're looking for a fun, friendly and relaxing place to hang out for a while, drop by Seventh Heaven. We're an all ages talker open to anyone and everyone, as long as you respect one another and have fun! Drop by and play a game of Tic-Tac-Toe with Zeus, the coolest bot on the web. Or try your hand at Hangman. Think you're smart? Answer today's Riddle. Trust me, there's tons to do, great people to meet and fabulous friends to make. So come on into Heaven!",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "7-heaven@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9800"
+      ]
+    },
+    {
+      "name": "Shadow Lands",
+      "description": "",
+      "codebase": "",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "jaded@talker.com"
+      ],
+      "wayback": "https://web.archive.org/web/19990429034148/http://www.monmouth.com/~zaphod/shadow.html",
+      "websites": [
+        "http://www.monmouth.com/~zaphod/shadow.html"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8800"
+      ]
+    },
+    {
+      "name": "Silver Circle",
+      "description": "Silver Circle is a highly modified PG96 talker aimed at Wiccans, Pagans and spiritually open minded people on the internet. Our goal is to share ideas, thoughts, wisdom, laughs and some good times. Silver Circle also serves as a stepping stone and as a source of a wealth of information for those who seek information about Paganism and Wicca. We are open to people of all paths; the only thing we ask is that you have an open mind.",
+      "codebase": "ewtoo",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "sc@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:9191"
+      ]
+    },
+    {
+      "name": "Shadow Realms",
+      "description": "A talker designed to run the White Wolf (tm) World of Darkness System (tm). Incorporates Vampires, Werewolves, Changelings and Wraiths with the aid of storytellers.",
+      "codebase": "ewtoo",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "shadows@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:7070"
       ]
     },
     {
