@@ -26,10 +26,9 @@ const TalkerGrid = ({ talkers }) => {
         .filter(talker => talker.name.toLowerCase().indexOf(searchTerm) !== -1)
         .filter(talker => (talker?.screencaps?.length || filters.indexOf('screencap') === -1))
     );
-  });
+  }, [searchTerm, filters]);
 
   const handleSearch = (event) => {
-
     setSearchTerm(event.target.value.trim().toLowerCase());
   };
 
