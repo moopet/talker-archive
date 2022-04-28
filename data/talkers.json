@@ -1473,6 +1473,7 @@
       "name": "Unreal",
       "description": " A place out of sync with reality",
       "websites": [
+        "http://www.users.globalnet.co.uk/~dcrsp/simple/me/unreal.html",
         "http://www.unreal.amber.org.uk",
         "http://www.madagascar.com/unreal"
       ],
@@ -3419,67 +3420,115 @@
       ]
     },
     {
-      "name": "",
-      "description": "",
-      "codebase": "",
+      "name": "Sim City",
+      "description": "Sim City is based on the popular computer game Sim City. We have a great staff and friendly users. There are many functions and commands that other talkers do not offer, we aim to be different. So take a chance and drop by for a visit, we bet you will like it and become a regular user :)",
+      "codebase": "cuts",
       "dataOrigin": "talker.com",
       "emails": [
-        "@talker.com"
+        "SimCity@talker.com"
       ],
       "websites": [
-        "http://www.talker.com/"
+        "http://www.talker.com/simcity"
       ],
       "screencaps": [],
       "hosts": [
-        "talker.com:"
+        "talker.com:8200"
       ]
     },
     {
-      "name": "",
-      "description": "",
-      "codebase": "",
+      "name": "Sommerland II",
+      "description": "Sommerland is a talker open to anyone who has an open mind and isn't oppressed by people of different sexual orientations. This is not a sex talker, but rather a place for people to relax, have fun, and discuss issues in a themepark setting.",
+      "codebase": "ncohafmuta",
       "dataOrigin": "talker.com",
+      "wayback": "https://web.archive.org/web/19990222164254/http://www.talker.com/sommer/",
       "emails": [
-        "@talker.com"
+        "Sommer@talker.com"
       ],
       "websites": [
-        "http://www.talker.com/"
+        "http://www.talker.com/sommer"
       ],
       "screencaps": [],
       "hosts": [
-        "talker.com:"
+        "talker.com:5555"
       ]
     },
     {
-      "name": "",
-      "description": "",
-      "codebase": "",
+      "name": "Spellbinder",
+      "description": "This is an all age talker with a witchcraft theme. There are numerous facts and and fiction about the Wiccan ways surrounding SpellBinder. Merry Meet and Merry Part!!",
+      "codebase": "ncohafmuta",
       "dataOrigin": "talker.com",
       "emails": [
-        "@talker.com"
+        "Oracle@talker.com"
       ],
-      "websites": [
-        "http://www.talker.com/"
-      ],
+      "websites": [ ],
       "screencaps": [],
       "hosts": [
-        "talker.com:"
+        "talker.com:9990"
       ]
     },
     {
-      "name": "",
-      "description": "",
-      "codebase": "",
+      "name": "Stairway To Heaven",
+      "description": null,
+      "codebase": "nuts",
       "dataOrigin": "talker.com",
       "emails": [
-        "@talker.com"
+        "arden@talker.com"
+      ],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:2550"
+      ]
+    },
+    {
+      "name": "State of Confusion University",
+      "description": null,
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "delta@talker.com"
       ],
       "websites": [
-        "http://www.talker.com/"
+        "http://www.talker.com/delta"
       ],
       "screencaps": [],
       "hosts": [
-        "talker.com:"
+        "talker.com:3501"
+      ]
+    },
+    {
+      "name": "Strawberry Fields",
+      "description": "Let us take you down, cause we're goin' to Strawberry Fields, nothing is real, and nothing to get .nuked about :) Strawberry Fields Forever!",
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "emails": [
+        "strawb@talker.com"
+      ],
+      "wayback": "https://web.archive.org/web/19990225160101/http://www.talker.com/strawberry/",
+      "websites": [
+        "http://www.talker.com/strawberry"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:4500"
+      ]
+    },
+    {
+      "name": "The Sushi Bar",
+      "description": "The Sushi Bar is an adult, all-kinds chat catering to whatever one's preferences may be. *Anyone* over he age of 18 who wants to meet friends, indulge in *whatever*, and is tolerant of other peoples' *whatevers* is welcome to join in.",
+      "adult": true,
+      "codebase": "nuts",
+      "dataOrigin": "talker.com",
+      "wayback": "https://web.archive.org/web/19990429034148/http://talker.com/sushibar",
+      "emails": [
+        "sunshine@talker.com"
+      ],
+      "websites": [
+        "http://www.talker.com/sushibar"
+      ],
+      "screencaps": [],
+      "hosts": [
+        "talker.com:8080"
       ]
     },
     {
