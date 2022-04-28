@@ -39,7 +39,7 @@ const TalkerCard = ({talker}) => {
 
   return (
     <Card sx={{ maxWidth: 400, borderWidth: 1, borderStyle: "solid", borderColor: "#333" }}>
-      <NextLink href={{pathname: "details/[slug]", query: {slug}}}>
+      <NextLink href={{pathname: "/details/[slug]", query: {slug}}}>
         <a>
           <Image
             src={`/screencaps/${talker?.screencaps?.length ? talker.screencaps[0] : 'placeholder.png'}`}
