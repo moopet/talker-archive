@@ -1545,11 +1545,29 @@
     {
       "name": "The Chatting Zone",
       "description": null,
-      "websites": [],
+      "websites": [
+        "http://thechattingzone.uk/"
+      ],
+      "resources": [
+        {
+          "type": "Facebook community",
+          "icon": "Facebook",
+          "name": "TCZ (The Chatting Zone) Official",
+          "url": "https://www.facebook.com/groups/2431592282/"
+        },
+        {
+          "type": "Twitter",
+          "icon": "Twitter",
+          "name": "@thechattingzone",
+          "url": "https://twitter.com/thechattingzone"
+        }
+      ],
       "screencaps": [
         "thechattingzone.uk_8342.png"
       ],
-      "emails": [],
+      "emails": [
+        "tczadmin@gmail.com"
+      ],
       "hosts": [
         "thechattingzone.uk:8342"
       ]
