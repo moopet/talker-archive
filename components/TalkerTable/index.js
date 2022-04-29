@@ -46,7 +46,7 @@ const TalkerTable = ({ talkers, codebases }) => {
           return '';
         }
 
-        const codebase = codebases[params.value];
+        const codebase = codebases[params.value] ?? params.value;
 
         return (
           <Link href={codebase.repo}><abbr title={codebases.name}>{params.value}</abbr></Link>
@@ -103,7 +103,6 @@ const TalkerTable = ({ talkers, codebases }) => {
       <DataGrid
         rows={rows}
         columns={columns}
-        pageSize={100}
         disableSelectionOnClick
       />
     </div>

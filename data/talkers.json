@@ -35,14 +35,14 @@
     {
       "type": "Website",
       "icon": "Article",
-      "name": "MUDStats.com",
+      "name": "MUDStats",
       "url": "http://mudstats.com/"
     },
     {
       "type": "Repository",
       "description": "Source code collection",
       "icon": "Article",
-      "name": "TalkerSource.com",
+      "name": "TalkerSource",
       "url": "https://talkersource.com/"
     },
     {
@@ -126,12 +126,18 @@
     "ncohafmuta": {
       "repo": "http://ncohafmuta.net/index.shtml",
       "name": "Ncohafmuta",
-      "platform": null,
+      "platform": "*nix",
       "language": null
     },
     "ewtoo": {
       "repo": "https://github.com/talkersource/ew-too",
       "name": "EW-Too",
+      "platform": "*nix",
+      "language": "C"
+    },
+    "pg96": {
+      "repo": "https://github.com/talkers/pgplus",
+      "name": "Playground '96",
       "platform": "*nix",
       "language": "C"
     },
