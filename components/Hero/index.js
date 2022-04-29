@@ -23,7 +23,7 @@ const Hero = ({image, title, subtitle}) => {
             <Grid item xs={12} sm={5} md={8}>
               <Typography
                 variant="h5"
-                color="text.secondary"
+                color="text.primary"
                 paragraph
               >
                 {title}

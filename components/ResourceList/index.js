@@ -14,7 +14,7 @@ const ResourceList = (props) => {
     resourceListItems = resources.map((resource, index) => {
       return (
         <ListItem disableGutters key={`resource-${index}`}>
-          <ListItemText secondary={resource.type}>
+          <ListItemText secondary={resource.description ?? resource.type}>
             <Link href={resource.url}>{resource.name}</Link>
           </ListItemText>
         </ListItem>

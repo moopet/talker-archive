@@ -27,12 +27,20 @@
     },
     {
       "type": "Website",
+      "description": "Talker list",
+      "icon": "Article",
+      "name": "Grim's list server",
+      "url": "http://list.ewtoo.org"
+    },
+    {
+      "type": "Website",
       "icon": "Article",
       "name": "MUDStats.com",
       "url": "http://mudstats.com/"
     },
     {
-      "type": "Website",
+      "type": "Repository",
+      "description": "Source code collection",
       "icon": "Article",
       "name": "TalkerSource.com",
       "url": "https://talkersource.com/"
@@ -1428,7 +1436,7 @@
       "screencaps": [],
       "emails": [],
       "hosts": [
-        "underworld.jilted.com:2011
+        "underworld.jilted.com:2011"
       ]
     },
     {
