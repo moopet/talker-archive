@@ -49,13 +49,6 @@
       "type": "Repository",
       "description": "GitHub repository",
       "icon": "GitHub",
-      "name": "TalkerSource",
-      "url": "https://github.com/talkersource"
-    },
-    {
-      "type": "Repository",
-      "description": "GitHub repository",
-      "icon": "GitHub",
       "name": "Talkers",
       "url": "https://github.com/talkers/"
     },
