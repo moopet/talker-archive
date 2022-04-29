@@ -234,11 +234,8 @@
       "codebase": "cams",
       "description": null,
       "websites": [],
-      "screencaps": [
-        "bagend.tzo.org_2060.png"
-      ],
+      "screencaps": [],
       "hosts": [
-        "bagend.tzo.org:2060",
         "wilderness.homeip.net:4000"
       ]
     },
