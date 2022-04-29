@@ -167,6 +167,7 @@
     {
       "name": "The A-Team",
       "dataOrigin": "spodlist",
+      "ewtooAbbr": "ateam",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -196,6 +197,7 @@
       "name": "Atlantis",
       "dataOrigin": "spodlist",
       "description": null,
+      "ewtooAbbr": "atl",
       "emails": [
         "admin@atlantis.org",
         "me@moopet.net"
@@ -241,6 +243,7 @@
     },
     {
       "name": "Brigandine",
+      "ewtooAbbr": "brigandine",
       "dataOrigin": "spodlist",
       "description": null,
       "websites": [
@@ -284,6 +287,7 @@
     {
       "name": "Blame Canada",
       "dataOrigin": "spodlist",
+      "ewtooAbbr": "BC",
       "description": null,
       "websites": [],
       "screencaps": [
@@ -298,6 +302,7 @@
       "name": "The 'Burbs",
       "dataOrigin": "spodlist",
       "description": null,
+      "ewtooAbbr": "Burbs",
       "websites": [
         "http://www.burbs.org"
       ],
@@ -353,6 +358,7 @@
     },
     {
       "name": "Caves",
+      "ewtooAbbr": "Caves",
       "dataOrigin": "spodlist",
       "description": null,
       "websites": [
@@ -370,6 +376,7 @@
     {
       "name": "Central Perk",
       "dataOrigin": "spodlist",
+      "ewtooAbbr": "Cntprk",
       "codebase": "pgplus",
       "description": null,
       "websites": [
@@ -469,6 +476,7 @@
     },
     {
       "name": "Cut",
+      "ewtooAbbr": "cut",
       "dataOrigin": "spodlist",
       "description": null,
       "websites": [],
@@ -626,6 +634,7 @@
       "name": "Snowplains",
       "dataOrigin": "spodlist",
       "description": null,
+      "ewtooAbbr": "SP",
       "websites": [],
       "emails": [
         "snowadm@snowplains.org"
@@ -772,6 +781,7 @@
     },
     {
       "name": "Foothills",
+      "ewtooAbbr": "fh",
       "dataOrigin": "spodlist",
       "description": null,
       "codebase": "ewtoo",
@@ -835,6 +845,7 @@
       "name": "Island",
       "description": null,
       "websites": [],
+      "ewtooAbbr": "isl",
       "screencaps": [
         "island.subnigra.com_8000.png"
       ],
@@ -956,6 +967,7 @@
     {
       "name": "Sasslantis 2000",
       "codebase": "nuts",
+      "ewtooAbbr": "s2k",
       "dataOrigin": "spodlist",
       "description": null,
       "websites": [
@@ -983,6 +995,7 @@
     },
     {
       "name": "Spod.org",
+      "ewtooAbbr": "spod.org",
       "dataOrigin": "spodlist",
       "description": null,
       "websites": [],
@@ -995,6 +1008,7 @@
     },
     {
       "name": "The Pleasuredome",
+      "ewtooAbbr": "dome",
       "dataOrigin": "spodlist",
       "description": null,
       "websites": [],
@@ -1036,6 +1050,7 @@
     },
     {
       "name": "Paradox",
+      "ewtooAbbr": "Paradox",
       "dataOrigin": "spodlist",
       "description": "Ours is a queer safe talker that has been on the net for the past 5 years or so. We are a large community of people from around the world who share many interests and come online to meet new friends and chat with old ones. We protect all our users against any persons who come to our talker to harass our community and will take whatever measures are necessary to resolve those problems.",
       "codebase": "pgplus",
@@ -1055,6 +1070,7 @@
     },
     {
       "name": "TW's Talker",
+      "ewtooAbbr": "tws",
       "dataOrigin": "spodlist",
       "description": null,
       "emails": [
@@ -1200,6 +1216,113 @@
       ]
     },
     {
+      "name": "IdleToo",
+      "description": null,
+      "dataOrigin": "ewtoo",
+      "ewtooAbbr": "idletoo",
+      "websites": [],
+      "emails": [],
+      "screencaps": [],
+      "hosts": [
+        "ewtoo.org:4746"
+      ]
+    },
+    {
+      "name": "London: Parliament of Blood",
+      "ewtooAbbr": "LondonPOB",
+      "description": null,
+      "dataOrigin": "ewtoo",
+      "websites": [],
+      "emails": [],
+      "screencaps": [],
+      "hosts": [
+        "darkfantastic.net:2323"
+      ]
+    },
+    {
+      "name": "Don't Panic",
+      "description": null,
+      "ewtooAbbr": "DPanic",
+      "dataOrigin": "ewtoo",
+      "websites": [],
+      "emails": [],
+      "screencaps": [],
+      "hosts": [
+        "amber.org.uk:4242"
+      ]
+    },
+    {
+      "name": "Playground Too",
+      "description": null,
+      "dataOrigin": "ewtoo",
+      "websites": [],
+      "emails": [],
+      "screencaps": [],
+      "hosts": [
+        "pgtoo.org:2060"
+      ]
+    },
+    {
+      "name": "The Meeting Place",
+      "ewtooAbbr": "tmp",
+      "description": null,
+      "dataOrigin": "ewtoo",
+      "websites": [],
+      "emails": [],
+      "screencaps": [],
+      "hosts": [
+        "wombat.tirsek.com:4000"
+      ]
+    },
+    {
+      "name": "Kama Sutra",
+      "ewtooAbbr": "kama",
+      "description": null,
+      "dataOrigin": "ewtoo",
+      "websites": [],
+      "emails": [],
+      "screencaps": [],
+      "hosts": [
+        "kama.dyndns.dk:6969"
+      ]
+    },
+    {
+      "name": "Kama'aina Requiem",
+      "ewtooAbbr": "KR",
+      "description": null,
+      "dataOrigin": "ewtoo",
+      "websites": [],
+      "emails": [],
+      "screencaps": [],
+      "hosts": [
+        "enigma.dune.net:5454"
+      ]
+    },
+    {
+      "name": "Eternal Night",
+      "ewtooAbbr": "EN",
+      "description": null,
+      "dataOrigin": "ewtoo",
+      "websites": [],
+      "emails": [],
+      "screencaps": [],
+      "hosts": [
+        "eeek.org.uk:4242"
+      ]
+    },
+    {
+      "name": "Paradise's Haven",
+      "ewtooAbbr": "PH",
+      "description": null,
+      "dataOrigin": "ewtoo",
+      "websites": [],
+      "emails": [],
+      "screencaps": [],
+      "hosts": [
+        "nethosting.net:6462"
+      ]
+    },
+    {
       "name": "Haven",
       "description": null,
       "websites": [],
@@ -1236,6 +1359,7 @@
       "name": "The Manor",
       "dataOrigin": "spodlist",
       "description": null,
+      "ewtooAbbr": "manor",
       "websites": [
         "http://www.themanor.org"
       ],
@@ -1262,6 +1386,7 @@
       "name": "Enchantment Under The Sea",
       "dataOrigin": "spodlist",
       "description": null,
+      "ewtooAbbr": "eutsii",
       "codebase": "ArIEN",
       "websites": [
         "http://www.euts.org/"
@@ -1468,6 +1593,7 @@
     {
       "name": "Uberworld",
       "description": null,
+      "ewtooAbbr": "uber",
       "websites": [
         "http://www.uberworld.org"
       ],
@@ -1520,6 +1646,7 @@
     },
     {
       "name": "Valdemar",
+      "ewtooAbbr": "Val",
       "description": null,
       "email": [
         "admin@valdemar.org"
@@ -1691,6 +1818,7 @@
     },
     {
       "name": "Zeta Aquilae",
+      "ewtooAbbr": "zeta",
       "dataOrigin": "spodlist",
       "description": null,
       "codebase": "ewtoo",
@@ -2241,6 +2369,7 @@
     {
       "name": "Jaffa",
       "dataorigin": "talkers.ws",
+      "ewtooAbbr": "Jaffa",
       "description": null,
       "websites": [],
       "screencaps": [],
@@ -2372,6 +2501,7 @@
     {
       "name": "Red Dwarf",
       "dataorigin": "amber",
+      "ewtooAbbr": "RDW",
       "description": "Based on the TV program Red Dwarf",
       "websites": [],
       "screencaps": [],
@@ -3846,7 +3976,8 @@
       ]
     },
     {
-      "name": "Gateway 2005",
+      "name": "GateWay 2005",
+      "ewtooAbbr": "GateWay",
       "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
@@ -4001,6 +4132,7 @@
     },
     {
       "name": "Red Claw",
+      "ewtooAbbr": "redclaw",
       "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
