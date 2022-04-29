@@ -44,13 +44,6 @@ const ResourcesPage = () => {
           <Grid container spacing={4}>
             <Grid item xs={12} sm={6} md={4} xl={3}>
               <ResourceList
-                title="Source code"
-                resources={resources.filter(resource => resource.type == "Repository")}
-              />
-            </Grid>
-
-            <Grid item xs={12} sm={6} md={4} xl={3}>
-              <ResourceList
                 title="Articles"
                 resources={resources.filter(resource => resource.type == "Article")}
               />
@@ -65,15 +58,15 @@ const ResourcesPage = () => {
 
             <Grid item xs={12} sm={6} md={4} xl={3}>
               <ResourceList
-                title="Hosting"
-                resources={resources.filter(resource => resource.type == "Hosting")}
+                title="Source code"
+                resources={resources.filter(resource => resource.type == "Repository")}
               />
             </Grid>
 
             <Grid item xs={12} sm={6} md={4} xl={3}>
               <ResourceList
                 title="Other"
-  resources={resources.filter(resource => ["Article", "Facebook group", "Livejournal community","Twitter", "Hosting", "Newsgroup", "Repository"].indexOf(resource.type) === -1)}
+  resources={resources.filter(resource => ["Article", "Facebook group", "Livejournal community","Twitter", "Newsgroup", "Repository"].indexOf(resource.type) === -1)}
               />
             </Grid>
           </Grid>
