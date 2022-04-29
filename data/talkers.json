@@ -86,6 +86,14 @@
       "url": "https://h2g2.com/edited_entry/A1010106"
     }
   ],
+  "dataOrigins": {
+    "ewtoo": {
+      "name": "Silver's talker charts on ewtoo.org"
+    },
+    "spodlist": {
+      "name": "the talker listing on spodlist.org"
+    }
+  },
   "codebases": {
     "http": {
       "repo": null,
@@ -1538,7 +1546,9 @@
       "name": "The Chatting Zone",
       "description": null,
       "websites": [],
-      "screencaps": [],
+      "screencaps": [
+        "thechattingzone.uk_8342.png"
+      ],
       "emails": [],
       "hosts": [
         "thechattingzone.uk:8342"
@@ -4272,6 +4282,15 @@
       "screencaps": [],
       "hosts": [
         "yerevan.acp.da.ru:4523"
+      ]
+    },
+    {
+      "name": "Void",
+      "description": null,
+      "dataOrigin": null,
+      "screencaps": [],
+      "hosts": [
+        "void.greenfinch.com:1234"
       ]
     },
     {
