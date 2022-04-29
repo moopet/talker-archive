@@ -1,0 +1,26 @@
+               #####                      #     # #     # ######
+              #     # #    #   ##   ##### ##   ## #     # #     #
+              #       #    #  #  #    #   # # # # #     # #     #
+              #       ###### #    #   #   #  #  # #     # #     #
+              #       #    # ######   #   #     # #     # #     #
+              #     # #    # #    #   #   #     # #     # #     #
+               #####  #    # #    #   #   #     #  #####  ######
+
+                                                  [ PUBLIC BETA ]
+
+ChatMUD is a community where netizens come together to socialize, interact, and create. Much like any real life community, it is made up of real people who may engage in discourse not necessarily to your liking; the wizards are not held legally responsible for such behavior. User-created content may not always be age-appropriate. If this is the case, you will be held responsible for allowing minors to connect through your facilities. New characters are created as builders and may be bestowed programmer access via automated systems. You can review HELP BUILDER-INDEX to glean information pertinent to adding to the virtual reality.
+
+Please report bugs and suggestions using our mailing list system. (HELP LISTS)
+
+TLS port: chatmud.com 7443
+
+To create a character, type NEW as your character name.
+If you've lost your password, type FORGOT <character name> <associated email address>.
+For more information on commands available at this screen, type HELP.
+
+Server Status and Outage Alerts: https://status.chatmud.com/
+[  help@chatmud.com  ]
+
+[ Server version 2.7.0_38 - up 4:20:07:25, 25 players connected. ]
+
+Character name: 

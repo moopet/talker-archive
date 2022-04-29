@@ -1560,6 +1560,13 @@
           "icon": "Twitter",
           "name": "@thechattingzone",
           "url": "https://twitter.com/thechattingzone"
+        },
+        {
+          "type": "Website",
+          "description": "Grapevine entry",
+          "icon": "Article",
+          "name": "The Chatting Zone",
+          "url": "https://grapevine.haus/games/tcz"
         }
       ],
       "screencaps": [
@@ -1570,6 +1577,33 @@
       ],
       "hosts": [
         "thechattingzone.uk:8342"
+      ]
+    },
+    {
+      "name": "ChatMUD",
+      "description": null,
+      "websites": [
+        "https://chatmud.com/"
+      ],
+      "ssl": true,
+      "resources": [
+        {
+          "type": "Website",
+          "description": "Grapevine entry",
+          "icon": "Article",
+          "name": "The Chatting Zone",
+          "url": "https://grapevine.haus/games/tcz"
+        }
+      ],
+      "textcaps": [
+        "chatmud.com_7777.txt"
+      ],
+      "screencaps": [
+        "chatmud.com_7777.png"
+      ],
+      "emails": [],
+      "hosts": [
+        "chatmud.com:7443"
       ]
     },
     {
