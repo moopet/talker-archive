@@ -1544,10 +1544,11 @@
     },
     {
       "name": "The Chatting Zone",
-      "description": null,
+      "description": "With a highly international userbase, The Chatting Zone (TCZ) is a popular social mud with the option of exploring the many games and locations built by the userbase as well as creating your own. Many games are available to play, including Scrabble, LORD (RPG), GO, Poker, Boggle, Monopoly, Dominoes, Chess, Connect 4, Yahtzee, Lights Out, Bridge, Cribbage, Jeopardy and many, many more. Regular tournaments are held! A heavily used Bulletin Board System with many topics of discussion. The ability to create your own rooms/locations/games with the easy-to-learn/easy-to-master custom coding language. A 24-hour mud with a friendly and helpful admin team who are here to guide you through the first steps of being a newbie in a new world. Get chatting - Get on TCZ!",
       "websites": [
         "http://thechattingzone.uk/"
       ],
+      "wayback": null,
       "resources": [
         {
           "type": "Facebook community",
@@ -1563,10 +1564,17 @@
         },
         {
           "type": "Website",
+          "description": "MUDStats entry",
+          "icon": "Article",
+          "name": "The Chatting Zone (TCZ)",
+          "url": "https://grapevine.haus/games/tcz"
+        },
+        {
+          "type": "Website",
           "description": "Grapevine entry",
           "icon": "Article",
           "name": "The Chatting Zone",
-          "url": "https://grapevine.haus/games/tcz"
+          "url": "http://mudstats.com/World/TheChattingZone(TCZ)"
         }
       ],
       "screencaps": [
@@ -1591,7 +1599,7 @@
           "type": "Website",
           "description": "Grapevine entry",
           "icon": "Article",
-          "name": "The Chatting Zone",
+          "name": "ChatMUD connector",
           "url": "https://grapevine.haus/games/tcz"
         }
       ],
