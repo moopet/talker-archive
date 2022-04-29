@@ -55,6 +55,18 @@
       "url": "https://en.wikipedia.org/wiki/Talker"
     },
     {
+      "type": "Facebook Group",
+      "icon": "Facebook",
+      "name": "Talkers: Spods - Re-unite!",
+      "url": "https://www.facebook.com/groups/16741607961/"
+    },
+    {
+      "type": "Group",
+      "icon": "Article",
+      "name": "Talker spods' Journal",
+      "url": "https://spods.livejournal.com/"
+    },
+    {
       "type": "Article",
       "icon": "Article",
       "name": "IRC History -- Talkers",
@@ -844,7 +856,7 @@
       ]
     },
     {
-      "name": "Comatose",
+      "name": "Comatose: Blissful Sleep",
       "dataOrigin": "spodlist.org",
       "description": null,
       "websites": [],
@@ -852,6 +864,7 @@
         "mysterious.mytalker.org_9999.png"
       ],
       "hosts": [
+        "comatose.mytalker.org:9999",
         "mysterious.mytalker.org:9999"
       ]
     },
@@ -1499,7 +1512,8 @@
         "valdemar.org_2345.png"
       ],
       "hosts": [
-        "valdemar.org:2345"
+        "valdemar.org:2345",
+        "ewtoo.org:2345"
       ]
     },
     {
@@ -3542,6 +3556,172 @@
       "screencaps": [],
       "hosts": [
         "talker.com:8080"
+      ]
+    },
+    {
+      "name": "Flex's Saloon",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ztalker.netpower.no:3278"
+      ]
+    },
+    {
+      "name": "Forbidden Dawn",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ewtoo.org:6671"
+      ]
+    },
+    {
+      "name": "ICE",
+      "description": null,
+      "codebase": "ice",
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ice.offswn.net:4444"
+      ]
+    },
+    {
+      "name": "Horror Haven",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "tdf.ca:6669"
+      ]
+    },
+    {
+      "name": "Multiple World",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "tdf.ca:6969"
+      ]
+    },
+    {
+      "name": "Ri-Ra The Talker",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "rira.dune.net:2087"
+      ]
+    },
+    {
+      "name": "Sexual Desires",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "sexual-desires.org:5555"
+      ]
+    },
+    {
+      "name": "Soaring Emporium",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ztalker.netpower.no:3280"
+      ]
+    },
+    {
+      "name": "The Dark Ages",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "tdf.ca:2121"
+      ]
+    },
+    {
+      "name": "The Funk",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "the-funk.net:7000"
+      ]
+    },
+    {
+      "name": "The Dragon's Cove 2",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "ramtits.ca:6980"
+      ]
+    },
+    {
+      "name": "The Hive",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "hivechat.net:6000"
+      ]
+    },
+    {
+      "name": "The Neverending Story",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "tdf.ca:1955"
+      ]
+    },
+    {
+      "name": "Yuss",
+      "description": null,
+      "dataOrigin": "doughnuts",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "yuss.net:5000"
+      ]
+    },
+    {
+      "name": "Republic",
+      "description": null,
+      "dataOrigin": "facebook",
+      "emails": [],
+      "websites": [],
+      "screencaps": [],
+      "hosts": [
+        "republic.snowplains.org:4001"
       ]
     },
     {
