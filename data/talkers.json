@@ -92,6 +92,9 @@
     },
     "spodlist": {
       "name": "the talker listing on spodlist.org"
+    },
+    "tdf": {
+      "name": "Moe's talker listing on Dark Fantastic Net"
     }
   },
   "codebases": {
@@ -232,11 +235,9 @@
       "codebase": "cams",
       "description": null,
       "websites": [],
-      "screencaps": [
-        "bagend.tzo.org_2060.png"
-      ],
+      "screencaps": [],
       "hosts": [
-        "bagend.tzo.org:2060"
+        "wilderness.homeip.net:4000"
       ]
     },
     {
@@ -291,7 +292,8 @@
       "screencaps": [],
       "hosts": [
         "island.talkernet.net:8100",
-        "island.tdf.ca:8100"
+        "island.tdf.ca:8100",
+        "forgottenisland.net:8100"
       ]
     },
     {
@@ -796,9 +798,13 @@
       "description": null,
       "codebase": "ewtoo",
       "websites": [
-        "http://foothills.tk"
+        "http://foothills.tk",
+        "http://www.bcpl.net/~melissas/foothills/"
       ],
-      "wayback": "https://web.archive.org/web/20071006182503/http://www.foothills.tk/",
+      "wayback": [
+        "https://web.archive.org/web/20071006182503/http://www.foothills.tk/",
+        "https://web.archive.org/web/20011117130758/http://www.bcpl.net/~melissas/foothills/"
+      ],
       "resources": [
         {
           "type": "Facebook community",
@@ -909,7 +915,8 @@
       "description": null,
       "websites": [
         "http://amnesia.mytalker.org",
-        "http://amnesiahouse.org"
+        "http://amnesiahouse.org",
+        "http://yuss.org/~blimey"
       ],
       "wayback": "http://web.archive.org/web/20080330223653/http://www.trollied.org/~amnesia/index.php",
       "codebase": "talker",
@@ -926,7 +933,9 @@
       "name": "USS Enterprise NCC-1701-D",
       "dataOrigin": "spodlist",
       "description": null,
-      "websites": [],
+      "websites": [
+        "http://ncc.spod.org"
+      ],
       "screencaps": [
         "ncc.spod.org_1701.png"
       ],
@@ -991,12 +1000,14 @@
       "websites": [
         "http://www.sass.jg.ee"
       ],
+      "wayback": "https://web.archive.org/web/20150213212844/https://talker.sk/index.php",
       "screencaps": [
         "sass.jg.ee_2010.png"
       ],
       "hosts": [
         "sass.jg.ee:2010",
-        "altantis.sk"
+        "altantis.sk",
+        "altantis.talker.sk"
       ]
     },
     {
@@ -1289,7 +1300,8 @@
       "emails": [],
       "screencaps": [],
       "hosts": [
-        "wombat.tirsek.com:4000"
+        "wombat.tirsek.com:4000",
+        "tmp.talkerhost.com:3000"
       ]
     },
     {
@@ -1899,7 +1911,9 @@
       "description": null,
       "websites": [],
       "screencaps": [],
-      "hosts": []
+      "hosts": [
+        "tzone.homeip.net:5000"
+      ]
     },
     {
       "name": "Zeta Aquilae",
@@ -3670,6 +3684,16 @@
       ]
     },
     {
+      "name": "Theatre Des Vampires",
+      "description": "EW-too based telnet talker that has been up and running for two years. It's been home to a small, but growing community of residents interested in everything from vampires to books, music, digital art and the supernatural.",
+      "emails": [],
+      "websites": [
+        "http://www.cynage.com/theatre/"
+      ],
+      "screencaps": [],
+      "hosts": []
+    },
+    {
       "name": "Shadow Realms",
       "description": "A talker designed to run the White Wolf (tm) World of Darkness System (tm). Incorporates Vampires, Werewolves, Changelings and Wraiths with the aid of storytellers.",
       "codebase": "ewtoo",
@@ -3863,17 +3887,6 @@
       ]
     },
     {
-      "name": "Sexual Desires",
-      "description": null,
-      "dataOrigin": "doughnuts",
-      "emails": [],
-      "websites": [],
-      "screencaps": [],
-      "hosts": [
-        "sexual-desires.org:5555"
-      ]
-    },
-    {
       "name": "Soaring Emporium",
       "description": null,
       "dataOrigin": "doughnuts",
@@ -3892,7 +3905,8 @@
       "websites": [],
       "screencaps": [],
       "hosts": [
-        "tdf.ca:2121"
+        "tdf.ca:2121",
+        "darkages.darkfantastic.net:2121"
       ]
     },
     {
@@ -4366,6 +4380,186 @@
       "screencaps": [],
       "hosts": [
         "void.greenfinch.com:1234"
+      ]
+    },
+    {
+      "name": "Palace Of Pleasures",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "binhost.com:9990"
+      ]
+    },
+    {
+      "name": "Baren Touhk",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "barentouhk.com:3050"
+      ]
+    },
+    {
+      "name": "Bondage Bay",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "bondagebay.dune.net:6006"
+      ]
+    },
+    {
+      "name": "Cafee",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "cafe.ee"
+      ]
+    },
+    {
+      "name": "CrossTalker",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "derrecklowe.name:1337"
+      ]
+    },
+    {
+      "name": "E N E R G Y",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "energy.talker.ee:5555"
+      ]
+    },
+    {
+      "name": "Euclid Bullet",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "euclid.earth.ox.ac.uk:23"
+      ]
+    },
+    {
+      "name": "The Forever Beyond",
+      "description": "tdf",
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "foreverbeyond.org:7000"
+      ]
+    },
+    {
+      "name": "Lara",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "lara.dune.net"
+      ]
+    },
+    {
+      "name": "The Leisure Zone",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "leisure.omnifarious.org:3000"
+      ]
+    },
+    {
+      "name": "Ennersea",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "mush.ennersea.net:4201"
+      ]
+    },
+    {
+      "name": "Flirt Town",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "talker.com:3200"
+      ]
+    },
+    {
+      "name": "Whole Year Inn",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "sycotic-asylum.com:3300"
+      ]
+    },
+    {
+      "name": "Castle Corners",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "talker.com:6789"
+      ]
+    },
+    {
+      "name": "Iron Rose",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "talker.ironrose.org:3000"
+      ]
+    },
+    {
+      "name": "Ice Fire",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "talker.ironrose.org:7000"
+      ]
+    },
+    {
+      "name": "Portugal Medieval",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "talkerspt.no-ip.org:10000"
+      ]
+    },
+    {
+      "name": "Club Life",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "tdf.ca:7000"
+      ]
+    },
+    {
+      "name": "Eternal Covenant",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "tangent.dune.net:2001"
+      ]
+    },
+    {
+      "name": "Winter's Edge",
+      "description": null,
+      "dataOrigin": "tdf",
+      "screencaps": [],
+      "hosts": [
+        "winter.mushpark.com:3000"
       ]
     },
     {
