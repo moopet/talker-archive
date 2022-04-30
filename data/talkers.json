@@ -688,8 +688,30 @@
       ],
       "hosts": [
         "revivaltalker.com:7779",
+        "revival.talkerhome.com:7779",
         "revival.pgplus.org:8000",
         "talker.pgplus.org:8000"
+      ]
+    },
+    {
+      "name": "Reunion",
+      "dataOrigin": "facebook",
+      "description": null,
+      "websites": [],
+      "wayback": null,
+      "codebase": "pgplus",
+      "resources": [],
+      "screencaps": [],
+      "resources": [
+        {
+          "type": "Facebook community",
+          "icon": "Facebook",
+          "name": "Reunion Talker",
+          "url": "https://www.facebook.com/group.php?gid=42072468575"
+        }
+      ],
+      "hosts": [
+        "reuniontalker.co.uk:4000"
       ]
     },
     {
