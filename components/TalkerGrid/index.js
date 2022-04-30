@@ -2,15 +2,17 @@ import { useEffect, useState } from "react";
 import Grid from '@mui/material/Grid';
 import PhotoIcon from '@mui/icons-material/Photo';
 import TextField from '@mui/material/TextField';
-import ToggleButton from '@mui/material/ToggleButton';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import Switch from '@mui/material/Switch';
+import FormControlLabel from '@mui/material/FormControlLabel';
 import Toolbar from '@mui/material/Toolbar';
 import TalkerCard from '../TalkerCard';
 
 const TalkerGrid = ({ talkers }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredItems, setFilteredItems] = useState(talkers);
-  const [filters, setFilters] = useState(['screencap']);
+  const [filters, setFilters] = useState({
+    screencap: true
+  });
 
   const talkerGridItems = filteredItems.map((talker, index) => {
     return (
@@ -24,7 +26,7 @@ const TalkerGrid = ({ talkers }) => {
     setFilteredItems(
       talkers
         .filter(talker => talker.name.toLowerCase().indexOf(searchTerm) !== -1)
-        .filter(talker => (talker?.screencaps?.length || filters.indexOf('screencap') === -1))
+        .filter(talker => talker?.screencaps?.length || !filters.screencap)
     );
   }, [searchTerm, filters]);
 
@@ -32,24 +34,23 @@ const TalkerGrid = ({ talkers }) => {
     setSearchTerm(event.target.value.trim().toLowerCase());
   };
 
-  const handleFilters = (event, newFilters) => {
-    setFilters(newFilters);
+  const handleFilters = (event) => {
+    const { value, checked } = event.target;
+
+    setFilters(oldFilters => ({...oldFilters, [value]: checked}));
   };
 
   return (
     <>
-    <Toolbar disableGutters sx={{display: "flex", justifyContent: "space-between", marginBottom:2}}>
+      <Toolbar disableGutters sx={{display: "flex", justifyContent: "space-between", marginBottom:2}}>
         <TextField variant="outlined" placeholder="Filter..." onChange={handleSearch} />
 
-        <ToggleButtonGroup
-          value={filters}
-          onChange={handleFilters}
-          aria-label="result filters"
-        >
-          <ToggleButton value="screencap" aria-label="only show talkers with screen captures">
-            <PhotoIcon />
-          </ToggleButton>
-        </ToggleButtonGroup>
+        <FormControlLabel
+          control={<Switch defaultChecked onChange={handleFilters} />}
+          label="hide talkers without screenshots"
+          labelPlacement="start"
+          value="screencap"
+        />
       </Toolbar>
 
       <Grid container spacing={4}>{talkerGridItems}</Grid>
