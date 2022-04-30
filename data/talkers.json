@@ -951,6 +951,14 @@
       "dataOrigin": "spodlist",
       "description": null,
       "websites": [],
+      "resources": [
+        {
+          "type": "Facebook community",
+          "name": "Forest",
+          "icon": "Facebook",
+          "url": "https://www.facebook.com/groups/5190394930/"
+        }
+      ],
       "emails": [
         "forest@realm.progsoc.uts.edu.au"
       ],
@@ -1458,8 +1466,9 @@
       "name": "Emerald Isle",
       "dataOrigin": "spodlist",
       "description": null,
+      "ewtooAbbr": "ei",
       "websites": [
-        "http://emisle.com"
+        "http://www.emisle.com"
       ],
       "resources": [
         {
@@ -1469,8 +1478,12 @@
           "url": "https://www.facebook.com/groups/2400110497/"
         }
       ],
-      "screencaps": [],
-      "emails": [],
+      "screencaps": [
+        "emisle.org_5000"
+      ],
+      "emails": [
+        "emerald@emisle.com"
+      ],
       "hosts": [
         "emisle.com:5000"
       ]
