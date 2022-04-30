@@ -66,6 +66,12 @@
       "url": "https://www.facebook.com/groups/16741607961/"
     },
     {
+      "type": "Facebook group",
+      "icon": "Facebook",
+      "name": "The Internet Talker Guru's",
+      "url": "https://www.facebook.com/groups/6074588678/"
+    },
+    {
       "type": "Livejournal community",
       "icon": "Article",
       "name": "Talker spods' Journal",
@@ -702,6 +708,9 @@
       "codebase": "pgplus",
       "resources": [],
       "screencaps": [],
+      "emails": [
+        "dave@reuniontalker.co.uk"
+      ],
       "resources": [
         {
           "type": "Facebook community",
