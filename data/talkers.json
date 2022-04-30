@@ -1437,10 +1437,12 @@
       "dataOrigin": "spodlist",
       "description": null,
       "websites": [],
+      "wayback": "http://www.truefriends.org.uk/",
       "screencaps": [
         "truefriends.org.uk_3000.png"
       ],
       "hosts": [
+        "mr-chatterbox.allness.net:3000",
         "truefriends.org.uk:3000"
       ]
     },
