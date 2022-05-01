@@ -6,7 +6,6 @@ import Typography from '@mui/material/Typography';
 import slugify from 'slugify';
 
 import ContactList from '../../components/ContactList';
-import Footer from '../../components/Footer';
 import Hero from '../../components/Hero';
 import HostList from '../../components/HostList';
 import Navigation from '../../components/Navigation';
@@ -38,6 +37,19 @@ const TalkerDetails = () => {
   let resources = talker?.resources ?? [];
   const screencap = `/screencaps/${talker?.screencaps?.length ? talker.screencaps[0] : 'placeholder.png'}`;
 
+  if (talker?.ewtooAbbr) {
+    const ewtooUrl = `http://list.ewtoo.org/details.cgi?abbr=${talker.ewtooAbbr}`;
+
+    resources = resources.filter(resource => resource.url != ewtooUrl);
+
+    resources.push({
+      name: talker.name,
+      type: "Grim's list entry",
+      icon: null,
+      url: ewtooUrl
+    });
+  }
+
   if (talker?.wayback) {
     resources = resources.filter(resource => resource.url != talker.wayback);
 
@@ -47,6 +59,28 @@ const TalkerDetails = () => {
       icon: "History",
       url: talker.wayback
     });
+  }
+
+  let citation = '';
+
+  if (talker?.dataOrigin?.length && data.dataOrigins.hasOwnProperty(talker.dataOrigin)) {
+    citation = `Information presented here was - at least in part - provided by ${data.dataOrigins[talker.dataOrigin].name}.`
+  }
+
+  let codeDescription = '';
+
+  if (talker?.codebase?.length) {
+    codeDescription = `The talker is (was?) based on ${talker.codebase}.`;
+
+    if (data.codebases.hasOwnProperty(talker.codebase)) {
+      const codebaseInfo = data.codebases[talker.codebase];
+
+      codeDescription = `The talker is (was?) based on ${codebaseInfo.name}`;
+
+      if (codebaseInfo.hasOwnProperty('family')) {
+        codeDescription += `, a ${data.codebases[codebaseInfo.family].name} derivative`;
+      }
+    }
   }
 
   return (
@@ -60,9 +94,24 @@ const TalkerDetails = () => {
           image={screencap}
         />
 
-        <Container sx={{ py: 8 }} maxWidth="xl">
-          <Grid container spacing={3} justifyContent="flex-start">
+        <Container sx={{ py: 2 }} maxWidth="xl">
+          {codeDescription &&
+            <Typography variant="body2" color="text.secondary" paragraph>
+              {codeDescription}.
+            </Typography>
+          }
 
+          {codeDescription &&
+            <Typography variant="body2" color="text.secondary" paragraph>
+              {citation}
+            </Typography>
+          }
+
+          <Typography variant="body2" color="text.secondary" paragraph>
+            It's <em>highly</em> likely that most of the links presented here haven't worked for years.
+          </Typography>
+
+          <Grid container sx={{ marginTop: 4}} spacing={3} justifyContent="flex-start">
             <Grid item xl={2} lg={3} md={4} sm={6} xs={12} >
               <HostList hosts={talker?.hosts ?? []} />
             </Grid>
@@ -86,8 +135,6 @@ const TalkerDetails = () => {
           </Grid>
         </Container>
       </main>
-
-      <Footer />
     </>
   );
 };

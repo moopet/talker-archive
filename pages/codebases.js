@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import CodebaseTable from '../components/CodebaseTable';
-import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import data from '../data/talkers.json';
 
@@ -35,8 +34,6 @@ const CodebasesPage = () => {
           <CodebaseTable codebases={data.codebases} />
         </Container>
       </main>
-
-      <Footer />
     </>
   );
 };

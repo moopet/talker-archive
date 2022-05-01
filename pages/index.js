@@ -5,7 +5,6 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 
-import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import TalkerGrid from '../components/TalkerGrid';
 import TalkerList from '../components/TalkerList';
@@ -64,8 +63,6 @@ const TalkerListPage = () => {
           <TalkerGrid talkers={talkers} />
         </Container>
       </main>
-
-      <Footer />
     </>
   );
 };

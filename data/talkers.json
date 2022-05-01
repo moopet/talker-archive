@@ -93,6 +93,12 @@
     }
   ],
   "dataOrigins": {
+    "facebook": {
+      "name": "Facebook group chats"
+    },
+    "user": {
+      "name": "unverified user submission"
+    },
     "ewtoo": {
       "name": "Silver's talker charts on ewtoo.org"
     },
@@ -112,6 +118,7 @@
     "amnuts": {
       "repo": "https://github.com/talkersource/amnuts",
       "name": "Andy's modified NUTS",
+      "family": "nuts",
       "platform": "*nix"
     },
     "cams": {
@@ -122,11 +129,13 @@
     "nuts": {
       "repo": null,
       "name": "NUTS",
+      "family": "nuts",
       "platform": "*nix"
     },
     "rnuts": {
       "repo": "https://github.com/talkersource/rnuts",
       "name": "rNUTS",
+      "family": "nuts",
       "platform": "*nix"
     },
     "talkernode": {
@@ -138,6 +147,7 @@
     "bolts": {
       "repo": "https://github.com/talkersource/bolts",
       "name": "BOLTS",
+      "family": "nuts",
       "platform": "*nix"
     },
     "ncohafmuta": {
@@ -156,22 +166,32 @@
       "repo": "https://github.com/talkers/pgplus",
       "name": "Playground '96",
       "platform": "*nix",
+      "family": "ewtoo",
       "language": "C"
     },
     "pgplus": {
       "repo": "https://github.com/talkers/pgplus",
       "name": "Playground+",
       "platform": "*nix",
+      "family": "ewtoo",
       "language": "C"
     },
     "summink": {
       "repo": null,
       "name": "Summink",
+      "family": "ewtoo",
       "platform": "*nix"
     },
-    "sensi": {
+    "sensipg": {
+      "repo": null,
+      "name": "Sensi-Playground",
+      "family": "ewtoo",
+      "platform": "*nix"
+    },
+    "sensisummink": {
       "repo": null,
       "name": "Sensi-Summink",
+      "family": "ewtoo",
       "platform": "*nix"
     },
     "talker": {
@@ -224,7 +244,7 @@
         "http://yuss.org/~muppet"
       ],
       "wayback": "https://web.archive.org/web/20030925183416/http://www.moopet.net/atlantis/",
-      "codebase": "sensi",
+      "codebase": "sensisummink",
       "screencaps": [
         "yuss.org_5050.png",
         "atlantis.org.uk_5050.png",
