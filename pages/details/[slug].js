@@ -108,7 +108,7 @@ const TalkerDetails = () => {
           }
 
           <Typography variant="body2" color="text.secondary" paragraph>
-            It's <em>highly</em> likely that most of the links presented here haven't worked for years.
+            It&apos;s <em>highly</em> likely that most of the links presented here haven&apos;t worked for years.
           </Typography>
 
           <Grid container sx={{ marginTop: 4}} spacing={3} justifyContent="flex-start">
