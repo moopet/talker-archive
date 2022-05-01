@@ -30,7 +30,7 @@ const TalkerGrid = ({ talkers }) => {
         .filter(talker => talker.name.toLowerCase().indexOf(searchTerm) !== -1)
         .filter(talker => talker?.screencaps?.length || !filters.screencap)
     );
-  }, [searchTerm, filters]);
+  }, [searchTerm, filters, talkers]);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value.trim().toLowerCase());
