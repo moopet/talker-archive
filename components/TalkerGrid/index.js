@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
-import Grid from '@mui/material/Grid';
-import PhotoIcon from '@mui/icons-material/Photo';
-import TextField from '@mui/material/TextField';
-import Switch from '@mui/material/Switch';
+import AppBar from '@mui/material/AppBar';
 import FormControlLabel from '@mui/material/FormControlLabel';
+import Grid from '@mui/material/Grid';
+import SearchIcon from '@mui/icons-material/Search';
+import Switch from '@mui/material/Switch';
+import TextField from '@mui/material/TextField';
 import Toolbar from '@mui/material/Toolbar';
+
 import TalkerCard from '../TalkerCard';
 
 const TalkerGrid = ({ talkers }) => {
@@ -42,18 +44,24 @@ const TalkerGrid = ({ talkers }) => {
 
   return (
     <>
-      <Toolbar disableGutters sx={{display: "flex", justifyContent: "space-between", marginBottom:2}}>
-        <TextField variant="outlined" placeholder="Filter..." onChange={handleSearch} />
+      <AppBar position="relative">
+        <Toolbar sx={{display: "flex", justifyContent: "space-between", marginTop: 1, marginBottom: 1}}>
+          <FormControlLabel
+            control={<TextField variant="outlined" placeholder="Filter..." onChange={handleSearch} />}
+            label={<SearchIcon sx={{ marginRight: 2 }}/>}
+            labelPlacement="start"
+          />
 
-        <FormControlLabel
-          control={<Switch defaultChecked onChange={handleFilters} />}
-          label="hide talkers without screenshots"
-          labelPlacement="start"
-          value="screencap"
-        />
-      </Toolbar>
+          <FormControlLabel
+            control={<Switch defaultChecked onChange={handleFilters} />}
+            label="hide talkers without screenshots"
+            labelPlacement="start"
+            value="screencap"
+          />
+        </Toolbar>
+      </AppBar>
 
-      <Grid container spacing={4}>{talkerGridItems}</Grid>
+      <Grid py={4} container spacing={4}>{talkerGridItems}</Grid>
     </>
   );
 };

@@ -50,6 +50,10 @@ const TalkerListPage = () => {
             </Typography>
 
             <Typography variant="body2" align="center" color="text.secondary" paragraph>
+              {data.talkers.length} talkers, to be precise.
+            </Typography>
+
+            <Typography variant="body2" align="center" color="text.secondary" paragraph>
               Some are still online...
               most, however, only live on in our memories.
             </Typography>
