@@ -1,6 +1,6 @@
-# Talker Archive.
+# Talker Archive
 
-This is the talker archive website which currently lives on a Vercel "hobby" instance running on [talker.moopet.net](https://talker.moopet.net).
+This is the talker archive website which currently lives on a Vercel "hobby" instance running on [talkers.moopet.net](https://talkers.moopet.net).
 
 It's a catalogue of ew-too/NUTS-style talkers from the early '90s to today. It's not intended to be up-to-date, it's for whatchacallit, _posterity_.
 
