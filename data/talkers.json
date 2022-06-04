@@ -4027,7 +4027,9 @@
       "dataOrigin": "facebook",
       "emails": [],
       "websites": [],
-      "screencaps": [],
+      "screencaps": [
+        "republic.snowplains.org_4001.png"
+      ],
       "hosts": [
         "republic.snowplains.org:4001"
       ]
