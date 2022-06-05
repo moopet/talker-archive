@@ -6,12 +6,28 @@ import Typography from '@mui/material/Typography';
 import Navigation from '../components/Navigation';
 import ResourceList from '../components/ResourceList';
 
-import data from '../data/talkers.json';
+import { resources } from '../data/talkers.json';
 
 const ResourcesPage = () => {
-  const resources = data.resources.sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
+  const resourceTypes = {
+    article: [
+      "article",
+    ],
+    community: [
+      "livejournal community",
+      "facebook group",
+      "twitter",
+      "newsgroup",
+    ],
+    sourceCode: [
+      "repository",
+    ],
+    other: [
+      "hosting",
+      "fandom entry",
+      "website",
+    ],
+  };
 
   return (
     <>
@@ -43,28 +59,28 @@ const ResourcesPage = () => {
             <Grid item xs={12} sm={6} md={4} xl={3}>
               <ResourceList
                 title="Articles"
-                resources={resources.filter(resource => resource.type == "Article")}
+                resources={resources.filter(resource => resourceTypes.article.includes(resource.type.toLowerCase()))}
               />
             </Grid>
 
             <Grid item xs={12} sm={6} md={4} xl={3}>
               <ResourceList
                 title="Community"
-                resources={resources.filter(resource => ["Facebook group", "Livejournal community", "Newsgroup", "Twitter"].indexOf(resource.type) !== -1)}
+                resources={resources.filter(resource => resourceTypes.community.includes(resource.type.toLowerCase()))}
               />
             </Grid>
 
             <Grid item xs={12} sm={6} md={4} xl={3}>
               <ResourceList
                 title="Source code"
-                resources={resources.filter(resource => resource.type == "Repository")}
+                resources={resources.filter(resource => resourceTypes.sourceCode.includes(resource.type.toLowerCase()))}
               />
             </Grid>
 
             <Grid item xs={12} sm={6} md={4} xl={3}>
               <ResourceList
                 title="Other"
-  resources={resources.filter(resource => ["Article", "Facebook group", "Livejournal community","Twitter", "Newsgroup", "Repository"].indexOf(resource.type) === -1)}
+                resources={resources.filter(resource => resourceTypes.other.includes(resource.type.toLowerCase()))}
               />
             </Grid>
           </Grid>

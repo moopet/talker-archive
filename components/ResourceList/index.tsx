@@ -7,7 +7,7 @@ import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
 interface Resource {
-  name: string,
+  name?: string,
   description?: string,
   url: string,
   'type': string
@@ -22,11 +22,33 @@ const ResourceList = ({title = "Other resources", resources}: ResourceListProps)
   let resourceListItems = [<EmptyListItem key="resource-none" />];
 
   if (resources.length) {
-    resourceListItems = resources.map((resource, index) => {
+    const sortedResources = resources.sort((a, b) => {
+      const aHasName = typeof a.name !== "undefined";
+      const bHasName = typeof b.name !== "undefined";
+
+      if (aHasName && !bHasName) {
+        return 1;
+      }
+
+      if (bHasName && !aHasName) {
+        return -1;
+      }
+
+      if (!aHasName && !aHasName) {
+        return 0;
+      }
+
+      return a.name.localeCompare(b.name);
+    });
+
+    resourceListItems = sortedResources.map((resource, index) => {
+      const name = resource.name ?? resource.url;
+      const url = resource.type === 'email' ? `mailto:${resource.url}` : resource.url;
+
       return (
-        <ListItem disableGutters key={`resource-${index}`}>
+        <ListItem disableGutters key={`resource-${resource.type}-${index}`}>
           <ListItemText secondary={resource.description ?? resource.type}>
-            <Link href={resource.url}>{resource.name}</Link>
+            <Link href={url}>{name}</Link>
           </ListItemText>
         </ListItem>
       );
