@@ -7,7 +7,11 @@ import Link from '@mui/material/Link';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
-const Navigation = (props) => {
+interface NavigationProps {
+  title?: string
+}
+
+const Navigation = (props: NavigationProps) => {
   let title = "Talker archive";
 
   if (props?.title) {
@@ -32,12 +36,6 @@ const Navigation = (props) => {
           spacing={2}
           divider={<Divider orientation="vertical" flexItem />}
         >
-    {/*
-          <Link href="/codebases">
-            Codebases
-          </Link>
-          */}
-
           <Link href="/resources">
             Resources
           </Link>

@@ -5,9 +5,13 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-const ScreenCapturesList = (props) => {
-  const { screencaps } = props;
-  let screencapListItems = <EmptyListItem />;
+interface ScreenCapturesListProps {
+  title?: string,
+  screencaps: string[]
+}
+
+const ScreenCapturesList = ({title = "Other screen captures", screencaps}: ScreenCapturesListProps) => {
+  let screencapListItems = [<EmptyListItem key="screencap-none" />];
 
   if (screencaps.length > 1) {
     screencapListItems = screencaps.slice(1).map((screencap, index) => {
@@ -25,7 +29,7 @@ const ScreenCapturesList = (props) => {
   }
 
   return (
-    <List subheader={props?.title || "Other screen captures"}>
+    <List subheader={title}>
       <Divider />
       {screencapListItems}
     </List>
@@ -33,4 +37,3 @@ const ScreenCapturesList = (props) => {
 };
 
 export default ScreenCapturesList;
-

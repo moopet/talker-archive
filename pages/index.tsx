@@ -7,8 +7,6 @@ import Link from '@mui/material/Link';
 
 import Navigation from '../components/Navigation';
 import TalkerGrid from '../components/TalkerGrid';
-import TalkerList from '../components/TalkerList';
-import TalkerTable from '../components/TalkerTable';
 import data from '../data/talkers.json';
 
 const TalkerListPage = () => {
@@ -19,7 +17,7 @@ const TalkerListPage = () => {
       return false;
     }
 
-    if (hideEmptyEntries && !talker?.screencaps?.lengths && !talker?.emails?.length && !talker?.websites?.length ) {
+    if (hideEmptyEntries && !talker?.screencaps?.length && !talker?.emails?.length && !talker?.websites?.length ) {
       return false;
     }
 

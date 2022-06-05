@@ -14,28 +14,70 @@ import ScreenCapturesList from '../../components/ScreenCapturesList';
 import WebsiteList from '../../components/WebsiteList';
 import data from '../../data/talkers.json';
 
+interface DataOrigin {
+  name: string
+}
+
+interface Resource {
+  name: string,
+  'type': string,
+  url: string
+}
+
+interface Codebase {
+  name: string,
+  family?: string,
+  platform?: string,
+  repo?: string
+}
+
+interface Talker {
+  adult?: boolean,
+  codebase?: string,
+  dataOrigin?: string,
+  description?: string,
+  emails?: string[],
+  ewtooAbbr?: string,
+  hosts?: string[]
+  name: string,
+  resources?: Resource[]
+  screencaps?: string[],
+  textcaps?: string[],
+  wayback?: string[],
+  websites?: string[],
+}
+
+interface Data {
+  codebases: Codebase[],
+  dataOrigins: DataOrigin[],
+  resources: Resource[],
+  talkers: Talker[]
+}
+
 const TalkerDetails = () => {
   const router = useRouter();
   const { slug } = router.query;
 
   const ignoreWords = new RegExp(/^(the|a)[^a-z]+/, 'i');
 
-  const talkers = data.talkers.filter(talker => {
+  const talkers: Talker[] = data.talkers.filter(talker => {
     const testSlug = slugify(talker.name.replace(ignoreWords, ""), {lower: true});
 
     return !talker?.hide && testSlug == slug;
   });
 
-  if (!talkers.length) {
+  if (talkers.length === 0) {
     return;
   }
 
-  const talker = talkers[0];
+  const talker: Talker = talkers[0];
 
-  const emails = talker?.emails ?? [];
-  const hosts = talker?.hosts ?? [];
-  let resources = talker?.resources ?? [];
-  const screencap = `/screencaps/${talker?.screencaps?.length ? talker.screencaps[0] : 'placeholder.png'}`;
+  const emails: string[] = talker?.emails ?? [];
+  const hosts: string[] = talker?.hosts ?? [];
+  let resources: Resource[] = talker?.resources ?? [];
+  const screencaps: string[] = talker?.screencaps ?? [];
+  const screencap: string = `/screencaps/${screencaps.length > 0 ? screencaps[0] : 'placeholder.png'}`;
+  const waybackUrls: string[] = talker?.wayback ?? [];
 
   if (talker?.ewtooAbbr) {
     const ewtooUrl = `http://list.ewtoo.org/details.cgi?abbr=${talker.ewtooAbbr}`;
@@ -45,31 +87,31 @@ const TalkerDetails = () => {
     resources.push({
       name: talker.name,
       type: "Grim's list entry",
-      icon: null,
       url: ewtooUrl
     });
   }
 
-  if (talker?.wayback) {
-    resources = resources.filter(resource => resource.url != talker.wayback);
+  if (waybackUrls.length > 0) {
+    resources = resources.filter(resource => !waybackUrls.includes(resource.url));
 
-    resources.push({
-      name: "Website snapshot",
-      type: "Wayback machine archive",
-      icon: "History",
-      url: talker.wayback
+    waybackUrls.forEach(url => {
+      resources.push({
+        name: "Website snapshot",
+        type: "Wayback machine archive",
+        url
+      });
     });
   }
 
   let citation = '';
 
-  if (talker?.dataOrigin?.length && data.dataOrigins.hasOwnProperty(talker.dataOrigin)) {
+  if (talker?.dataOrigin?.length > 0 && data.dataOrigins.hasOwnProperty(talker.dataOrigin)) {
     citation = `Information presented here was - at least in part - provided by ${data.dataOrigins[talker.dataOrigin].name}.`
   }
 
   let codeDescription = '';
 
-  if (talker?.codebase?.length) {
+  if (talker?.codebase) {
     codeDescription = `The talker is (was?) based on ${talker.codebase}.`;
 
     if (data.codebases.hasOwnProperty(talker.codebase)) {

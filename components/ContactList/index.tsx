@@ -5,9 +5,13 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-const ContactList = (props) => {
-  const { contacts } = props;
-  let contactListItems = <EmptyListItem />;
+interface ContactListProps {
+  title?: string,
+  contacts: string[]
+}
+
+const ContactList = ({ title = "Contacts", contacts }: ContactListProps) => {
+  let contactListItems = [<EmptyListItem key="contact-none" />];
 
   if (contacts.length) {
     contactListItems = contacts.map((contact, index) => {
@@ -22,7 +26,7 @@ const ContactList = (props) => {
   }
 
   return (
-    <List subheader={props?.title || "Contacts"}>
+    <List subheader={title}>
       <Divider />
       {contactListItems}
     </List>

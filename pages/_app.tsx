@@ -1,3 +1,4 @@
+import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -10,7 +11,7 @@ const theme = createTheme({
   }
 });
 
-function App({ Component, pageProps }) {
+function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   return (
@@ -22,4 +23,4 @@ function App({ Component, pageProps }) {
   );
 }
 
-export default App
+export default App;

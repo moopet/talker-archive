@@ -5,9 +5,13 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-const WesbiteList = (props) => {
-  const { websites } = props;
-  let websiteListItems = <EmptyListItem />;
+interface WebsiteListProps {
+  title?: string,
+  websites: string[]
+}
+
+const WesbiteList = ({title = "Websites", websites}: WebsiteListProps) => {
+  let websiteListItems = [<EmptyListItem key="website-none" />];
 
   if (websites.length) {
     websiteListItems = websites.map((website, index) => {
@@ -22,7 +26,7 @@ const WesbiteList = (props) => {
   }
 
   return (
-    <List subheader={props?.title || "Websites"}>
+    <List subheader={title}>
       <Divider />
       {websiteListItems}
     </List>

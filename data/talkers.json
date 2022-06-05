@@ -111,9 +111,7 @@
   },
   "codebases": {
     "http": {
-      "repo": null,
-      "name": "HTTP Chat",
-      "platform": null
+      "name": "HTTP Chat"
     },
     "amnuts": {
       "repo": "https://github.com/talkersource/amnuts",
@@ -122,12 +120,10 @@
       "platform": "*nix"
     },
     "cams": {
-      "repo": null,
       "name": "CAMS",
       "plaform": "*nix"
     },
     "nuts": {
-      "repo": null,
       "name": "NUTS",
       "family": "nuts",
       "platform": "*nix"
@@ -153,8 +149,7 @@
     "ncohafmuta": {
       "repo": "http://ncohafmuta.net/index.shtml",
       "name": "Ncohafmuta",
-      "platform": "*nix",
-      "language": null
+      "platform": "*nix"
     },
     "ewtoo": {
       "repo": "https://github.com/talkersource/ew-too",
@@ -177,19 +172,16 @@
       "language": "C"
     },
     "summink": {
-      "repo": null,
       "name": "Summink",
       "family": "ewtoo",
       "platform": "*nix"
     },
     "sensipg": {
-      "repo": null,
       "name": "Sensi-Playground",
       "family": "ewtoo",
       "platform": "*nix"
     },
     "sensisummink": {
-      "repo": null,
       "name": "Sensi-Summink",
       "family": "ewtoo",
       "platform": "*nix"
@@ -205,7 +197,6 @@
       "name": "The A-Team",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "ateam",
-      "description": null,
       "websites": [],
       "screencaps": [
         "ateam.darksilence.net_1972.png"
@@ -233,7 +224,6 @@
     {
       "name": "Atlantis",
       "dataOrigin": "spodlist",
-      "description": null,
       "ewtooAbbr": "atl",
       "emails": [
         "atlantis@atlantis.org",
@@ -243,7 +233,9 @@
         "http://atlantis.org.uk",
         "http://yuss.org/~muppet"
       ],
-      "wayback": "https://web.archive.org/web/20030925183416/http://www.moopet.net/atlantis/",
+      "wayback": [
+        "https://web.archive.org/web/20030925183416/http://www.moopet.net/atlantis/"
+      ],
       "codebase": "sensisummink",
       "screencaps": [
         "yuss.org_5050.png",
@@ -259,7 +251,6 @@
     {
       "name": "Wilderness Chat",
       "codebase": "cams",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -269,7 +260,6 @@
     {
       "name": "Bag End",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "bagend.tzo.org_2060.png"
@@ -282,7 +272,6 @@
       "name": "Brigandine",
       "ewtooAbbr": "brigandine",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://brigandine.org/",
         "http://bandicoot.merseine.nu/~talker/"
@@ -311,7 +300,6 @@
     },
     {
       "name": "Forgotten Island",
-      "description": null,
       "websites": [
         "http://island.talkernet.net"
       ],
@@ -326,7 +314,6 @@
       "name": "Blame Canada",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "BC",
-      "description": null,
       "websites": [],
       "screencaps": [
         "blamecanada.bering.gl_1977_2.png",
@@ -339,7 +326,6 @@
     {
       "name": "The 'Burbs",
       "dataOrigin": "spodlist",
-      "description": null,
       "ewtooAbbr": "Burbs",
       "websites": [
         "http://www.burbs.org"
@@ -360,11 +346,15 @@
       "name": "Camelot",
       "dataOrigin": "spodlist",
       "description": "An all ages talker embracing the romance from the greatest legend ever -- Camelot. There is a collection of files online dealing with romance and relationships that is avaiable to all users. The staff is friendly and courteous, and atmosphere is light and fun. Many socials and original features are there to make your stay as enjoyable as possible.",
-      "emails": "camelot@talker.com",
+      "emails": [
+        "camelot@talker.com"
+      ],
       "websites": [
         "http://www.talker.com/camelot"
       ],
-      "wayback": "https://web.archive.org/web/19990220071148/http://talker.com/camelot",
+      "wayback": [
+        "https://web.archive.org/web/19990220071148/http://talker.com/camelot"
+      ],
       "screencaps": [
         "vampire.dune.net_3333.png",
         "camelot.subnigra.com_8888.png",
@@ -381,11 +371,12 @@
     {
       "name": "Castle",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://www.castle2k.org.uk"
       ],
-      "wayback": "https://web.archive.org/web/20030215131935/http://www.castle2k.org.uk/",
+      "wayback": [
+        "https://web.archive.org/web/20030215131935/http://www.castle2k.org.uk/"
+      ],
       "codebase": "pgplus",
       "screencaps": [
         "castle2k.org.uk_5050.png"
@@ -399,7 +390,6 @@
       "ewtooAbbr": "Caves",
       "dataOrigin": "spodlist",
       "codebase": "ewtoo",
-      "description": null,
       "websites": [
         "http://www.caves.uk.net"
       ],
@@ -417,7 +407,6 @@
       "dataOrigin": "spodlist",
       "ewtooAbbr": "Cntprk",
       "codebase": "pgplus",
-      "description": null,
       "websites": [
         "http://centralperk.us"
       ],
@@ -438,7 +427,6 @@
     {
       "name": "BOBNet",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "cheekynet.com.au_4242.png"
@@ -474,7 +462,6 @@
     {
       "name": "Crazylands",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "crazylands.org_6969.png"
@@ -486,7 +473,6 @@
     {
       "name": "Cultural Wasteland",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://culturalwasteland.tv/"
       ],
@@ -503,7 +489,6 @@
     },
     {
       "name": "FurryMUCK",
-      "description": null,
       "websites": [
         "http://www.furrymuck.com/"
       ],
@@ -519,7 +504,6 @@
       "name": "Cut",
       "ewtooAbbr": "cut",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "cut.pre.org_4040.png"
@@ -531,7 +515,6 @@
     {
       "name": "Marooned",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "ddngr.org.uk_4001.png"
@@ -543,7 +526,6 @@
     {
       "name": "The Pub",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://thepub.doughnuts.co.uk"
       ],
@@ -557,7 +539,6 @@
     {
       "name": "Tasmania",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "draconic.fyremoon.net_2424.png"
@@ -568,7 +549,6 @@
     },
     {
       "name": "Fractured Singularity",
-      "description": null,
       "websites": [],
       "screencaps": [
         "dune.net_4560.png"
@@ -579,7 +559,6 @@
     },
     {
       "name": "Infinite Spirit",
-      "description": null,
       "dataOrigin": "spodlist",
       "websites": [
         "http://www.anarch.org"
@@ -597,7 +576,6 @@
     {
       "name": "Dusk Till Dawn",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "duskdawn.mytalker.org_4444.png"
@@ -609,7 +587,6 @@
     {
       "name": "Law And Order",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "eeek.org.uk_3000.png"
@@ -621,7 +598,6 @@
     {
       "name": "The Airport",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "eeek.org.uk_4321.png"
@@ -633,7 +609,6 @@
     {
       "name": "Hollywood Central",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "eeek.org.uk_5000.png"
@@ -645,7 +620,6 @@
     {
       "name": "Elemental World",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://www.elementalworld.net"
       ],
@@ -674,7 +648,6 @@
     {
       "name": "Snowplains",
       "dataOrigin": "spodlist",
-      "description": null,
       "ewtooAbbr": "SP",
       "websites": [],
       "emails": [
@@ -698,11 +671,10 @@
     {
       "name": "Revival",
       "dataOrigin": "facebook",
-      "description": null,
       "websites": [
         "http://www.revivaltalker.com"
       ],
-      "wayback": null,
+      "wayback": [], 
       "codebase": "pgplus",
       "resources": [
         {
@@ -725,9 +697,8 @@
     {
       "name": "Reunion",
       "dataOrigin": "facebook",
-      "description": null,
       "websites": [],
-      "wayback": null,
+      "wayback": [],
       "codebase": "pgplus",
       "resources": [],
       "screencaps": [],
@@ -749,7 +720,6 @@
     {
       "name": "Unknown",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "ewtoo.org_5252.png"
@@ -761,12 +731,10 @@
     {
       "name": "Cat Chat",
       "codebase": "lpmud",
-      "description": null,
       "resources": [
         {
           "type": "Fandom entry",
           "name": "Cat Chat",
-          "icon": null,
           "url": "https://muds.fandom.com/wiki/Cat_Chat"
         }
       ],
@@ -777,7 +745,6 @@
     {
       "name": "UglyMUG",
       "dataOrigin": "user",
-      "description": null,
       "emails": [
         "suggestions@uglymug.org.uk"
       ],
@@ -793,19 +760,16 @@
     },
     {
       "name": "Cheeseplants House",
-      "description": null,
       "codebase": "ewtoo",
       "resources": [
         {
           "type": "Cheeseplant's thoughts",
           "name": "Cheeseplant's House",
-          "icon": null,
           "url": "http://www.cheeseplant.org/~daniel/pages/cph.html"
         },
         {
           "type": "Fandom entry",
           "name": "Cheeseplant's House",
-          "icon": null,
           "url": "https://muds.fandom.com/wiki/Cheeseplant%27s_House"
         }
       ],
@@ -819,7 +783,6 @@
     {
       "name": "Vineyard",
       "dataOrigin": "user",
-      "description": null,
       "codebase": "ewtoo",
       "websites": [],
       "screencaps": [],
@@ -828,7 +791,6 @@
     {
       "name": "Elsewhere",
       "dataOrigin": "user",
-      "description": null,
       "codebase": "ewtoo",
       "websites": [],
       "screencaps": [],
@@ -839,7 +801,6 @@
     {
       "name": "Somewhere Else",
       "dataOrigin": "user",
-      "description": null,
       "codebase": "ewtoo",
       "websites": [],
       "screencaps": [],
@@ -849,7 +810,6 @@
       "name": "Foothills",
       "ewtooAbbr": "fh",
       "dataOrigin": "spodlist",
-      "description": null,
       "codebase": "ewtoo",
       "websites": [
         "http://foothills.tk",
@@ -881,7 +841,6 @@
     },
     {
       "name": "Tombstone",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": []
@@ -889,7 +848,6 @@
     {
       "name": "Inspector Gadget's Talker",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "gadget.ewtoo.org_7000.png"
@@ -901,7 +859,6 @@
     {
       "name": "ICE-II - The Re-Freeze",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "codebase": "ICE",
       "screencaps": [
@@ -913,7 +870,6 @@
     },
     {
       "name": "Island",
-      "description": null,
       "websites": [],
       "ewtooAbbr": "isl",
       "screencaps": [
@@ -927,7 +883,6 @@
     {
       "name": "Astral Planes",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "madrory.com_4444.png"
@@ -939,7 +894,6 @@
     {
       "name": "The Crystal Labyrinth",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://magic.kicks-ass.org"
       ],
@@ -953,7 +907,6 @@
     {
       "name": "Comatose: Blissful Sleep",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "mysterious.mytalker.org_9999.png"
@@ -966,13 +919,14 @@
     {
       "name": "Amnesia House",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://amnesia.mytalker.org",
         "http://amnesiahouse.org",
         "http://yuss.org/~blimey"
       ],
-      "wayback": "http://web.archive.org/web/20080330223653/http://www.trollied.org/~amnesia/index.php",
+      "wayback": [
+        "http://web.archive.org/web/20080330223653/http://www.trollied.org/~amnesia/index.php"
+      ],
       "codebase": "talker",
       "screencaps": [
         "mytalker.org_2222.png"
@@ -986,7 +940,6 @@
     {
       "name": "USS Enterprise NCC-1701-D",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://ncc.spod.org"
       ],
@@ -1000,7 +953,6 @@
     {
       "name": "Cats Cradle",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "phoenix.lsds.com_9876.png"
@@ -1012,7 +964,6 @@
     {
       "name": "Forest",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "resources": [
         {
@@ -1035,7 +986,6 @@
     {
       "name": "The Gimp",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "redclaw.org.uk_7777.png"
@@ -1050,11 +1000,12 @@
       "codebase": "nuts",
       "ewtooAbbr": "s2k",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://www.sass.jg.ee"
       ],
-      "wayback": "https://web.archive.org/web/20150213212844/https://talker.sk/index.php",
+      "wayback": [
+        "https://web.archive.org/web/20150213212844/https://talker.sk/index.php"
+      ],
       "screencaps": [
         "sass.jg.ee_2010.png"
       ],
@@ -1067,7 +1018,6 @@
     {
       "name": "The Magic Toaster",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "sirius.zepa.net_8500.png"
@@ -1080,7 +1030,6 @@
       "name": "Spod.org",
       "ewtooAbbr": "spod.org",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "spod.org_2010.png"
@@ -1093,7 +1042,6 @@
       "name": "The Pleasuredome",
       "ewtooAbbr": "dome",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "spod.org_3003.png"
@@ -1104,7 +1052,6 @@
     },
     {
       "name": "Glantri's Labyrinth II",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [
         "glantri@talker.com"
@@ -1155,7 +1102,6 @@
       "name": "TW's Talker",
       "ewtooAbbr": "tws",
       "dataOrigin": "spodlist",
-      "description": null,
       "emails": [
         "talker@rekka.net"
       ],
@@ -1172,7 +1118,6 @@
     {
       "name": "Eire",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "tb.yi.org_1221.png"
@@ -1184,7 +1129,6 @@
     {
       "name": "Dark Shadows",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "ewtooAbbr": "ds",
       "emails": [
@@ -1201,7 +1145,6 @@
     {
       "name": "Dark Sins",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
       "screencaps": [
         "tdf.ca_8888.png"
@@ -1213,7 +1156,6 @@
     {
       "name": "The Resort",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://www.resort.org"
       ],
@@ -1230,7 +1172,6 @@
     },
     {
       "name": "Marble Madness",
-      "description": null,
       "websites": [],
       "emails": [],
       "screencaps": [],
@@ -1241,7 +1182,6 @@
     {
       "name": "Surfers",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "http://surfers.org"
       ],
@@ -1285,7 +1225,6 @@
     {
       "name": "The World",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [
         "https://nosuchluck.incredulous.org",
         "https://slack.nosuchluck.net"
@@ -1301,7 +1240,6 @@
     },
     {
       "name": "IdleToo",
-      "description": null,
       "dataOrigin": "ewtoo",
       "ewtooAbbr": "idletoo",
       "websites": [],
@@ -1314,7 +1252,6 @@
     {
       "name": "London: Parliament of Blood",
       "ewtooAbbr": "LondonPOB",
-      "description": null,
       "dataOrigin": "ewtoo",
       "websites": [],
       "emails": [],
@@ -1325,7 +1262,6 @@
     },
     {
       "name": "Don't Panic",
-      "description": null,
       "ewtooAbbr": "DPanic",
       "dataOrigin": "ewtoo",
       "websites": [],
@@ -1337,7 +1273,6 @@
     },
     {
       "name": "Playground Too",
-      "description": null,
       "dataOrigin": "ewtoo",
       "websites": [],
       "emails": [],
@@ -1349,7 +1284,6 @@
     {
       "name": "The Meeting Place",
       "ewtooAbbr": "tmp",
-      "description": null,
       "dataOrigin": "ewtoo",
       "websites": [],
       "emails": [],
@@ -1362,7 +1296,6 @@
     {
       "name": "Kama Sutra",
       "ewtooAbbr": "kama",
-      "description": null,
       "dataOrigin": "ewtoo",
       "websites": [],
       "emails": [],
@@ -1374,7 +1307,6 @@
     {
       "name": "Kama'aina Requiem",
       "ewtooAbbr": "KR",
-      "description": null,
       "dataOrigin": "ewtoo",
       "websites": [],
       "emails": [],
@@ -1386,7 +1318,6 @@
     {
       "name": "Eternal Night",
       "ewtooAbbr": "EN",
-      "description": null,
       "dataOrigin": "ewtoo",
       "websites": [],
       "emails": [],
@@ -1398,7 +1329,6 @@
     {
       "name": "Paradise's Haven",
       "ewtooAbbr": "PH",
-      "description": null,
       "dataOrigin": "ewtoo",
       "websites": [],
       "emails": [],
@@ -1409,7 +1339,6 @@
     },
     {
       "name": "Haven",
-      "description": null,
       "websites": [],
       "ewtooAbbr": "haven",
       "emails": [
@@ -1426,7 +1355,6 @@
     {
       "name": "Temple 2K",
       "dataOrigin": "spodlist",
-      "description": null,
       "emails": [
         "master@temple2k.org"
       ],
@@ -1443,7 +1371,6 @@
     {
       "name": "The Manor",
       "dataOrigin": "spodlist",
-      "description": null,
       "ewtooAbbr": "manor",
       "websites": [
         "http://www.themanor.org"
@@ -1458,9 +1385,10 @@
     {
       "name": "TrueFriends",
       "dataOrigin": "spodlist",
-      "description": null,
       "websites": [],
-      "wayback": "http://www.truefriends.org.uk/",
+      "wayback": [
+        "http://www.truefriends.org.uk/"
+      ],
       "screencaps": [
         "truefriends.org.uk_3000.png"
       ],
@@ -1472,7 +1400,6 @@
     {
       "name": "Enchantment Under The Sea",
       "dataOrigin": "spodlist",
-      "description": null,
       "ewtooAbbr": "eutsii",
       "codebase": "ArIEN",
       "websites": [
@@ -1488,7 +1415,6 @@
     },
     {
       "name": "The Bottomless Pit",
-      "description": null,
       "codebase": "pgplus",
       "websites": [],
       "screencaps": [],
@@ -1498,7 +1424,6 @@
     },
     {
       "name": "The Village",
-      "description": null,
       "codebase": "tiptop",
       "websites": [],
       "screencaps": [
@@ -1534,7 +1459,6 @@
     {
       "name": "Emerald Isle",
       "dataOrigin": "spodlist",
-      "description": null,
       "ewtooAbbr": "ei",
       "websites": [
         "http://www.emisle.com"
@@ -1559,7 +1483,6 @@
     },
     {
       "name": "Cuban Bar",
-      "description": null,
       "websites": [
         "https://cubanbar.hochstenbach.net/"
       ],
@@ -1571,7 +1494,6 @@
     },
     {
       "name": "Bicol Channel",
-      "description": null,
       "websites": [
         "http://hades-talker.org"
       ],
@@ -1583,7 +1505,6 @@
     },
     {
       "name": "Hades",
-      "description": null,
       "websites": [
         "http://hades-talker.org"
       ],
@@ -1616,7 +1537,6 @@
     },
     {
       "name": "Hot Mess",
-      "description": null,
       "websites": [
         "https://hot-mess.net/"
       ],
@@ -1632,7 +1552,7 @@
       "websites": [
         "http://thechattingzone.uk/"
       ],
-      "wayback": null,
+      "wayback": [],
       "resources": [
         {
           "type": "Facebook community",
@@ -1673,7 +1593,6 @@
     },
     {
       "name": "ChatMUD",
-      "description": null,
       "websites": [
         "https://chatmud.com/"
       ],
@@ -1700,7 +1619,6 @@
     },
     {
       "name": "Tower",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "emails": [],
@@ -1708,7 +1626,6 @@
     },
     {
       "name": "Underworld",
-      "description": null,
       "codebase": "pgplus",
       "websites": [],
       "screencaps": [],
@@ -1720,7 +1637,6 @@
     {
       "name": "The Dominion",
       "codebase": "ewtoo",
-      "description": null,
       "websites": [
         "http://dominion.net.uk/"
       ],
@@ -1732,7 +1648,6 @@
     },
     {
       "name": "The Gathering",
-      "description": null,
       "websites": [
         "http://gathering.org.uk"
       ],
@@ -1746,7 +1661,6 @@
     },
     {
       "name": "Uberworld",
-      "description": null,
       "ewtooAbbr": "uber",
       "websites": [
         "http://www.uberworld.org"
@@ -1763,7 +1677,6 @@
     },
     {
       "name": "Honeycomb",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -1772,7 +1685,6 @@
     },
     {
       "name": "Universe",
-      "description": null,
       "websites": [],
       "screencaps": [
         "universe.tirsek.com_2631.png"
@@ -1801,7 +1713,6 @@
     {
       "name": "Valdemar",
       "ewtooAbbr": "Val",
-      "description": null,
       "email": [
         "admin@valdemar.org"
       ],
@@ -1818,11 +1729,12 @@
     },
     {
       "name": "Vega$",
-      "description": null,
       "websites": [
         "http://www.vegas.cep.net/~vegas"
       ],
-      "waybackMachine": "https://web.archive.org/web/20030221075039/http://www.vegas.cep.net/~vegas/",
+      "wayback": [
+        "https://web.archive.org/web/20030221075039/http://www.vegas.cep.net/~vegas/"
+      ],
       "screencaps": [
         "vegas.cep.net_7979.png"
       ],
@@ -1832,7 +1744,6 @@
     },
     {
       "name": "Western World",
-      "description": null,
       "codebase": "pg96",
       "websites": [],
       "screencaps": [
@@ -1844,7 +1755,6 @@
     },
     {
       "name": "Whispers in the Dark",
-      "description": null,
       "websites": [],
       "screencaps": [
         "whispers.org_4000.png"
@@ -1855,7 +1765,6 @@
     },
     {
       "name": "Chicago",
-      "description": null,
       "websites": [],
       "screencaps": [
         "www.nsgso.co.uk_1929.png"
@@ -1866,7 +1775,6 @@
     },
     {
       "name": "Furtoonia",
-      "description": null,
       "websites": [
         "http://furtoonia.net/"
       ],
@@ -1883,7 +1791,6 @@
     },
     {
       "name": "zmc-place",
-      "description": null,
       "websites": [],
       "ewtooAbbr": "zp",
       "screencaps": [
@@ -1898,7 +1805,6 @@
     },
     {
       "name": "Castle of Desire",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "emails": [
@@ -1911,7 +1817,6 @@
     },
     {
       "name": "NoWhereLand",
-      "description": null,
       "websites": [
         "http://nowhereland.dune.net"
       ],
@@ -1925,7 +1830,6 @@
     },
     {
       "name": "Illusions of Grandeur",
-      "description": null,
       "websites": [
         "http://illusions.dune.net/"
       ],
@@ -1939,7 +1843,6 @@
     },
     {
       "name": "DC: 52 Mux",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "emails": [
@@ -1951,21 +1854,18 @@
     },
     {
       "name": "Retro Chat",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": []
     },
     {
       "name": "Dreamers",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": []
     },
     {
       "name": "Twilight Zone",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -1976,7 +1876,6 @@
       "name": "Zeta Aquilae",
       "ewtooAbbr": "zeta",
       "dataOrigin": "spodlist",
-      "description": null,
       "codebase": "ewtoo",
       "websites": [],
       "screencaps": [
@@ -1989,7 +1888,6 @@
     {
       "name": "AlTeReD BeAsTs",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2014,7 +1912,6 @@
     },
     {
       "name": "36 Chambers",
-      "description": null,
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
@@ -2024,7 +1921,6 @@
     },
     {
       "name": "America",
-      "description": null,
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
@@ -2034,7 +1930,6 @@
     },
     {
       "name": "Ansalon",
-      "description": null,
       "websites": [],
       "dataOrigin": "talkers.ws",
       "screencaps": [],
@@ -2045,7 +1940,6 @@
     {
       "name": "Attitude",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2055,7 +1949,6 @@
     {
       "name": "Atomic Gardens",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2065,7 +1958,6 @@
     {
       "name": "Asylum",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2075,7 +1967,6 @@
     {
       "name": "Argoed",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2085,7 +1976,6 @@
     {
       "name": "Appeal's chat rooms",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2095,7 +1985,6 @@
     {
       "name": "Circus World",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2121,7 +2010,6 @@
     {
       "name": "Bored, The Talker",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2131,7 +2019,6 @@
     {
       "name": "Bare Necessities",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2141,7 +2028,6 @@
     {
       "name": "B.H.S.",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2151,7 +2037,6 @@
     {
       "name": "Cirque De Chaos",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2161,7 +2046,6 @@
     {
       "name": "ApHrOdItE",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2171,7 +2055,6 @@
     {
       "name": "Aetheria",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [ ],
       "screencaps": [],
       "hosts": [
@@ -2181,7 +2064,6 @@
     {
       "name": "Crimson Dawn",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2192,12 +2074,13 @@
       "name": "The Crypt",
       "dataOrigin": "talkers.ws",
       "codebase": "crypt",
-      "description": null,
       "websites": [
         "http://churchnet2.ucsm.ac.uk/~crypt",
         "http://www.tendril.force9.co.uk/crypt/index.html"
       ],
-      "wayback": "http://churchnet2.ucsm.ac.uk/~crypt/",
+      "wayback": [
+        "http://churchnet2.ucsm.ac.uk/~crypt/"
+      ],
       "screencaps": [],
       "hosts": [
         "amber.org.uk:6660",
@@ -2208,11 +2091,12 @@
       "name": "Lodis Island",
       "dataOrigin": "crypt",
       "codebase": "crypt",
-      "description": null,
       "websites": [
         "http://www.talker.com/lodis"
       ],
-      "wayback": "https://web.archive.org/web/19990202164419/http://www.talker.com/lodis/",
+      "wayback": [
+        "https://web.archive.org/web/19990202164419/http://www.talker.com/lodis/"
+      ],
       "screencaps": [],
       "hosts": [
         "talker.com:2340"
@@ -2222,7 +2106,6 @@
       "name": "Surfside Inn",
       "dataOrigin": "crypt",
       "codebase": "crypt",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2232,7 +2115,6 @@
     {
       "name": "Cyber Eden",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2253,7 +2135,6 @@
     {
       "name": "Da Luv Thing",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2263,7 +2144,6 @@
     {
       "name": "Darknyte Manor",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2273,7 +2153,6 @@
     {
       "name": "De",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2283,7 +2162,6 @@
     {
       "name": "Deep Space 36",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2304,7 +2182,6 @@
     {
       "name": "Delta Force",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2314,7 +2191,6 @@
     {
       "name": "Dimensions",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2324,7 +2200,6 @@
     {
       "name": "Dolphim",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2334,7 +2209,6 @@
     {
       "name": "Dragonsbane",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2344,7 +2218,6 @@
     {
       "name": "Ektosphere",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2354,7 +2227,6 @@
     {
       "name": "The Eleventh Kingdom",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2364,7 +2236,6 @@
     {
       "name": "Dragon's Lair",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2374,7 +2245,6 @@
     {
       "name": "Dream Island",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2384,7 +2254,6 @@
     {
       "name": "Dreamscape",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2394,7 +2263,6 @@
     {
       "name": "Embers",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2404,7 +2272,6 @@
     {
       "name": "Enchanted Bayou",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2414,7 +2281,6 @@
     {
       "name": "Fantasy Land",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2424,7 +2290,6 @@
     {
       "name": "Fear The Penguin",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2434,7 +2299,6 @@
     {
       "name": "Freehold",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2444,7 +2308,6 @@
     {
       "name": "The Future",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2454,7 +2317,6 @@
     {
       "name": "The Global Summer Camp",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2464,7 +2326,6 @@
     {
       "name": "Globe Chat",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2474,7 +2335,6 @@
     {
       "name": "GNAT",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2484,7 +2344,6 @@
     {
       "name": "Gotham City 2000",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2494,7 +2353,6 @@
     {
       "name": "H(o)(o)TERS",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2505,7 +2363,6 @@
     {
       "name": "Homecoming",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2515,7 +2372,6 @@
     {
       "name": "The Institution",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2526,7 +2382,6 @@
       "name": "Jaffa",
       "dataorigin": "talkers.ws",
       "ewtooAbbr": "Jaffa",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2536,7 +2391,6 @@
     {
       "name": "The Jolly Butt",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2546,7 +2400,6 @@
     {
       "name": "Labyrinth",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2556,7 +2409,6 @@
     {
       "name": "Legacy Of The Damned",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2566,7 +2418,6 @@
     {
       "name": "Legends Of The Night",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2576,7 +2427,6 @@
     {
       "name": "Limbo",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2586,7 +2436,6 @@
     {
       "name": "MadHouse",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2597,7 +2446,6 @@
     {
       "name": "The Metaverse",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2607,7 +2455,6 @@
     {
       "name": "Midnight",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2617,7 +2464,6 @@
     {
       "name": "Milliways",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2627,7 +2473,6 @@
     {
       "name": "Monty Python's Flying Talker",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2637,7 +2482,6 @@
     {
       "name": "Mostly Harmless",
       "dataorigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [
@@ -2741,11 +2585,12 @@
     {
       "name": "Hysteria",
       "codebase": "nuts",
-      "description": null,
       "websites": [
         "http://hysteria.sk/talker/"
       ],
-      "wayback": "https://web.archive.org/web/20000918112252/http://hysteria.sk:80/talker/",
+      "wayback": [
+        "https://web.archive.org/web/20000918112252/http://hysteria.sk:80/talker/"
+      ],
       "screencaps": [],
       "hosts": [
         "hysteria.sk:7000"
@@ -2775,7 +2620,6 @@
     },
     {
       "name": "Gates Of Heaven",
-      "description": null,
       "dataOrigin": "talker.com",
       "emails": [
         "cruiser@talker.com"
@@ -2788,7 +2632,6 @@
     },
     {
       "name": "The Globe",
-      "description": null,
       "dataOrigin": "talker.com",
       "emails": [
         "globe@talker.com"
@@ -2815,7 +2658,6 @@
     },
     {
       "name": "Above The Clouds",
-      "description": null,
       "dataOrigin": "talker.com",
       "emails": [
         "above@talker.com"
@@ -2891,7 +2733,6 @@
     },
     {
       "name": "Animal House",
-      "description": null,
       "codebase": "pg96",
       "dataOrigin": "talker.com",
       "emails": [
@@ -2905,7 +2746,6 @@
     },
     {
       "name": "Austin Chat",
-      "description": null,
       "dataOrigin": "talker.com",
       "emails": [
         "austin@talker.com"
@@ -2932,7 +2772,6 @@
     },
     {
       "name": "Belle's Sanctuary",
-      "description": null,
       "codebase": "ncohafmuta",
       "dataOrigin": "talker.com",
       "emails": [
@@ -2948,7 +2787,6 @@
     },
     {
       "name": "Bimini Bay",
-      "description": null,
       "dataOrigin": "talker.com",
       "emails": [
         "bimini@talker.com"
@@ -3006,7 +2844,6 @@
     },
     {
       "name": "Candyland",
-      "description": null,
       "codebase": "nuts",
       "dataOrigin": "talker.com",
       "adult": true,
@@ -3053,7 +2890,6 @@
     },
     {
       "name": "Crimson Dawn",
-      "description": null,
       "codebase": "ewtoo",
       "dataOrigin": "talker.com",
       "emails": [
@@ -3307,7 +3143,6 @@
     {
       "name": "Mystic Forces of Evil",
       "codebase": "nuts",
-      "description": null,
       "dataOrigin": "talker.com",
       "emails": [
         "sean@talker.com"
@@ -3336,7 +3171,6 @@
     },
     {
       "name": "Paradise Island",
-      "description": null,
       "codebase": "nuts",
       "dataOrigin": "talker.com",
       "emails": [
@@ -3446,7 +3280,6 @@
     },
     {
       "name": "Your World",
-      "description": null,
       "dataOrigin": "talker.com",
       "emails": [
         "josh@talker.com"
@@ -3481,7 +3314,9 @@
       "emails": [
         "utopia@talker.com"
       ],
-      "wayback": "https://web.archive.org/web/19990429070918/http://www.geocities.com/SunsetStrip/4333",
+      "wayback": [
+        "https://web.archive.org/web/19990429070918/http://www.geocities.com/SunsetStrip/4333"
+      ],
       "websites": [
         "http://www.geocities.com/SunsetStrip/4333"
       ],
@@ -3508,7 +3343,6 @@
     },
     {
       "name": "Unforgiven",
-      "description": null,
       "codebase": "pg96",
       "dataOrigin": "talker.com",
       "emails": [
@@ -3571,7 +3405,6 @@
     {
       "name": "TypoTown",
       "description": "",
-      "codebase": null,
       "dataOrigin": "talker.com",
       "emails": [
         "typotown@talker.com"
@@ -3716,7 +3549,9 @@
       "emails": [
         "jaded@talker.com"
       ],
-      "wayback": "https://web.archive.org/web/19990429034148/http://www.monmouth.com/~zaphod/shadow.html",
+      "wayback": [
+        "https://web.archive.org/web/19990429034148/http://www.monmouth.com/~zaphod/shadow.html"
+      ],
       "websites": [
         "http://www.monmouth.com/~zaphod/shadow.html"
       ],
@@ -3785,7 +3620,9 @@
       "description": "Sommerland is a talker open to anyone who has an open mind and isn't oppressed by people of different sexual orientations. This is not a sex talker, but rather a place for people to relax, have fun, and discuss issues in a themepark setting.",
       "codebase": "ncohafmuta",
       "dataOrigin": "talker.com",
-      "wayback": "https://web.archive.org/web/19990222164254/http://www.talker.com/sommer/",
+      "wayback": [
+        "https://web.archive.org/web/19990222164254/http://www.talker.com/sommer/"
+      ],
       "emails": [
         "Sommer@talker.com"
       ],
@@ -3813,7 +3650,6 @@
     },
     {
       "name": "Stairway To Heaven",
-      "description": null,
       "codebase": "nuts",
       "dataOrigin": "talker.com",
       "emails": [
@@ -3827,7 +3663,6 @@
     },
     {
       "name": "State of Confusion University",
-      "description": null,
       "codebase": "nuts",
       "dataOrigin": "talker.com",
       "emails": [
@@ -3849,7 +3684,9 @@
       "emails": [
         "strawb@talker.com"
       ],
-      "wayback": "https://web.archive.org/web/19990225160101/http://www.talker.com/strawberry/",
+      "wayback": [
+        "https://web.archive.org/web/19990225160101/http://www.talker.com/strawberry/"
+      ],
       "websites": [
         "http://www.talker.com/strawberry"
       ],
@@ -3864,7 +3701,9 @@
       "adult": true,
       "codebase": "nuts",
       "dataOrigin": "talker.com",
-      "wayback": "https://web.archive.org/web/19990429034148/http://talker.com/sushibar",
+      "wayback": [
+        "https://web.archive.org/web/19990429034148/http://talker.com/sushibar"
+      ],
       "emails": [
         "sunshine@talker.com"
       ],
@@ -3878,7 +3717,6 @@
     },
     {
       "name": "Flex's Saloon",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -3889,7 +3727,6 @@
     },
     {
       "name": "Forbidden Dawn",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -3900,7 +3737,6 @@
     },
     {
       "name": "ICE",
-      "description": null,
       "codebase": "ice",
       "dataOrigin": "doughnuts",
       "emails": [],
@@ -3912,7 +3748,6 @@
     },
     {
       "name": "Horror Haven",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -3923,7 +3758,6 @@
     },
     {
       "name": "Multiple World",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -3934,7 +3768,6 @@
     },
     {
       "name": "Ri-Ra The Talker",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -3945,7 +3778,6 @@
     },
     {
       "name": "Soaring Emporium",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -3956,7 +3788,6 @@
     },
     {
       "name": "The Dark Ages",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -3968,7 +3799,6 @@
     },
     {
       "name": "The Funk",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -3979,7 +3809,6 @@
     },
     {
       "name": "The Dragon's Cove 2",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -3990,7 +3819,6 @@
     },
     {
       "name": "The Hive",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -4001,7 +3829,6 @@
     },
     {
       "name": "The Neverending Story",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -4012,7 +3839,6 @@
     },
     {
       "name": "Yuss",
-      "description": null,
       "dataOrigin": "doughnuts",
       "emails": [],
       "websites": [],
@@ -4023,7 +3849,6 @@
     },
     {
       "name": "Republic",
-      "description": null,
       "dataOrigin": "facebook",
       "emails": [],
       "websites": [],
@@ -4036,7 +3861,6 @@
     },
     {
       "name": "A Pallid Moon",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4047,7 +3871,6 @@
     },
     {
       "name": "Battletech: The Frontier Lands",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4058,7 +3881,6 @@
     },
     {
       "name": "Blink",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4069,7 +3891,6 @@
     },
     {
       "name": "Cirrus Nebula",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4080,7 +3901,6 @@
     },
     {
       "name": "CNC",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4091,7 +3911,6 @@
     },
     {
       "name": "Crystal Palace",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4102,7 +3921,6 @@
     },
     {
       "name": "DotUK",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4113,7 +3931,6 @@
     },
     {
       "name": "Elysium",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4124,7 +3941,6 @@
     },
     {
       "name": "Flump",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4136,7 +3952,6 @@
     {
       "name": "GateWay 2005",
       "ewtooAbbr": "GateWay",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4147,7 +3962,6 @@
     },
     {
       "name": "In Through The Out Door",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4158,7 +3972,6 @@
     },
     {
       "name": "The Inner Circle",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4169,7 +3982,6 @@
     },
     {
       "name": "Jaffa",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4180,7 +3992,6 @@
     },
     {
       "name": "Lame Talker",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4191,7 +4002,6 @@
     },
     {
       "name": "Myth And Magic",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4202,7 +4012,6 @@
     },
     {
       "name": "Neon Umbra",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4213,7 +4022,6 @@
     },
     {
       "name": "Oasis",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4224,7 +4032,6 @@
     },
     {
       "name": "Panorama",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4235,7 +4042,6 @@
     },
     {
       "name": "Paradigm Shift",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4246,7 +4052,6 @@
     },
     {
       "name": "Parthenon",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4257,7 +4062,6 @@
     },
     {
       "name": "Pern",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4268,7 +4072,6 @@
     },
     {
       "name": "Polaris",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4279,7 +4082,6 @@
     },
     {
       "name": "Post Partum",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4291,7 +4093,6 @@
     {
       "name": "Red Claw",
       "ewtooAbbr": "redclaw",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4302,7 +4103,6 @@
     },
     {
       "name": "Selva",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4313,7 +4113,6 @@
     },
     {
       "name": "The ShadowGate",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4324,7 +4123,6 @@
     },
     {
       "name": "Southern Sanity",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4335,7 +4133,6 @@
     },
     {
       "name": "Star Trek",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4346,7 +4143,6 @@
     },
     {
       "name": "The Downtown",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4357,7 +4153,6 @@
     },
     {
       "name": "The Dreaming",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4368,7 +4163,6 @@
     },
     {
       "name": "The Hundred Acre Woods",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4379,7 +4173,6 @@
     },
     {
       "name": "The Lownge",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4390,7 +4183,6 @@
     },
     {
       "name": "The Mob",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4401,7 +4193,6 @@
     },
     {
       "name": "The Valley",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4412,7 +4203,6 @@
     },
     {
       "name": "Trekker's Rest",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4423,7 +4213,6 @@
     },
     {
       "name": "Underground",
-      "description": null,
       "dataOrigin": "spodlist",
       "emails": [],
       "websites": [],
@@ -4434,8 +4223,6 @@
     },
     {
       "name": "Void",
-      "description": null,
-      "dataOrigin": null,
       "screencaps": [],
       "hosts": [
         "void.greenfinch.com:1234"
@@ -4443,7 +4230,6 @@
     },
     {
       "name": "Palace Of Pleasures",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4452,7 +4238,6 @@
     },
     {
       "name": "Baren Touhk",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4461,7 +4246,6 @@
     },
     {
       "name": "Bondage Bay",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4470,7 +4254,6 @@
     },
     {
       "name": "Cafee",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4479,7 +4262,6 @@
     },
     {
       "name": "CrossTalker",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4488,7 +4270,6 @@
     },
     {
       "name": "E N E R G Y",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4497,7 +4278,6 @@
     },
     {
       "name": "Euclid Bullet",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4515,7 +4295,6 @@
     },
     {
       "name": "Lara",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4524,7 +4303,6 @@
     },
     {
       "name": "The Leisure Zone",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4533,7 +4311,6 @@
     },
     {
       "name": "Ennersea",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4542,7 +4319,6 @@
     },
     {
       "name": "Flirt Town",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4551,7 +4327,6 @@
     },
     {
       "name": "Whole Year Inn",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4560,7 +4335,6 @@
     },
     {
       "name": "Castle Corners",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4569,7 +4343,6 @@
     },
     {
       "name": "Iron Rose",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4578,7 +4351,6 @@
     },
     {
       "name": "Ice Fire",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4587,7 +4359,6 @@
     },
     {
       "name": "Portugal Medieval",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4596,7 +4367,6 @@
     },
     {
       "name": "Club Life",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4605,7 +4375,6 @@
     },
     {
       "name": "Eternal Covenant",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4614,28 +4383,24 @@
     },
     {
       "name": "Lintilla",
-      "description": null,
       "dataOrigin": "facebook",
       "screencaps": [],
       "hosts": []
     },
     {
       "name": "Lighthouse",
-      "description": null,
       "dataOrigin": "facebook",
       "screencaps": [],
       "hosts": []
     },
     {
       "name": "Sleepy's Men's Corner",
-      "description": null,
       "dataOrigin": "facebook",
       "screencaps": [],
       "hosts": []
     },
     {
       "name": "Winter's Edge",
-      "description": null,
       "dataOrigin": "tdf",
       "screencaps": [],
       "hosts": [
@@ -4645,7 +4410,6 @@
     {
       "name": "The Hotel",
       "dataOrigin": "talkers.ws",
-      "description": null,
       "websites": [],
       "screencaps": [],
       "hosts": [

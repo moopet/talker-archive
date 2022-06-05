@@ -5,9 +5,13 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-const HostList = (props) => {
-  const { hosts } = props;
-  let hostListItems = <EmptyListItem />;
+interface HostListProps {
+  title?: string,
+  hosts: string[]
+}
+
+const HostList = ({title = "Hosts", hosts}: HostListProps) => {
+  let hostListItems = [<EmptyListItem key="hosts-none" />];
 
   if (hosts.length) {
     hostListItems = hosts.map((host, index) => {
@@ -24,7 +28,7 @@ const HostList = (props) => {
   }
 
   return (
-    <List subheader={props?.title || "Hosts"}>
+    <List subheader={title}>
       <Divider />
       {hostListItems}
     </List>

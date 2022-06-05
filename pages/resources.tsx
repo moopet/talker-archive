@@ -13,7 +13,6 @@ const ResourcesPage = () => {
     return a.name.localeCompare(b.name);
   });
 
-
   return (
     <>
       <Navigation title="resources" />
@@ -28,11 +27,11 @@ const ResourcesPage = () => {
           }}
         >
           <Container maxWidth="sm">
-            <Typography variant="body" align="center" color="text.secondary" paragraph>
+            <Typography variant="body1" align="center" color="text.secondary" paragraph>
               This is an attempt to collect talker-related resources that might get missed on a casual web search.
             </Typography>
 
-            <Typography variant="body" align="center" color="text.secondary" paragraph>
+            <Typography variant="body1" align="center" color="text.secondary" paragraph>
               This sort of page used to be called &quot;bookmarks&quot;, or &quot;useful links&quot; back in the day. Nobody used to read them then, either.
             </Typography>
 

@@ -5,7 +5,13 @@ import Image from 'next/image';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 
-const Hero = ({image, title, subtitle}) => {
+interface HeroProps {
+  title: string,
+  subtitle: string,
+  image: string
+}
+
+const Hero = ({image, title, subtitle}: HeroProps) => {
   return (
     <Box
       sx={{
@@ -30,7 +36,7 @@ const Hero = ({image, title, subtitle}) => {
               </Typography>
 
               <Typography
-                variant="body"
+                variant="body1"
                 color="text.secondary"
                 paragraph
               >

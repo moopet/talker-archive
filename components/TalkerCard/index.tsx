@@ -8,7 +8,16 @@ import Typography from '@mui/material/Typography';
 
 import slugify from 'slugify';
 
-const TalkerCard = ({talker}) => {
+interface Talker {
+  name: string,
+  screencaps?: string[]
+}
+
+interface TalkerCardProps {
+  talker: Talker
+}
+
+const TalkerCard = ({talker}: TalkerCardProps) => {
   const ignoreWords = new RegExp(/^(the|a)[^a-z]+/, 'i');
   const slug = slugify(talker.name.replace(ignoreWords, ""), {lower: true});
 
@@ -25,7 +34,7 @@ const TalkerCard = ({talker}) => {
           />
 
           <CardContent>
-            <Typography variant="subtitle1" subheader="hello">
+            <Typography variant="subtitle1">
               {talker.name}
             </Typography>
           </CardContent>
