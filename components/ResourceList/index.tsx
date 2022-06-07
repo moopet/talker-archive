@@ -49,8 +49,10 @@ const ResourceList = ({title = "Other resources", resources}: ResourceListProps)
 
       if (description === 'wayback') {
         description = '(wayback machine copy)';
-        name = name.replace(/.+http?/, 'http');
+        name = name.replace(/^.+(https?)/, '$1');
       }
+
+      name = name.replace(/https?:\/\//, '');
 
       return (
         <ListItem disableGutters key={`resource-${resource.type}-${index}`}>
