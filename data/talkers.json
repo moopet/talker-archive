@@ -10,6 +10,7 @@
       "type": "Hosting",
       "icon": "Article",
       "name": "Dune internet hosting",
+      "description": "Hosting provider",
       "url": "http://dune.net/"
     },
     {
@@ -79,7 +80,7 @@
     },
     {
       "type": "Article",
-      "description": "livinginternet.com",
+      "description": "Living Internet article",
       "icon": "Article",
       "name": "IRC History -- Talkers",
       "url": "https://livinginternet.com/r/ri_talkers.htm"
@@ -92,106 +93,126 @@
       "url": "https://h2g2.com/edited_entry/A1010106"
     }
   ],
-  "dataOrigins": {
-    "facebook": {
+  "dataOrigins": [
+    {
+      "shortName": "facebook",
       "name": "Facebook group chats"
     },
-    "user": {
+    {
+      "shortName": "user",
       "name": "unverified user submission"
     },
-    "ewtoo": {
+    {
+      "shortName": "ewtoo",
       "name": "Silver's talker charts on ewtoo.org"
     },
-    "spodlist": {
+    {
+      "shortName": "spodlist",
       "name": "the talker listing on spodlist.org"
     },
-    "tdf": {
+    {
+      "shortName": "tdf",
       "name": "Moe's talker listing on Dark Fantastic Net"
     }
-  },
-  "codebases": {
-    "http": {
+  ],
+  "codebases": [
+    {
+      "shortName": "http",
       "name": "HTTP Chat"
     },
-    "amnuts": {
+    {
+      "shortName": "amnuts",
       "repo": "https://github.com/talkersource/amnuts",
       "name": "Andy's modified NUTS",
       "family": "nuts",
       "platform": "*nix"
     },
-    "cams": {
+    {
+      "shortName": "cams",
       "name": "CAMS",
       "plaform": "*nix"
     },
-    "nuts": {
+    {
+      "shortName": "nuts",
       "name": "NUTS",
       "family": "nuts",
       "platform": "*nix"
     },
-    "rnuts": {
+    {
+      "shortName": "rnuts",
       "repo": "https://github.com/talkersource/rnuts",
       "name": "rNUTS",
       "family": "nuts",
       "platform": "*nix"
     },
-    "talkernode": {
+    {
+      "shortName": "talkernode",
       "repo": "https://github.com/talkersource/TalkerNode",
       "name": "TalkerNode",
       "language": "node",
       "platform": "Any"
     },
-    "bolts": {
+    {
+      "shortName": "bolts",
       "repo": "https://github.com/talkersource/bolts",
       "name": "BOLTS",
       "family": "nuts",
       "platform": "*nix"
     },
-    "ncohafmuta": {
+    {
+      "shortName": "ncohafmuta",
       "repo": "http://ncohafmuta.net/index.shtml",
       "name": "Ncohafmuta",
       "platform": "*nix"
     },
-    "ewtoo": {
+    {
+      "shortName": "ewtoo",
       "repo": "https://github.com/talkersource/ew-too",
       "name": "EW-Too",
       "platform": "*nix",
       "language": "C"
     },
-    "pg96": {
+    {
+      "shortName": "pg96",
       "repo": "https://github.com/talkers/pgplus",
       "name": "Playground '96",
       "platform": "*nix",
       "family": "ewtoo",
       "language": "C"
     },
-    "pgplus": {
+    {
+      "shortName": "pgplus",
       "repo": "https://github.com/talkers/pgplus",
       "name": "Playground+",
       "platform": "*nix",
       "family": "ewtoo",
       "language": "C"
     },
-    "summink": {
+    {
+      "shortName": "summink",
       "name": "Summink",
       "family": "ewtoo",
       "platform": "*nix"
     },
-    "sensipg": {
+    {
+      "shortName": "sensipg",
       "name": "Sensi-Playground",
       "family": "ewtoo",
       "platform": "*nix"
     },
-    "sensisummink": {
+    {
+      "shortName": "sensisummink",
       "name": "Sensi-Summink",
       "family": "ewtoo",
       "platform": "*nix"
     },
-    "talker": {
+    {
+      "shortName": "talker",
       "repo": "http://www.geoffswift.com/talker.html",
       "name": "Talker",
       "platform": "Windows"
     }
-  },
+  ],
   "talkers": [
     {
       "name": "The A-Team",
@@ -201,9 +222,17 @@
       "screencaps": [
         "ateam.darksilence.net_1972.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ateam.darksilence.net:1972",
-        "amber.org.uk:1972"
+        {
+          "hostname": "ateam.darksilence.net",
+          "port": 1972
+        },
+        {
+          "hostname": "amber.org.uk",
+          "port": 197
+        }
       ]
     },
     {
@@ -217,24 +246,45 @@
       "screencaps": [
         "angst.mopemansions.org_2003.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "angst.mopemansions.org:2003"
+        {
+          "hostname": "angst.mopemansions.org",
+          "port": 2003
+        }
       ]
     },
     {
       "name": "Atlantis",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "atl",
-      "emails": [
-        "atlantis@atlantis.org",
-        "me@moopet.net"
-      ],
-      "websites": [
-        "http://atlantis.org.uk",
-        "http://yuss.org/~muppet"
-      ],
-      "wayback": [
-        "https://web.archive.org/web/20030925183416/http://www.moopet.net/atlantis/"
+      "resources": [
+        {
+          "name": "Grim's list entry",
+          "type": "ewtoo",
+          "url": "http://list.ewtoo.org/details.cgi?abbr=atl"
+        },
+        {
+          "type": "email",
+          "url": "atlantis@atlantis.org"
+        },
+        {
+          "type": "email",
+          "url": "me@moopet.net"
+        },
+        {
+          "type": "website",
+          "url": "http://atlantis.org.uk"
+        },
+        {
+          "type": "website",
+          "url": "http://yuss.org/~muppet"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20030925183416/http://www.moopet.net/atlantis/"
+        }
       ],
       "codebase": "sensisummink",
       "screencaps": [
@@ -242,10 +292,20 @@
         "atlantis.org.uk_5050.png",
         "mopemansions.org_5050.png"
       ],
+      "textcaps": [],
       "hosts": [
-        "atlantis.org:5050",
-        "mopemansions.org:5050",
-        "yuss.org:5050"
+        {
+          "hostname": "atlantis.org",
+          "port": 5050
+        },
+        {
+          "hostname": "mopemansions.org",
+          "port": 5050
+        },
+        {
+          "hostname": "yuss.org",
+          "port": 5050
+        }
       ]
     },
     {
@@ -253,8 +313,13 @@
       "codebase": "cams",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "wilderness.homeip.net:4000"
+        {
+          "hostname": "wilderness.homeip.net",
+          "port": 4000
+        }
       ]
     },
     {
@@ -264,8 +329,13 @@
       "screencaps": [
         "bagend.tzo.org_2060.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "bagend.tzo.org:2060"
+        {
+          "hostname": "bagend.tzo.org",
+          "port": 2060
+        }
       ]
     },
     {
@@ -292,10 +362,21 @@
         "brigandine.org_9390_8.png",
         "brigandine.org_9390_9.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "brigandine.org:9390",
-        "bandicoot.merseine.nu:9390",
-        "brigandine.black-ops.net:9390"
+        {
+          "hostname": "brigandine.org",
+          "port": 9390
+        },
+        {
+          "hostname": "bandicoot.merseine.nu",
+          "port": 9390
+        },
+        {
+          "hostname": "brigandine.black-ops.net",
+          "port": 9390
+        }
       ]
     },
     {
@@ -304,10 +385,21 @@
         "http://island.talkernet.net"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "island.talkernet.net:8100",
-        "island.tdf.ca:8100",
-        "forgottenisland.net:8100"
+        {
+          "hostname": "island.talkernet.net",
+          "port": 8100
+        },
+        {
+          "hostname": "island.tdf.ca",
+          "port": 8100
+        },
+        {
+          "hostname": "forgottenisland.net",
+          "port": 8100
+        }
       ]
     },
     {
@@ -319,8 +411,13 @@
         "blamecanada.bering.gl_1977_2.png",
         "blamecanada.bering.gl_1977.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "blamecanada.bering.gl:1977"
+        {
+          "hostname": "blamecanada.bering.gl",
+          "port": 1977
+        }
       ]
     },
     {
@@ -334,12 +431,20 @@
       "screencaps": [
         "burbs.org_4567.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "emails": [
         "burbs@burbs.org"
       ],
       "hosts": [
-        "burbs.org:4567",
-        "toybox.infomagic.com:4567"
+        {
+          "hostname": "burbs.org",
+          "port": 4567
+        },
+        {
+          "hostname": "toybox.infomagic.com",
+          "port": 4567
+        }
       ]
     },
     {
@@ -360,12 +465,29 @@
         "camelot.subnigra.com_8888.png",
         "tangent.dune.net_3333.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "camelot.subnigra.com:8888",
-        "tangent.dune.net:3333",
-        "vampire.dune.net:3333",
-        "talker.com:3000",
-        "talkernet.net:3500"
+        {
+          "hostname": "camelot.subnigra.com",
+          "port": 8888
+        },
+        {
+          "hostname": "tangent.dune.net",
+          "port": 3333
+        },
+        {
+          "hostname": "vampire.dune.net",
+          "port": 3333
+        },
+        {
+          "hostname": "talker.com",
+          "port": 3000
+        },
+        {
+          "hostname": "talkernet.net",
+          "port": 3500
+        }
       ]
     },
     {
@@ -381,8 +503,13 @@
       "screencaps": [
         "castle2k.org.uk_5050.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "castle2k.org.uk:5050"
+        {
+          "hostname": "castle2k.org.uk",
+          "port": 5050
+        }
       ]
     },
     {
@@ -397,9 +524,17 @@
         "caves.uk.net_5000.png",
         "caves.tf_5000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "caves.tf:5000",
-        "caves.uk.net:5000"
+        {
+          "hostname": "caves.tf",
+          "port": 5000
+        },
+        {
+          "hostname": "caves.uk.net",
+          "port": 5000
+        }
       ]
     },
     {
@@ -419,9 +554,17 @@
         "centralperk.us_2323.png",
         "presidium.org_2222.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "centralperk.us:2323",
-        "presidium.org:2222"
+        {
+          "hostname": "centralperk.us",
+          "port": 2323
+        },
+        {
+          "hostname": "presidium.org",
+          "port": 2222
+        }
       ]
     },
     {
@@ -431,8 +574,13 @@
       "screencaps": [
         "cheekynet.com.au_4242.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "cheekynet.com.au:4242"
+        {
+          "hostname": "cheekynet.com.au",
+          "port": 4242
+        }
       ]
     },
     {
@@ -449,14 +597,27 @@
         "cotn.subnigra.com_6969.png",
         "cn.talkers.org_4040.png"
       ],
+      "resources": [],
       "textcaps": [
         "62.49.231.25_6969.txt"
       ],
       "hosts": [
-        "cotn.subnigra.com:6969",
-        "cn.talkers.org:4040",
-        "cotn.tetsuo.cx:6969",
-        "62.49.231.25:6969"
+        {
+          "hostname": "cotn.subnigra.com",
+          "port": 6969
+        },
+        {
+          "hostname": "cn.talkers.org",
+          "port": 4040
+        },
+        {
+          "hostname": "cotn.tetsuo.cx",
+          "port": 6969
+        },
+        {
+          "hostname": "62.49.231.25",
+          "port": 6969
+        }
       ]
     },
     {
@@ -466,8 +627,13 @@
       "screencaps": [
         "crazylands.org_6969.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "crazylands.org:6969"
+        {
+          "hostname": "crazylands.org",
+          "port": 6969
+        }
       ]
     },
     {
@@ -480,11 +646,16 @@
       "screencaps": [
         "culturalwasteland.tv_4000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "emails": [
         "dockyard@culturalwasteland.tv"
       ],
       "hosts": [
-        "culturalwasteland.tv:4000"
+        {
+          "hostname": "culturalwasteland.tv",
+          "port": 4000
+        }
       ]
     },
     {
@@ -496,8 +667,13 @@
       "screencaps": [
         "furrymuck.com_8888.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "furrymuck.com:8888"
+        {
+          "hostname": "furrymuck.com",
+          "port": 8888
+        }
       ]
     },
     {
@@ -508,8 +684,13 @@
       "screencaps": [
         "cut.pre.org_4040.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "cut.pre.org:4040"
+        {
+          "hostname": "cut.pre.org",
+          "port": 4040
+        }
       ]
     },
     {
@@ -519,8 +700,13 @@
       "screencaps": [
         "ddngr.org.uk_4001.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ddngr.org.uk:4001"
+        {
+          "hostname": "ddngr.org.uk",
+          "port": 4001
+        }
       ]
     },
     {
@@ -532,8 +718,13 @@
       "screencaps": [
         "doughnuts.co.uk_4000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "doughnuts.co.uk:4000"
+        {
+          "hostname": "doughnuts.co.uk",
+          "port": 4000
+        }
       ]
     },
     {
@@ -543,8 +734,13 @@
       "screencaps": [
         "draconic.fyremoon.net_2424.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "draconic.fyremoon.net:2424"
+        {
+          "hostname": "draconic.fyremoon.net",
+          "port": 2424
+        }
       ]
     },
     {
@@ -553,8 +749,13 @@
       "screencaps": [
         "dune.net_4560.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dune.net:4560"
+        {
+          "hostname": "dune.net",
+          "port": 4560
+        }
       ]
     },
     {
@@ -569,8 +770,13 @@
       "screencaps": [
         "dune.net_3003.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dune.net:3003"
+        {
+          "hostname": "dune.net",
+          "port": 3003
+        }
       ]
     },
     {
@@ -580,8 +786,13 @@
       "screencaps": [
         "duskdawn.mytalker.org_4444.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "duskdawn.mytalker.org:4444"
+        {
+          "hostname": "duskdawn.mytalker.org",
+          "port": 4444
+        }
       ]
     },
     {
@@ -591,8 +802,13 @@
       "screencaps": [
         "eeek.org.uk_3000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "eeek.org.uk:3000"
+        {
+          "hostname": "eeek.org.uk",
+          "port": 3000
+        }
       ]
     },
     {
@@ -602,8 +818,13 @@
       "screencaps": [
         "eeek.org.uk_4321.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "eeek.org.uk:4321"
+        {
+          "hostname": "eeek.org.uk",
+          "port": 4321
+        }
       ]
     },
     {
@@ -613,8 +834,13 @@
       "screencaps": [
         "eeek.org.uk_5000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "eeek.org.uk:5000"
+        {
+          "hostname": "eeek.org.uk",
+          "port": 5000
+        }
       ]
     },
     {
@@ -627,8 +853,13 @@
       "screencaps": [
         "elementalworld.net_5555.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "elementalworld.net:5555"
+        {
+          "hostname": "elementalworld.net",
+          "port": 5555
+        }
       ]
     },
     {
@@ -640,9 +871,17 @@
       "screencaps": [
         "elite.snowplains.org_8000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "elite.snowplains.org:8000",
-        "amber.org.uk:8000"
+        {
+          "hostname": "elite.snowplains.org",
+          "port": 8000
+        },
+        {
+          "hostname": "amber.org.uk",
+          "port": 8000
+        }
       ]
     },
     {
@@ -664,8 +903,12 @@
       "screencaps": [
         "snowplains.org_3456.png"
       ],
+      "textcaps": [],
       "hosts": [
-        "snowplains.org:3456"
+        {
+          "hostname": "snowplains.org",
+          "port": 3456
+        }
       ]
     },
     {
@@ -687,11 +930,24 @@
       "screencaps": [
         "revivaltalker.com_7779.png"
       ],
+      "textcaps": [],
       "hosts": [
-        "revivaltalker.com:7779",
-        "revival.talkerhome.com:7779",
-        "revival.pgplus.org:8000",
-        "talker.pgplus.org:8000"
+        {
+          "hostname": "revivaltalker.com",
+          "port": 7779
+        },
+        {
+          "hostname": "revival.talkerhome.com",
+          "port": 7779
+        },
+        {
+          "hostname": "revival.pgplus.org",
+          "port": 8000
+        },
+        {
+          "hostname": "talker.pgplus.org",
+          "port": 8000
+        }
       ]
     },
     {
@@ -700,8 +956,8 @@
       "websites": [],
       "wayback": [],
       "codebase": "pgplus",
-      "resources": [],
       "screencaps": [],
+      "textcaps": [],
       "emails": [
         "dave@reuniontalker.co.uk"
       ],
@@ -714,7 +970,10 @@
         }
       ],
       "hosts": [
-        "reuniontalker.co.uk:4000"
+        {
+          "hostname": "reuniontalker.co.uk",
+          "port": 4000
+        }
       ]
     },
     {
@@ -724,8 +983,13 @@
       "screencaps": [
         "ewtoo.org_5252.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ewtoo.org:5252"
+        {
+          "hostname": "ewtoo.org",
+          "port": 5252
+        }
       ]
     },
     {
@@ -740,6 +1004,7 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
       "hosts": []
     },
     {
@@ -754,8 +1019,13 @@
       "screencaps": [
         "uglymug.org.uk_6239.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "uglymug.org.uk:6239"
+        {
+          "hostname": "uglymug.org.uk",
+          "port": 6239
+        }
       ]
     },
     {
@@ -776,8 +1046,12 @@
       "websites": [
       ],
       "screencaps": [],
+      "textcaps": [],
       "hosts": [
-        "orchid.warwick.ac.uk:2001"
+        {
+          "hostname": "orchid.warwick.ac.uk",
+          "port": 2001
+        }
       ]
     },
     {
@@ -786,6 +1060,8 @@
       "codebase": "ewtoo",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": []
     },
     {
@@ -794,8 +1070,12 @@
       "codebase": "ewtoo",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "lily.warwick.ac.uk"
+        {
+          "hostname": "lily.warwick.ac.uk"
+        }
       ]
     },
     {
@@ -804,6 +1084,8 @@
       "codebase": "ewtoo",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": []
     },
     {
@@ -830,19 +1112,36 @@
       "screencaps": [
         "foothills.tk_2010.png"
       ],
+      "textcaps": [],
       "hosts": [
-        "foothills.tk:2010",
-        "toybox.infomagic.com:2010",
-        "loligo.cc.fsu.edu",
-        "backus.mtsu.edu",
-        "vulture.dcs.king.ac.uk",
-        "marble.bu.edu"
+        {
+          "hostname": "foothills.tk",
+          "port": 2010
+        },
+        {
+          "hostname": "toybox.infomagic.com",
+          "port": 2010
+        },
+        {
+          "hostname": "loligo.cc.fsu.edu"
+        },
+        {
+          "hostname": "backus.mtsu.edu"
+        },
+        {
+          "hostname": "vulture.dcs.king.ac.uk"
+        },
+        {
+          "hostname": "marble.bu.edu"
+        }
       ]
     },
     {
       "name": "Tombstone",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": []
     },
     {
@@ -852,8 +1151,13 @@
       "screencaps": [
         "gadget.ewtoo.org_7000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "gadget.ewtoo.org:7000"
+        {
+          "hostname": "gadget.ewtoo.org",
+          "port": 7000
+        }
       ]
     },
     {
@@ -864,8 +1168,13 @@
       "screencaps": [
         "ice.offswn.net_4444.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ice.offswn.net:4444"
+        {
+          "hostname": "ice.offswn.net",
+          "port": 4444
+        }
       ]
     },
     {
@@ -875,9 +1184,17 @@
       "screencaps": [
         "island.subnigra.com_8000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "island.subnigra.com:8000",
-        "island.ekto.org:8008"
+        {
+          "hostname": "island.subnigra.com",
+          "port": 8000
+        },
+        {
+          "hostname": "island.ekto.org",
+          "port": 8008
+        }
       ]
     },
     {
@@ -887,8 +1204,13 @@
       "screencaps": [
         "madrory.com_4444.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "madrory.com:4444"
+        {
+          "hostname": "madrory.com",
+          "port": 4444
+        }
       ]
     },
     {
@@ -900,8 +1222,13 @@
       "screencaps": [
         "magic.kicks-ass.org_4000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "magic.kicks-ass.org:4000"
+        {
+          "hostname": "magic.kicks-ass.org",
+          "port": 4000
+        }
       ]
     },
     {
@@ -911,9 +1238,17 @@
       "screencaps": [
         "mysterious.mytalker.org_9999.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "comatose.mytalker.org:9999",
-        "mysterious.mytalker.org:9999"
+        {
+          "hostname": "comatose.mytalker.org",
+          "port": 9999
+        },
+        {
+          "hostname": "mysterious.mytalker.org",
+          "port": 9999
+        }
       ]
     },
     {
@@ -931,10 +1266,21 @@
       "screencaps": [
         "mytalker.org_2222.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "mytalker.org:2222",
-        "amnesiahouse.org:2222",
-        "ah.talkers.org:2222"
+        {
+          "hostname": "mytalker.org",
+          "port": 2222
+        },
+        {
+          "hostname": "amnesiahouse.org",
+          "port": 2222
+        },
+        {
+          "hostname": "ah.talkers.org",
+          "port": 2222
+        }
       ]
     },
     {
@@ -946,8 +1292,13 @@
       "screencaps": [
         "ncc.spod.org_1701.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ncc.spod.org:1701"
+        {
+          "hostname": "ncc.spod.org",
+          "port": 1701
+        }
       ]
     },
     {
@@ -957,8 +1308,13 @@
       "screencaps": [
         "phoenix.lsds.com_9876.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "phoenix.lsds.com:9876"
+        {
+          "hostname": "phoenix.lsds.com",
+          "port": 9876
+        }
       ]
     },
     {
@@ -979,8 +1335,12 @@
       "screencaps": [
         "realm.progsoc.uts.edu.au_3000.png"
       ],
+      "textcaps": [],
       "hosts": [
-        "realm.progsoc.uts.edu.au:3000"
+        {
+          "hostname": "realm.progsoc.uts.edu.au",
+          "port": 3000
+        }
       ]
     },
     {
@@ -990,9 +1350,17 @@
       "screencaps": [
         "redclaw.org.uk_7777.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "redclaw.org.uk:7777",
-        "puzlebox.dynip.com:7777"
+        {
+          "hostname": "redclaw.org.uk",
+          "port": 7777
+        },
+        {
+          "hostname": "puzlebox.dynip.com",
+          "port": 7777
+        }
       ]
     },
     {
@@ -1009,10 +1377,19 @@
       "screencaps": [
         "sass.jg.ee_2010.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "sass.jg.ee:2010",
-        "altantis.sk",
-        "altantis.talker.sk"
+        {
+          "hostname": "sass.jg.ee",
+          "port": 2010
+        },
+        {
+          "hostname": "altantis.sk"
+        },
+        {
+          "hostname": "altantis.talker.sk"
+        }
       ]
     },
     {
@@ -1022,8 +1399,13 @@
       "screencaps": [
         "sirius.zepa.net_8500.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "sirius.zepa.net:8500"
+        {
+          "hostname": "sirius.zepa.net",
+          "port": 8500
+        }
       ]
     },
     {
@@ -1034,8 +1416,13 @@
       "screencaps": [
         "spod.org_2010.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "spod.org:2010"
+        {
+          "hostname": "spod.org",
+          "port": 2010
+        }
       ]
     },
     {
@@ -1046,8 +1433,13 @@
       "screencaps": [
         "spod.org_3003.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "spod.org:3003"
+        {
+          "hostname": "spod.org",
+          "port": 3003
+        }
       ]
     },
     {
@@ -1062,9 +1454,17 @@
       "screencaps": [
         "talker.com_2200.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2203",
-        "talker.com:2200"
+        {
+          "hostname": "talker.com",
+          "port": 2203
+        },
+        {
+          "hostname": "talker.com",
+          "port": 2200
+        }
       ]
     },
     {
@@ -1074,8 +1474,13 @@
       "websites": [],
       "screencaps": [
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dune.net:3333"
+        {
+          "hostname": "dune.net",
+          "port": 3333
+        }
       ]
     },
     {
@@ -1094,8 +1499,13 @@
       "screencaps": [
         "talker.com_4040.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4040"
+        {
+          "hostname": "talker.com",
+          "port": 4040
+        }
       ]
     },
     {
@@ -1111,8 +1521,13 @@
       "screencaps": [
         "talker.rekka.net_4242.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.rekka.net:4242"
+        {
+          "hostname": "talker.rekka.net",
+          "port": 4242
+        }
       ]
     },
     {
@@ -1122,8 +1537,13 @@
       "screencaps": [
         "tb.yi.org_1221.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tb.yi.org:1221"
+        {
+          "hostname": "tb.yi.org",
+          "port": 1221
+        }
       ]
     },
     {
@@ -1137,9 +1557,17 @@
       "screencaps": [
         "ds.enyc.org.uk_8688.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ds.enyc.org.uk:8688",
-        "talon.wolfpaw.net:2323"
+        {
+          "hostname": "ds.enyc.org.uk",
+          "port": 8688
+        },
+        {
+          "hostname": "talon.wolfpaw.net",
+          "port": 2323
+        }
       ]
     },
     {
@@ -1149,8 +1577,13 @@
       "screencaps": [
         "tdf.ca_8888.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tdf.ca:8888"
+        {
+          "hostname": "tdf.ca",
+          "port": 8888
+        }
       ]
     },
     {
@@ -1166,8 +1599,13 @@
       "screencaps": [
         "resort.org_2323.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "resort.org:2323"
+        {
+          "hostname": "resort.org",
+          "port": 2323
+        }
       ]
     },
     {
@@ -1175,8 +1613,12 @@
       "websites": [],
       "emails": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "shadowfax.surr.ac.uk"
+        {
+          "hostname": "shadowfax.surr.ac.uk"
+        }
       ]
     },
     {
@@ -1200,11 +1642,23 @@
       "screencaps": [
         "surfers.fysh.org_4242.png"
       ],
+      "textcaps": [],
       "hosts": [
-        "surfers.fysh.org:4242",
-        "surfers.org:4242",
-        "surfers.spods.co.uk:4242",
-        "muscle.rai.kcl.ac.uk"
+        {
+          "hostname": "surfers.fysh.org",
+          "port": 4242
+        },
+        {
+          "hostname": "surfers.org",
+          "port": 4242
+        },
+        {
+          "hostname": "surfers.spods.co.uk",
+          "port": 4242
+        },
+        {
+          "hostname": "muscle.rai.kcl.ac.uk"
+        }
       ]
     },
     {
@@ -1217,9 +1671,17 @@
       "screencaps": [
         "scarlet-citadel.co.uk_2000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "scarlet-citadel.co.uk:2000",
-        "amber.org.uk:2000"
+        {
+          "hostname": "scarlet-citadel.co.uk",
+          "port": 2000
+        },
+        {
+          "hostname": "amber.org.uk",
+          "port": 2000
+        }
       ]
     },
     {
@@ -1234,8 +1696,13 @@
       "screencaps": [
         "nosuchluck.incredulous.org_7979.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "slack.nosuchluck.net:7979"
+        {
+          "hostname": "slack.nosuchluck.net",
+          "port": 7979
+        }
       ]
     },
     {
@@ -1245,8 +1712,13 @@
       "websites": [],
       "emails": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ewtoo.org:4746"
+        {
+          "hostname": "ewtoo.org",
+          "port": 4746
+        }
       ]
     },
     {
@@ -1256,8 +1728,13 @@
       "websites": [],
       "emails": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "darkfantastic.net:2323"
+        {
+          "hostname": "darkfantastic.net",
+          "port": 2323
+        }
       ]
     },
     {
@@ -1267,8 +1744,13 @@
       "websites": [],
       "emails": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:4242"
+        {
+          "hostname": "amber.org.uk",
+          "port": 4242
+        }
       ]
     },
     {
@@ -1277,8 +1759,13 @@
       "websites": [],
       "emails": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "pgtoo.org:2060"
+        {
+          "hostname": "pgtoo.org",
+          "port": 2060
+        }
       ]
     },
     {
@@ -1288,9 +1775,17 @@
       "websites": [],
       "emails": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "wombat.tirsek.com:4000",
-        "tmp.talkerhost.com:3000"
+        {
+          "hostname": "wombat.tirsek.com",
+          "port": 4000
+        },
+        {
+          "hostname": "tmp.talkerhost.com",
+          "port": 3000
+        }
       ]
     },
     {
@@ -1300,8 +1795,13 @@
       "websites": [],
       "emails": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "kama.dyndns.dk:6969"
+        {
+          "hostname": "kama.dyndns.dk",
+          "port": 6969
+        }
       ]
     },
     {
@@ -1311,8 +1811,13 @@
       "websites": [],
       "emails": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "enigma.dune.net:5454"
+        {
+          "hostname": "enigma.dune.net",
+          "port": 5454
+        }
       ]
     },
     {
@@ -1322,8 +1827,13 @@
       "websites": [],
       "emails": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "eeek.org.uk:4242"
+        {
+          "hostname": "eeek.org.uk",
+          "port": 4242
+        }
       ]
     },
     {
@@ -1333,8 +1843,13 @@
       "websites": [],
       "emails": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "nethosting.net:6462"
+        {
+          "hostname": "nethosting.net",
+          "port": 6462
+        }
       ]
     },
     {
@@ -1347,9 +1862,14 @@
       "screencaps": [
         "haven.enyc.org.uk_7777.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "ssh": true,
       "hosts": [
-        "haven.enyc.org.uk:7777"
+        {
+          "hostname": "haven.enyc.org.uk",
+          "port": 7777
+        }
       ]
     },
     {
@@ -1364,8 +1884,13 @@
       "screencaps": [
         "temple2k.org_2222.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "temple2k.org:2222"
+        {
+          "hostname": "temple2k.org",
+          "port": 2222
+        }
       ]
     },
     {
@@ -1378,8 +1903,13 @@
       "screencaps": [
         "themanor.org_4242.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "themanor.org:4242"
+        {
+          "hostname": "themanor.org",
+          "port": 4242
+        }
       ]
     },
     {
@@ -1392,9 +1922,17 @@
       "screencaps": [
         "truefriends.org.uk_3000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "mr-chatterbox.allness.net:3000",
-        "truefriends.org.uk:3000"
+        {
+          "hostname": "mr-chatterbox.allness.net",
+          "port": 3000
+        },
+        {
+          "hostname": "truefriends.org.uk",
+          "port": 3000
+        }
       ]
     },
     {
@@ -1408,9 +1946,17 @@
       "screencaps": [
         "euts.org_2000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "euts.org:2000",
-        "euts.org:1997"
+        {
+          "hostname": "euts.org",
+          "port": 2000
+        },
+        {
+          "hostname": "euts.org",
+          "port": 1997
+        }
       ]
     },
     {
@@ -1418,8 +1964,13 @@
       "codebase": "pgplus",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "pit.enyc.org.uk:7422"
+        {
+          "hostname": "pit.enyc.org.uk",
+          "port": 7422
+        }
       ]
     },
     {
@@ -1429,9 +1980,17 @@
       "screencaps": [
         "ubervillage.org_3131.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ubervillage.org:3131",
-        "village.pb.net:5000"
+        {
+          "hostname": "ubervillage.org",
+          "port": 3131
+        },
+        {
+          "hostname": "village.pb.net",
+          "port": 5000
+        }
       ]
     },
     {
@@ -1449,11 +2008,15 @@
         }
       ],
       "screencaps": [],
+      "textcaps": [],
       "emails": [
         "mba4@mba4.org"
       ],
       "hosts": [
-        "mba4.org:3214"
+        {
+          "hostname": "mba4.org",
+          "port": 3214
+        }
       ]
     },
     {
@@ -1474,11 +2037,15 @@
       "screencaps": [
         "emisle.org_5000.png"
       ],
+      "textcaps": [],
       "emails": [
         "emerald@emisle.com"
       ],
       "hosts": [
-        "emisle.com:5000"
+        {
+          "hostname": "emisle.com",
+          "port": 5000
+        }
       ]
     },
     {
@@ -1487,9 +2054,14 @@
         "https://cubanbar.hochstenbach.net/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [],
       "hosts": [
-        "cubanbar.hochstenbach.net:1234"
+        {
+          "hostname": "cubanbar.hochstenbach.net",
+          "port": 1234
+        }
       ]
     },
     {
@@ -1498,9 +2070,14 @@
         "http://hades-talker.org"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [],
       "hosts": [
-        "bc.kelotz.net:2018"
+        {
+          "hostname": "bc.kelotz.net",
+          "port": 2018
+        }
       ]
     },
     {
@@ -1509,9 +2086,14 @@
         "http://hades-talker.org"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [],
       "hosts": [
-        "hades-talker.org:6660"
+        {
+          "hostname": "hades-talker.org",
+          "port": 6660
+        }
       ]
     },
     {
@@ -1525,14 +2107,25 @@
       "screencaps": [
         "dune.net_4405.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "emails": [
         "madhatter@taker.com",
         "alice@talker.com"
       ],
       "hosts": [
-        "dune.net:4405",
-        "alg.dune.net:4405",
-        "talker.net:4405"
+        {
+          "hostname": "dune.net",
+          "port": 4405
+        },
+        {
+          "hostname": "alg.dune.net",
+          "port": 4405
+        },
+        {
+          "hostname": "talker.net",
+          "port": 4405
+        }
       ]
     },
     {
@@ -1541,9 +2134,14 @@
         "https://hot-mess.net/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [],
       "hosts": [
-        "hot-mess.net:9900"
+        {
+          "hostname": "hot-mess.net",
+          "port": 9900
+        }
       ]
     },
     {
@@ -1584,11 +2182,15 @@
       "screencaps": [
         "thechattingzone.uk_8342.png"
       ],
+      "textcaps": [],
       "emails": [
         "tczadmin@gmail.com"
       ],
       "hosts": [
-        "thechattingzone.uk:8342"
+        {
+          "hostname": "thechattingzone.uk",
+          "port": 8342
+        }
       ]
     },
     {
@@ -1614,13 +2216,18 @@
       ],
       "emails": [],
       "hosts": [
-        "chatmud.com:7443"
+        {
+          "hostname": "chatmud.com",
+          "port": 7443
+        }
       ]
     },
     {
       "name": "Tower",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [],
       "hosts": []
     },
@@ -1629,9 +2236,14 @@
       "codebase": "pgplus",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [],
       "hosts": [
-        "underworld.jilted.com:2011"
+        {
+          "hostname": "underworld.jilted.com",
+          "port": 2011
+        }
       ]
     },
     {
@@ -1641,9 +2253,14 @@
         "http://dominion.net.uk/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [],
       "hosts": [
-        "dominion.net.uk:2468"
+        {
+          "hostname": "dominion.net.uk",
+          "port": 2468
+        }
       ]
     },
     {
@@ -1652,11 +2269,16 @@
         "http://gathering.org.uk"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [
         "webmaster@gathering.org.uk"
       ],
       "hosts": [
-        "gathering.org.uk:5000"
+        {
+          "hostname": "gathering.org.uk",
+          "port": 5000
+        }
       ]
     },
     {
@@ -1668,19 +2290,29 @@
       "screencaps": [
         "uberworld.org_2020.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "emails": [
         "admin@uberworld.org"
       ],
       "hosts": [
-        "uberworld.org:2020"
+        {
+          "hostname": "uberworld.org",
+          "port": 2020
+        }
       ]
     },
     {
       "name": "Honeycomb",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "cats.meow.at:3000"
+        {
+          "hostname": "cats.meow.at",
+          "port": 3000
+        }
       ]
     },
     {
@@ -1689,8 +2321,13 @@
       "screencaps": [
         "universe.tirsek.com_2631.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "universe.tirsek.com:2631"
+        {
+          "hostname": "universe.tirsek.com",
+          "port": 2631
+        }
       ]
     },
     {
@@ -1704,10 +2341,21 @@
       "screencaps": [
         "unreal.snowplains.org_7777.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "unreal.snowplains.org:7777",
-        "unreal.snowplains.org:7777",
-        "amber.org.uk:7777"
+        {
+          "hostname": "unreal.snowplains.org",
+          "port": 7777
+        },
+        {
+          "hostname": "unreal.snowplains.org",
+          "port": 7777
+        },
+        {
+          "hostname": "amber.org.uk",
+          "port": 7777
+        }
       ]
     },
     {
@@ -1722,9 +2370,17 @@
       "screencaps": [
         "valdemar.org_2345.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "valdemar.org:2345",
-        "ewtoo.org:2345"
+        {
+          "hostname": "valdemar.org",
+          "port": 2345
+        },
+        {
+          "hostname": "ewtoo.org",
+          "port": 2345
+        }
       ]
     },
     {
@@ -1738,8 +2394,13 @@
       "screencaps": [
         "vegas.cep.net_7979.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "vegas.cep.net:7979"
+        {
+          "hostname": "vegas.cep.net",
+          "port": 7979
+        }
       ]
     },
     {
@@ -1749,8 +2410,13 @@
       "screencaps": [
         "western.mytalker.org_2010.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "western.mytalker.org:2010"
+        {
+          "hostname": "western.mytalker.org",
+          "port": 2010
+        }
       ]
     },
     {
@@ -1759,8 +2425,13 @@
       "screencaps": [
         "whispers.org_4000.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "whispers.org:4000"
+        {
+          "hostname": "whispers.org",
+          "port": 4000
+        }
       ]
     },
     {
@@ -1769,8 +2440,13 @@
       "screencaps": [
         "www.nsgso.co.uk_1929.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "www.nsgso.co.uk:1929"
+        {
+          "hostname": "www.nsgso.co.uk",
+          "port": 1929
+        }
       ]
     },
     {
@@ -1785,8 +2461,13 @@
       "screencaps": [
         "ft.furtoonia.net_9999.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ft.furtoonia.net:9999"
+        {
+          "hostname": "ft.furtoonia.net",
+          "port": 9999
+        }
       ]
     },
     {
@@ -1796,23 +2477,36 @@
       "screencaps": [
         "zmc-place.enyc.org.uk_8682.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "emails": [
         "zmc-place@enyc.org.uk"
       ],
       "hosts": [
-        "zmc-place.enyc.org.uk:8682"
+        {
+          "hostname": "zmc-place.enyc.org.uk",
+          "port": 8682
+        }
       ]
     },
     {
       "name": "Castle of Desire",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [
         "talker4748@yahoo.com"
       ],
       "hosts": [
-        "dune.net:4748",
-        "abyss.bcl.net:7000"
+        {
+          "hostname": "dune.net",
+          "port": 4748
+        },
+        {
+          "hostname": "abyss.bcl.net",
+          "port": 7000
+        }
       ]
     },
     {
@@ -1821,11 +2515,16 @@
         "http://nowhereland.dune.net"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [
         "nwlang@dune.net"
       ],
       "hosts": [
-        "nowhereland.dune.net:1234"
+        {
+          "hostname": "nowhereland.dune.net",
+          "port": 1234
+        }
       ]
     },
     {
@@ -1834,42 +2533,61 @@
         "http://illusions.dune.net/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [
         "pixelsheeprl@gmail.com"
       ],
       "hosts": [
-        "illusions.dune.net:1234"
+        {
+          "hostname": "illusions.dune.net",
+          "port": 1234
+        }
       ]
     },
     {
       "name": "DC: 52 Mux",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "emails": [
         "dc52mux@yahoo.com"
       ],
       "hosts": [
-        "tangent.dune.net:7070"
+        {
+          "hostname": "tangent.dune.net",
+          "port": 7070
+        }
       ]
     },
     {
       "name": "Retro Chat",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": []
     },
     {
       "name": "Dreamers",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": []
     },
     {
       "name": "Twilight Zone",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tzone.homeip.net:5000"
+        {
+          "hostname": "tzone.homeip.net",
+          "port": 5000
+        }
       ]
     },
     {
@@ -1881,8 +2599,13 @@
       "screencaps": [
         "zeta.aquilae.org_3456.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "zeta.aquilae.org:3456"
+        {
+          "hostname": "zeta.aquilae.org",
+          "port": 3456
+        }
       ]
     },
     {
@@ -1890,8 +2613,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ab.spod.org:6000"
+        {
+          "hostname": "ab.spod.org",
+          "port": 6000
+        }
       ]
     },
     {
@@ -1906,8 +2634,13 @@
         "http://abyss.talker.com"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "abyss.talker.com:6669"
+        {
+          "hostname": "abyss.talker.com",
+          "port": 6669
+        }
       ]
     },
     {
@@ -1915,8 +2648,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "valinor.rivendel.com:4000"
+        {
+          "hostname": "valinor.rivendel.com",
+          "port": 4000
+        }
       ]
     },
     {
@@ -1924,8 +2662,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "thereeses.net:4040"
+        {
+          "hostname": "thereeses.net",
+          "port": 4040
+        }
       ]
     },
     {
@@ -1933,8 +2676,13 @@
       "websites": [],
       "dataOrigin": "talkers.ws",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "pi.dune.net:7679"
+        {
+          "hostname": "pi.dune.net",
+          "port": 7679
+        }
       ]
     },
     {
@@ -1942,8 +2690,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ewtoo.org:4000"
+        {
+          "hostname": "ewtoo.org",
+          "port": 4000
+        }
       ]
     },
     {
@@ -1951,8 +2704,12 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "morgon.dyndns.org"
+        {
+          "hostname": "morgon.dyndns.org"
+        }
       ]
     },
     {
@@ -1960,8 +2717,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "premis.lod.com:4242"
+        {
+          "hostname": "premis.lod.com",
+          "port": 4242
+        }
       ]
     },
     {
@@ -1969,8 +2731,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "argoed.ilserv.com:3000"
+        {
+          "hostname": "argoed.ilserv.com",
+          "port": 3000
+        }
       ]
     },
     {
@@ -1978,8 +2745,12 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dark.x.dtu.dk"
+        {
+          "hostname": "dark.x.dtu.dk"
+        }
       ]
     },
     {
@@ -1987,8 +2758,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tamarisk.ab.ca:1414"
+        {
+          "hostname": "tamarisk.ab.ca",
+          "port": 1414
+        }
       ]
     },
     {
@@ -2003,8 +2779,13 @@
         "http://www.geocities.com/timessquare/arcade/6542"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:6886"
+        {
+          "hostname": "talker.com",
+          "port": 6886
+        }
       ]
     },
     {
@@ -2012,8 +2793,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "hambleton.net:1111"
+        {
+          "hostname": "hambleton.net",
+          "port": 1111
+        }
       ]
     },
     {
@@ -2021,8 +2807,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "subnigra.com:8888"
+        {
+          "hostname": "subnigra.com",
+          "port": 8888
+        }
       ]
     },
     {
@@ -2030,8 +2821,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "yerevan.acp.da.ru:7777"
+        {
+          "hostname": "yerevan.acp.da.ru",
+          "port": 7777
+        }
       ]
     },
     {
@@ -2039,8 +2835,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dune.net:6969"
+        {
+          "hostname": "dune.net",
+          "port": 6969
+        }
       ]
     },
     {
@@ -2048,8 +2849,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ncohafmuta.com:1978"
+        {
+          "hostname": "ncohafmuta.com",
+          "port": 1978
+        }
       ]
     },
     {
@@ -2057,8 +2863,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [ ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "emc2.caltech.edu:9390"
+        {
+          "hostname": "emc2.caltech.edu",
+          "port": 9390
+        }
       ]
     },
     {
@@ -2066,8 +2877,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "crimson.talker.com:7404"
+        {
+          "hostname": "crimson.talker.com",
+          "port": 7404
+        }
       ]
     },
     {
@@ -2082,9 +2898,17 @@
         "http://churchnet2.ucsm.ac.uk/~crypt/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:6660",
-        "churchnet2.uscm.ac.uk:666"
+        {
+          "hostname": "amber.org.uk",
+          "port": 6660
+        },
+        {
+          "hostname": "churchnet2.uscm.ac.uk",
+          "port": 666
+        }
       ]
     },
     {
@@ -2098,8 +2922,13 @@
         "https://web.archive.org/web/19990202164419/http://www.talker.com/lodis/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2340"
+        {
+          "hostname": "talker.com",
+          "port": 2340
+        }
       ]
     },
     {
@@ -2108,8 +2937,13 @@
       "codebase": "crypt",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "206.245.154.72:8900"
+        {
+          "hostname": "206.245.154.72",
+          "port": 8900
+        }
       ]
     },
     {
@@ -2117,8 +2951,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "208.200.226.2:5000"
+        {
+          "hostname": "208.200.226.2",
+          "port": 5000
+        }
       ]
     },
     {
@@ -2127,9 +2966,17 @@
       "description": "A very friendly pagan oriented talker",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "cybercoven.com:9669",
-        "amber.org.uk:9669"
+        {
+          "hostname": "cybercoven.com",
+          "port": 9669
+        },
+        {
+          "hostname": "amber.org.uk",
+          "port": 9669
+        }
       ]
     },
     {
@@ -2137,8 +2984,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8071"
+        {
+          "hostname": "talker.com",
+          "port": 8071
+        }
       ]
     },
     {
@@ -2146,8 +2998,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "darkfantastic.net:3333"
+        {
+          "hostname": "darkfantastic.net",
+          "port": 3333
+        }
       ]
     },
     {
@@ -2155,8 +3012,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talkersworld.com:3669"
+        {
+          "hostname": "talkersworld.com",
+          "port": 3669
+        }
       ]
     },
     {
@@ -2164,8 +3026,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "globegate.utm.edu:9624"
+        {
+          "hostname": "globegate.utm.edu",
+          "port": 9624
+        }
       ]
     },
     {
@@ -2174,9 +3041,17 @@
       "description": "Talker based on the popular Deep Space Nine",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "208.200.226.2:3000",
-        "amber.org.uk:9000"
+        {
+          "hostname": "208.200.226.2",
+          "port": 3000
+        },
+        {
+          "hostname": "amber.org.uk",
+          "port": 9000
+        }
       ]
     },
     {
@@ -2184,8 +3059,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:7890"
+        {
+          "hostname": "amber.org.uk",
+          "port": 7890
+        }
       ]
     },
     {
@@ -2193,8 +3073,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dm.trica.com:8888"
+        {
+          "hostname": "dm.trica.com",
+          "port": 8888
+        }
       ]
     },
     {
@@ -2202,8 +3087,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "host213-1-81-219.btinternet.com:5555"
+        {
+          "hostname": "host213-1-81-219.btinternet.com",
+          "port": 5555
+        }
       ]
     },
     {
@@ -2211,8 +3101,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dragonsbane.skl.com:6677"
+        {
+          "hostname": "dragonsbane.skl.com",
+          "port": 6677
+        }
       ]
     },
     {
@@ -2220,8 +3115,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ekto.org:7070"
+        {
+          "hostname": "ekto.org",
+          "port": 7070
+        }
       ]
     },
     {
@@ -2229,8 +3129,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "gobbyland.co.uk:5000"
+        {
+          "hostname": "gobbyland.co.uk",
+          "port": 5000
+        }
       ]
     },
     {
@@ -2238,8 +3143,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "rivendel.com:7777"
+        {
+          "hostname": "rivendel.com",
+          "port": 7777
+        }
       ]
     },
     {
@@ -2247,8 +3157,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dream.custarg.org:2222"
+        {
+          "hostname": "dream.custarg.org",
+          "port": 2222
+        }
       ]
     },
     {
@@ -2256,8 +3171,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dreamscape.bernstein.com:4040"
+        {
+          "hostname": "dreamscape.bernstein.com",
+          "port": 4040
+        }
       ]
     },
     {
@@ -2265,8 +3185,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talkers.skl.com:5000"
+        {
+          "hostname": "talkers.skl.com",
+          "port": 5000
+        }
       ]
     },
     {
@@ -2274,8 +3199,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "cafe.mudservices.com:4567"
+        {
+          "hostname": "cafe.mudservices.com",
+          "port": 4567
+        }
       ]
     },
     {
@@ -2283,8 +3213,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "fantasy.talkers.ws:7777"
+        {
+          "hostname": "fantasy.talkers.ws",
+          "port": 7777
+        }
       ]
     },
     {
@@ -2292,8 +3227,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "whispers.org:9000"
+        {
+          "hostname": "whispers.org",
+          "port": 9000
+        }
       ]
     },
     {
@@ -2301,8 +3241,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "freehold.signwave.com:1313"
+        {
+          "hostname": "freehold.signwave.com",
+          "port": 1313
+        }
       ]
     },
     {
@@ -2310,8 +3255,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "futurecode.net:2121"
+        {
+          "hostname": "futurecode.net",
+          "port": 2121
+        }
       ]
     },
     {
@@ -2319,8 +3269,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "polypc47.chem.rug.nl:5000"
+        {
+          "hostname": "polypc47.chem.rug.nl",
+          "port": 5000
+        }
       ]
     },
     {
@@ -2328,8 +3283,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "globegate.utm.edu:8000"
+        {
+          "hostname": "globegate.utm.edu",
+          "port": 8000
+        }
       ]
     },
     {
@@ -2337,8 +3297,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "rhun.satanic.net:4242"
+        {
+          "hostname": "rhun.satanic.net",
+          "port": 4242
+        }
       ]
     },
     {
@@ -2346,8 +3311,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tb.yi.org:5055"
+        {
+          "hostname": "tb.yi.org",
+          "port": 5055
+        }
       ]
     },
     {
@@ -2355,9 +3325,17 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "hooters.frequencyshift.com:6969",
-        "tb.yi.org:4321"
+        {
+          "hostname": "hooters.frequencyshift.com",
+          "port": 6969
+        },
+        {
+          "hostname": "tb.yi.org",
+          "port": 4321
+        }
       ]
     },
     {
@@ -2365,8 +3343,13 @@
       "dataOrigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "evros.cc.ece.ntua.gr:5050"
+        {
+          "hostname": "evros.cc.ece.ntua.gr",
+          "port": 5050
+        }
       ]
     },
     {
@@ -2374,8 +3357,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ns.kconline.com:2600"
+        {
+          "hostname": "ns.kconline.com",
+          "port": 2600
+        }
       ]
     },
     {
@@ -2384,8 +3372,13 @@
       "ewtooAbbr": "Jaffa",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "jaffa.custard.org:4040"
+        {
+          "hostname": "jaffa.custard.org",
+          "port": 4040
+        }
       ]
     },
     {
@@ -2393,8 +3386,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "aldus.northnet.org:3400"
+        {
+          "hostname": "aldus.northnet.org",
+          "port": 3400
+        }
       ]
     },
     {
@@ -2402,8 +3400,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "allitnil.df.lth.se:6100"
+        {
+          "hostname": "allitnil.df.lth.se",
+          "port": 6100
+        }
       ]
     },
     {
@@ -2411,8 +3414,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8008"
+        {
+          "hostname": "talker.com",
+          "port": 8008
+        }
       ]
     },
     {
@@ -2420,8 +3428,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "legends.talker.com:6606"
+        {
+          "hostname": "legends.talker.com",
+          "port": 6606
+        }
       ]
     },
     {
@@ -2429,8 +3442,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "limbo.dune.net:3333"
+        {
+          "hostname": "limbo.dune.net",
+          "port": 3333
+        }
       ]
     },
     {
@@ -2438,9 +3456,17 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "madhouse.signwave.com:5000",
-        "madhouse.dune.net:5550"
+        {
+          "hostname": "madhouse.signwave.com",
+          "port": 5000
+        },
+        {
+          "hostname": "madhouse.dune.net",
+          "port": 5550
+        }
       ]
     },
     {
@@ -2448,8 +3474,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "innismir.sweet.com:4242"
+        {
+          "hostname": "innismir.sweet.com",
+          "port": 4242
+        }
       ]
     },
     {
@@ -2457,8 +3488,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "midnight.zipcon.com:7979"
+        {
+          "hostname": "midnight.zipcon.com",
+          "port": 7979
+        }
       ]
     },
     {
@@ -2466,8 +3502,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ewtoo.org:5559"
+        {
+          "hostname": "ewtoo.org",
+          "port": 5559
+        }
       ]
     },
     {
@@ -2475,8 +3516,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "mpft.dhs.org:2010"
+        {
+          "hostname": "mpft.dhs.org",
+          "port": 2010
+        }
       ]
     },
     {
@@ -2484,8 +3530,13 @@
       "dataorigin": "talkers.ws",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "harmless.ewtoo.org:4242"
+        {
+          "hostname": "harmless.ewtoo.org",
+          "port": 4242
+        }
       ]
     },
     {
@@ -2494,8 +3545,13 @@
       "description": "UK Parent-Link chat rooms",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:9990"
+        {
+          "hostname": "amber.org.uk",
+          "port": 9990
+        }
       ]
     },
     {
@@ -2505,9 +3561,9 @@
       "description": "Based on the TV program Red Dwarf",
       "websites": [],
       "screencaps": [],
-      "hosts": [
-        ""
-      ]
+      "textcaps": [],
+      "resources": [],
+      "hosts": []
     },
     {
       "name": "The Metro Hotel",
@@ -2516,8 +3572,13 @@
       "description": "Popular, heavily modified NUTS, very different",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:3456"
+        {
+          "hostname": "amber.org.uk",
+          "port": 3456
+        }
       ]
     },
     {
@@ -2527,8 +3588,13 @@
       "description": "Brilliant pgplus talker, based on Excalibur",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:3333"
+        {
+          "hostname": "amber.org.uk",
+          "port": 3333
+        }
       ]
     },
     {
@@ -2537,8 +3603,13 @@
       "description": "The Amiga Forever talker, for amiga fans",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:1200"
+        {
+          "hostname": "amber.org.uk",
+          "port": 1200
+        }
       ]
     },
     {
@@ -2547,8 +3618,13 @@
       "description": "Based on the cult series, Prisoner Cell Block H",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:4321"
+        {
+          "hostname": "amber.org.uk",
+          "port": 4321
+        }
       ]
     },
     {
@@ -2557,8 +3633,13 @@
       "description": "A compact 'from scratch' Su-less code",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:5555"
+        {
+          "hostname": "amber.org.uk",
+          "port": 5555
+        }
       ]
     },
     {
@@ -2567,8 +3648,13 @@
       "description": "Good staff, great residents, excellent code, basically we're fantastic!",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:6556"
+        {
+          "hostname": "amber.org.uk",
+          "port": 6556
+        }
       ]
     },
     {
@@ -2578,8 +3664,13 @@
       "hide": true,
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:1111"
+        {
+          "hostname": "amber.org.uk",
+          "port": 1111
+        }
       ]
     },
     {
@@ -2592,8 +3683,13 @@
         "https://web.archive.org/web/20000918112252/http://hysteria.sk:80/talker/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "hysteria.sk:7000"
+        {
+          "hostname": "hysteria.sk",
+          "port": 7000
+        }
       ]
     },
     {
@@ -2604,8 +3700,13 @@
       "description": "Amber's 1st LP-MUD with 100s of areas to play.",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:4242"
+        {
+          "hostname": "amber.org.uk",
+          "port": 4242
+        }
       ]
     },
     {
@@ -2614,8 +3715,13 @@
       "description": "The Su-Free spodding area",
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:9999"
+        {
+          "hostname": "amber.org.uk",
+          "port": 9999
+        }
       ]
     },
     {
@@ -2626,8 +3732,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4415"
+        {
+          "hostname": "talker.com",
+          "port": 4415
+        }
       ]
     },
     {
@@ -2638,8 +3749,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9052"
+        {
+          "hostname": "talker.com",
+          "port": 9052
+        }
       ]
     },
     {
@@ -2652,8 +3768,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2502"
+        {
+          "hostname": "talker.com",
+          "port": 2502
+        }
       ]
     },
     {
@@ -2664,8 +3785,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2707"
+        {
+          "hostname": "talker.com",
+          "port": 2707
+        }
       ]
     },
     {
@@ -2680,8 +3806,13 @@
         "http://www.talker.com/aftrdeth"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:5678"
+        {
+          "hostname": "talker.com",
+          "port": 5678
+        }
       ]
     },
     {
@@ -2696,8 +3827,13 @@
         "http://www.geocities.com/CollegePark/Campus/9704"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8040"
+        {
+          "hostname": "talker.com",
+          "port": 8040
+        }
       ]
     },
     {
@@ -2713,8 +3849,13 @@
         "http://www.talker.com/romance"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4305"
+        {
+          "hostname": "talker.com",
+          "port": 4305
+        }
       ]
     },
     {
@@ -2727,8 +3868,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4113"
+        {
+          "hostname": "talker.com",
+          "port": 4113
+        }
       ]
     },
     {
@@ -2740,8 +3886,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:3456"
+        {
+          "hostname": "talker.com",
+          "port": 3456
+        }
       ]
     },
     {
@@ -2752,8 +3903,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4400"
+        {
+          "hostname": "talker.com",
+          "port": 4400
+        }
       ]
     },
     {
@@ -2766,8 +3922,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7050"
+        {
+          "hostname": "talker.com",
+          "port": 7050
+        }
       ]
     },
     {
@@ -2781,8 +3942,13 @@
         "http://www.talker.com/sanctuary"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2535"
+        {
+          "hostname": "talker.com",
+          "port": 2535
+        }
       ]
     },
     {
@@ -2793,8 +3959,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2222"
+        {
+          "hostname": "talker.com",
+          "port": 2222
+        }
       ]
     },
     {
@@ -2807,8 +3978,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2112"
+        {
+          "hostname": "talker.com",
+          "port": 2112
+        }
       ]
     },
     {
@@ -2822,8 +3998,13 @@
         "http://www.talker.com/blueridge"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2614"
+        {
+          "hostname": "talker.com",
+          "port": 2614
+        }
       ]
     },
     {
@@ -2838,8 +4019,13 @@
         "http://www.talker.com/brecktown"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:5000"
+        {
+          "hostname": "talker.com",
+          "port": 5000
+        }
       ]
     },
     {
@@ -2852,8 +4038,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7577"
+        {
+          "hostname": "talker.com",
+          "port": 7577
+        }
       ]
     },
     {
@@ -2868,8 +4059,13 @@
         "http://www.talker.com/xena"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8001"
+        {
+          "hostname": "talker.com",
+          "port": 8001
+        }
       ]
     },
     {
@@ -2884,8 +4080,13 @@
         "http://www.talker.com/dreams"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4605"
+        {
+          "hostname": "talker.com",
+          "port": 4605
+        }
       ]
     },
     {
@@ -2899,8 +4100,13 @@
         "http://www.talker.com/crimsondawn"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7414"
+        {
+          "hostname": "talker.com",
+          "port": 7414
+        }
       ]
     },
     {
@@ -2915,8 +4121,13 @@
         "http://www.talker.com/crossroads"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:5150"
+        {
+          "hostname": "talker.com",
+          "port": 5150
+        }
       ]
     },
     {
@@ -2931,8 +4142,13 @@
         "http://www.talker.com/cybercity"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:3030"
+        {
+          "hostname": "talker.com",
+          "port": 3030
+        }
       ]
     },
     {
@@ -2946,8 +4162,13 @@
         "http://www.talker.com/EOTW"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9502"
+        {
+          "hostname": "talker.com",
+          "port": 9502
+        }
       ]
     },
     {
@@ -2961,8 +4182,13 @@
         "http://www.talker.com/harem"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:6200"
+        {
+          "hostname": "talker.com",
+          "port": 6200
+        }
       ]
     },
     {
@@ -2974,8 +4200,13 @@
       ],
       "websites": [ ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7770"
+        {
+          "hostname": "talker.com",
+          "port": 7770
+        }
       ]
     },
     {
@@ -2990,8 +4221,13 @@
         "http://www.talker.com/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4752"
+        {
+          "hostname": "talker.com",
+          "port": 4752
+        }
       ]
     },
     {
@@ -3003,8 +4239,13 @@
         "dman@talker.com"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:3234"
+        {
+          "hostname": "talker.com",
+          "port": 3234
+        }
       ]
     },
     {
@@ -3017,8 +4258,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7411"
+        {
+          "hostname": "talker.com",
+          "port": 7411
+        }
       ]
     },
     {
@@ -3031,8 +4277,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:3300"
+        {
+          "hostname": "talker.com",
+          "port": 3300
+        }
       ]
     },
     {
@@ -3045,8 +4296,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9786"
+        {
+          "hostname": "talker.com",
+          "port": 9786
+        }
       ]
     },
     {
@@ -3060,8 +4316,13 @@
         "http://www.talker.com/jungle"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:3050"
+        {
+          "hostname": "talker.com",
+          "port": 3050
+        }
       ]
     },
     {
@@ -3075,8 +4336,13 @@
         "http://www.talker.com/journeys"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8999"
+        {
+          "hostname": "talker.com",
+          "port": 8999
+        }
       ]
     },
     {
@@ -3090,8 +4356,13 @@
         "http://www.talker.com/kaos"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7010"
+        {
+          "hostname": "talker.com",
+          "port": 7010
+        }
       ]
     },
     {
@@ -3106,8 +4377,13 @@
         "http://www.talker.com/mountainranch"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:5013"
+        {
+          "hostname": "talker.com",
+          "port": 5013
+        }
       ]
     },
     {
@@ -3122,8 +4398,13 @@
         "http://www.talker.com/devil"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7002"
+        {
+          "hostname": "talker.com",
+          "port": 7002
+        }
       ]
     },
     {
@@ -3136,8 +4417,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4545"
+        {
+          "hostname": "talker.com",
+          "port": 4545
+        }
       ]
     },
     {
@@ -3149,8 +4435,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8600"
+        {
+          "hostname": "talker.com",
+          "port": 8600
+        }
       ]
     },
     {
@@ -3165,8 +4456,13 @@
         "http://www.talker.com/panpipes"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4207"
+        {
+          "hostname": "talker.com",
+          "port": 4207
+        }
       ]
     },
     {
@@ -3180,8 +4476,13 @@
         "http://www.talker.com/paradiseisland"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9257"
+        {
+          "hostname": "talker.com",
+          "port": 9257
+        }
       ]
     },
     {
@@ -3195,8 +4496,13 @@
         "http://www.talker.com/paris"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:3210"
+        {
+          "hostname": "talker.com",
+          "port": 3210
+        }
       ]
     },
     {
@@ -3211,8 +4517,13 @@
         "http://www.talker.com/partytim"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7777"
+        {
+          "hostname": "talker.com",
+          "port": 7777
+        }
       ]
     },
     {
@@ -3226,8 +4537,13 @@
         "http://www.talker.com/philadelphia"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7676"
+        {
+          "hostname": "talker.com",
+          "port": 7676
+        }
       ]
     },
     {
@@ -3242,8 +4558,13 @@
         "http://www.talker.com/reality"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9007"
+        {
+          "hostname": "talker.com",
+          "port": 9007
+        }
       ]
     },
     {
@@ -3258,8 +4579,13 @@
         "http://www.talker.com/realm"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8246"
+        {
+          "hostname": "talker.com",
+          "port": 8246
+        }
       ]
     },
     {
@@ -3274,8 +4600,13 @@
         "http://www.talker.com/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:6050"
+        {
+          "hostname": "talker.com",
+          "port": 6050
+        }
       ]
     },
     {
@@ -3286,8 +4617,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9002"
+        {
+          "hostname": "talker.com",
+          "port": 9002
+        }
       ]
     },
     {
@@ -3302,8 +4638,13 @@
         "http://www.talker.com/xanth"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4279"
+        {
+          "hostname": "talker.com",
+          "port": 4279
+        }
       ]
     },
     {
@@ -3321,8 +4662,12 @@
         "http://www.geocities.com/SunsetStrip/4333"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:"
+        {
+          "hostname": "talker.com"
+        }
       ]
     },
     {
@@ -3337,8 +4682,13 @@
         "http://www.talker.com/urge"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4567"
+        {
+          "hostname": "talker.com",
+          "port": 4567
+        }
       ]
     },
     {
@@ -3350,8 +4700,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:3307"
+        {
+          "hostname": "talker.com",
+          "port": 3307
+        }
       ]
     },
     {
@@ -3366,8 +4721,13 @@
         "http://www.talker.com/toontown"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:6020"
+        {
+          "hostname": "talker.com",
+          "port": 6020
+        }
       ]
     },
     {
@@ -3382,8 +4742,13 @@
         "http://www.talker.com/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2850"
+        {
+          "hostname": "talker.com",
+          "port": 2850
+        }
       ]
     },
     {
@@ -3398,8 +4763,13 @@
         "http://www.talker.com/tropics"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7500"
+        {
+          "hostname": "talker.com",
+          "port": 7500
+        }
       ]
     },
     {
@@ -3413,8 +4783,13 @@
         "http://www.talker.com/typotown"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:6666"
+        {
+          "hostname": "talker.com",
+          "port": 6666
+        }
       ]
     },
     {
@@ -3429,8 +4804,13 @@
         "http://www.talker.com/tysonscorners"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9797"
+        {
+          "hostname": "talker.com",
+          "port": 9797
+        }
       ]
     },
     {
@@ -3443,8 +4823,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2574"
+        {
+          "hostname": "talker.com",
+          "port": 2574
+        }
       ]
     },
     {
@@ -3459,8 +4844,13 @@
         "http://www.talker.com/whodonit"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4260"
+        {
+          "hostname": "talker.com",
+          "port": 4260
+        }
       ]
     },
     {
@@ -3476,8 +4866,13 @@
         "http://www.talker.com/wildwest"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:6500"
+        {
+          "hostname": "talker.com",
+          "port": 6500
+        }
       ]
     },
     {
@@ -3493,6 +4888,8 @@
         "http://www.talker.com/syrius"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": []
     },
     {
@@ -3507,8 +4904,13 @@
         "http://www.talker.com/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:3334"
+        {
+          "hostname": "talker.com",
+          "port": 3334
+        }
       ]
     },
     {
@@ -3523,8 +4925,13 @@
         "http://www.talker.com/schoolchat"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8100"
+        {
+          "hostname": "talker.com",
+          "port": 8100
+        }
       ]
     },
     {
@@ -3537,8 +4944,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9800"
+        {
+          "hostname": "talker.com",
+          "port": 9800
+        }
       ]
     },
     {
@@ -3556,8 +4968,13 @@
         "http://www.monmouth.com/~zaphod/shadow.html"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8800"
+        {
+          "hostname": "talker.com",
+          "port": 8800
+        }
       ]
     },
     {
@@ -3570,9 +4987,17 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9191",
-        "canadagaming.com:9191"
+        {
+          "hostname": "talker.com",
+          "port": 9191
+        },
+        {
+          "hostname": "canadagaming.com",
+          "port": 9191
+        }
       ]
     },
     {
@@ -3583,6 +5008,8 @@
         "http://www.cynage.com/theatre/"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": []
     },
     {
@@ -3595,8 +5022,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:7070"
+        {
+          "hostname": "talker.com",
+          "port": 7070
+        }
       ]
     },
     {
@@ -3611,8 +5043,13 @@
         "http://www.talker.com/simcity"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8200"
+        {
+          "hostname": "talker.com",
+          "port": 8200
+        }
       ]
     },
     {
@@ -3630,8 +5067,13 @@
         "http://www.talker.com/sommer"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:5555"
+        {
+          "hostname": "talker.com",
+          "port": 5555
+        }
       ]
     },
     {
@@ -3644,8 +5086,13 @@
       ],
       "websites": [ ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9990"
+        {
+          "hostname": "talker.com",
+          "port": 9990
+        }
       ]
     },
     {
@@ -3657,8 +5104,13 @@
       ],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:2550"
+        {
+          "hostname": "talker.com",
+          "port": 2550
+        }
       ]
     },
     {
@@ -3672,8 +5124,13 @@
         "http://www.talker.com/delta"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:3501"
+        {
+          "hostname": "talker.com",
+          "port": 3501
+        }
       ]
     },
     {
@@ -3691,8 +5148,13 @@
         "http://www.talker.com/strawberry"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:4500"
+        {
+          "hostname": "talker.com",
+          "port": 4500
+        }
       ]
     },
     {
@@ -3711,8 +5173,13 @@
         "http://www.talker.com/sushibar"
       ],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:8080"
+        {
+          "hostname": "talker.com",
+          "port": 8080
+        }
       ]
     },
     {
@@ -3721,8 +5188,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ztalker.netpower.no:3278"
+        {
+          "hostname": "ztalker.netpower.no",
+          "port": 3278
+        }
       ]
     },
     {
@@ -3731,8 +5203,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ewtoo.org:6671"
+        {
+          "hostname": "ewtoo.org",
+          "port": 6671
+        }
       ]
     },
     {
@@ -3742,8 +5219,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ice.offswn.net:4444"
+        {
+          "hostname": "ice.offswn.net",
+          "port": 4444
+        }
       ]
     },
     {
@@ -3752,8 +5234,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tdf.ca:6669"
+        {
+          "hostname": "tdf.ca",
+          "port": 6669
+        }
       ]
     },
     {
@@ -3762,8 +5249,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tdf.ca:6969"
+        {
+          "hostname": "tdf.ca",
+          "port": 6969
+        }
       ]
     },
     {
@@ -3772,8 +5264,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "rira.dune.net:2087"
+        {
+          "hostname": "rira.dune.net",
+          "port": 2087
+        }
       ]
     },
     {
@@ -3782,8 +5279,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ztalker.netpower.no:3280"
+        {
+          "hostname": "ztalker.netpower.no",
+          "port": 3280
+        }
       ]
     },
     {
@@ -3792,9 +5294,17 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tdf.ca:2121",
-        "darkages.darkfantastic.net:2121"
+        {
+          "hostname": "tdf.ca",
+          "port": 2121
+        },
+        {
+          "hostname": "darkages.darkfantastic.net",
+          "port": 2121
+        }
       ]
     },
     {
@@ -3803,8 +5313,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "the-funk.net:7000"
+        {
+          "hostname": "the-funk.net",
+          "port": 7000
+        }
       ]
     },
     {
@@ -3813,8 +5328,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ramtits.ca:6980"
+        {
+          "hostname": "ramtits.ca",
+          "port": 6980
+        }
       ]
     },
     {
@@ -3823,8 +5343,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "hivechat.net:6000"
+        {
+          "hostname": "hivechat.net",
+          "port": 6000
+        }
       ]
     },
     {
@@ -3833,8 +5358,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tdf.ca:1955"
+        {
+          "hostname": "tdf.ca",
+          "port": 1955
+        }
       ]
     },
     {
@@ -3843,8 +5373,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "yuss.net:5000"
+        {
+          "hostname": "yuss.net",
+          "port": 5000
+        }
       ]
     },
     {
@@ -3855,8 +5390,13 @@
       "screencaps": [
         "republic.snowplains.org_4001.png"
       ],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "republic.snowplains.org:4001"
+        {
+          "hostname": "republic.snowplains.org",
+          "port": 4001
+        }
       ]
     },
     {
@@ -3865,8 +5405,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tangent.dune.net:8352"
+        {
+          "hostname": "tangent.dune.net",
+          "port": 8352
+        }
       ]
     },
     {
@@ -3875,8 +5420,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "btech-online.net:5555"
+        {
+          "hostname": "btech-online.net",
+          "port": 5555
+        }
       ]
     },
     {
@@ -3885,8 +5435,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ewtoo.org:2000"
+        {
+          "hostname": "ewtoo.org",
+          "port": 2000
+        }
       ]
     },
     {
@@ -3895,8 +5450,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "cn.talkers.org:4040"
+        {
+          "hostname": "cn.talkers.org",
+          "port": 4040
+        }
       ]
     },
     {
@@ -3905,8 +5465,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "cnc.ewtoo.org:7111"
+        {
+          "hostname": "cnc.ewtoo.org",
+          "port": 7111
+        }
       ]
     },
     {
@@ -3915,8 +5480,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:9900"
+        {
+          "hostname": "talker.com",
+          "port": 9900
+        }
       ]
     },
     {
@@ -3925,8 +5495,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dotuk.org.uk:2131"
+        {
+          "hostname": "dotuk.org.uk",
+          "port": 2131
+        }
       ]
     },
     {
@@ -3935,8 +5510,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ewtoo.org:2222"
+        {
+          "hostname": "ewtoo.org",
+          "port": 2222
+        }
       ]
     },
     {
@@ -3945,8 +5525,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "amber.org.uk:5000"
+        {
+          "hostname": "amber.org.uk",
+          "port": 5000
+        }
       ]
     },
     {
@@ -3956,8 +5541,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "ewtoo.org:5252"
+        {
+          "hostname": "ewtoo.org",
+          "port": 5252
+        }
       ]
     },
     {
@@ -3966,8 +5556,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "yerevan.daemon.sh:6900"
+        {
+          "hostname": "yerevan.daemon.sh",
+          "port": 6900
+        }
       ]
     },
     {
@@ -3976,8 +5571,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tdf.ca:8888"
+        {
+          "hostname": "tdf.ca",
+          "port": 8888
+        }
       ]
     },
     {
@@ -3986,8 +5586,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "spod.org:4040"
+        {
+          "hostname": "spod.org",
+          "port": 4040
+        }
       ]
     },
     {
@@ -3996,8 +5601,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "mog.disintegration.org:7777"
+        {
+          "hostname": "mog.disintegration.org",
+          "port": 7777
+        }
       ]
     },
     {
@@ -4006,8 +5616,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "magic.kicks-ass.org:4000"
+        {
+          "hostname": "magic.kicks-ass.org",
+          "port": 4000
+        }
       ]
     },
     {
@@ -4016,8 +5631,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "neonumbra.lycanthrope.org:4561"
+        {
+          "hostname": "neonumbra.lycanthrope.org",
+          "port": 4561
+        }
       ]
     },
     {
@@ -4026,8 +5646,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "forest.subnigra.com:9696"
+        {
+          "hostname": "forest.subnigra.com",
+          "port": 9696
+        }
       ]
     },
     {
@@ -4036,8 +5661,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "172.16.1.240:4321"
+        {
+          "hostname": "172.16.1.240",
+          "port": 4321
+        }
       ]
     },
     {
@@ -4046,8 +5676,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "dune.net:4560"
+        {
+          "hostname": "dune.net",
+          "port": 4560
+        }
       ]
     },
     {
@@ -4056,8 +5691,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "helios.spang.org.uk:4000"
+        {
+          "hostname": "helios.spang.org.uk",
+          "port": 4000
+        }
       ]
     },
     {
@@ -4066,8 +5706,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "pern.dhs.org:1234"
+        {
+          "hostname": "pern.dhs.org",
+          "port": 1234
+        }
       ]
     },
     {
@@ -4076,8 +5721,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "yerevan.acp.da.ru:3456"
+        {
+          "hostname": "yerevan.acp.da.ru",
+          "port": 3456
+        }
       ]
     },
     {
@@ -4086,8 +5736,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "stimpy.2y.net:3000"
+        {
+          "hostname": "stimpy.2y.net",
+          "port": 3000
+        }
       ]
     },
     {
@@ -4097,8 +5752,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "redclaw.org.uk:2000"
+        {
+          "hostname": "redclaw.org.uk",
+          "port": 2000
+        }
       ]
     },
     {
@@ -4107,8 +5767,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "cognitio.no-ip.org:9999"
+        {
+          "hostname": "cognitio.no-ip.org",
+          "port": 9999
+        }
       ]
     },
     {
@@ -4117,8 +5782,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tangent.dune.net:3333"
+        {
+          "hostname": "tangent.dune.net",
+          "port": 3333
+        }
       ]
     },
     {
@@ -4127,8 +5797,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "my-harmonix.com:2224"
+        {
+          "hostname": "my-harmonix.com",
+          "port": 2224
+        }
       ]
     },
     {
@@ -4137,8 +5812,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "eeek.org.uk:1701"
+        {
+          "hostname": "eeek.org.uk",
+          "port": 1701
+        }
       ]
     },
     {
@@ -4147,8 +5827,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "downtown.notnet.co.uk:5051"
+        {
+          "hostname": "downtown.notnet.co.uk",
+          "port": 5051
+        }
       ]
     },
     {
@@ -4157,8 +5842,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "thebishop.ne.mediaone.net:7777"
+        {
+          "hostname": "thebishop.ne.mediaone.net",
+          "port": 7777
+        }
       ]
     },
     {
@@ -4167,8 +5857,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "mytalker.org:1111"
+        {
+          "hostname": "mytalker.org",
+          "port": 1111
+        }
       ]
     },
     {
@@ -4177,8 +5872,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "temple2k.org:7777"
+        {
+          "hostname": "temple2k.org",
+          "port": 7777
+        }
       ]
     },
     {
@@ -4187,8 +5887,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "eeek.org.uk:2442"
+        {
+          "hostname": "eeek.org.uk",
+          "port": 2442
+        }
       ]
     },
     {
@@ -4197,8 +5902,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "thevalley.eporcupine.co.uk:1234"
+        {
+          "hostname": "thevalley.eporcupine.co.uk",
+          "port": 1234
+        }
       ]
     },
     {
@@ -4207,8 +5917,13 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "trekkers-rest.org.uk:3000"
+        {
+          "hostname": "trekkers-rest.org.uk",
+          "port": 3000
+        }
       ]
     },
     {
@@ -4217,71 +5932,116 @@
       "emails": [],
       "websites": [],
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "yerevan.acp.da.ru:4523"
+        {
+          "hostname": "yerevan.acp.da.ru",
+          "port": 4523
+        }
       ]
     },
     {
       "name": "Void",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "void.greenfinch.com:1234"
+        {
+          "hostname": "void.greenfinch.com",
+          "port": 1234
+        }
       ]
     },
     {
       "name": "Palace Of Pleasures",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "binhost.com:9990"
+        {
+          "hostname": "binhost.com",
+          "port": 9990
+        }
       ]
     },
     {
       "name": "Baren Touhk",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "barentouhk.com:3050"
+        {
+          "hostname": "barentouhk.com",
+          "port": 3050
+        }
       ]
     },
     {
       "name": "Bondage Bay",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "bondagebay.dune.net:6006"
+        {
+          "hostname": "bondagebay.dune.net",
+          "port": 6006
+        }
       ]
     },
     {
-      "name": "Cafee",
+      "name": "Cafe",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "resources": [],
       "hosts": [
-        "cafe.ee"
+        {
+          "hostname": "cafe.ee"
+        }
       ]
     },
     {
       "name": "CrossTalker",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "derrecklowe.name:1337"
+        {
+          "hostname": "derrecklowe.name",
+          "port": 1337
+        }
       ]
     },
     {
       "name": "E N E R G Y",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "energy.talker.ee:5555"
+        {
+          "hostname": "energy.talker.ee",
+          "port": 5555
+        }
       ]
     },
     {
       "name": "Euclid Bullet",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "euclid.earth.ox.ac.uk:23"
+        {
+          "hostname": "euclid.earth.ox.ac.uk",
+          "port": 23
+        }
       ]
     },
     {
@@ -4289,131 +6049,205 @@
       "description": "tdf",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "foreverbeyond.org:7000"
+        {
+          "hostname": "foreverbeyond.org",
+          "port": 7000
+        }
       ]
     },
     {
       "name": "Lara",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "lara.dune.net"
+        {
+          "hostname": "lara.dune.net"
+        }
       ]
     },
     {
       "name": "The Leisure Zone",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "leisure.omnifarious.org:3000"
+        {
+          "hostname": "leisure.omnifarious.org",
+          "port": 3000
+        }
       ]
     },
     {
       "name": "Ennersea",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "mush.ennersea.net:4201"
+        {
+          "hostname": "mush.ennersea.net",
+          "port": 4201
+        }
       ]
     },
     {
       "name": "Flirt Town",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:3200"
+        {
+          "hostname": "talker.com",
+          "port": 3200
+        }
       ]
     },
     {
       "name": "Whole Year Inn",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "sycotic-asylum.com:3300"
+        {
+          "hostname": "sycotic-asylum.com",
+          "port": 3300
+        }
       ]
     },
     {
       "name": "Castle Corners",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.com:6789"
+        {
+          "hostname": "talker.com",
+          "port": 6789
+        }
       ]
     },
     {
       "name": "Iron Rose",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.ironrose.org:3000"
+        {
+          "hostname": "talker.ironrose.org",
+          "port": 3000
+        }
       ]
     },
     {
       "name": "Ice Fire",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talker.ironrose.org:7000"
+        {
+          "hostname": "talker.ironrose.org",
+          "port": 7000
+        }
       ]
     },
     {
       "name": "Portugal Medieval",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "talkerspt.no-ip.org:10000"
+        {
+          "hostname": "talkerspt.no-ip.org",
+          "port": 10000
+        }
       ]
     },
     {
       "name": "Club Life",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tdf.ca:7000"
+        {
+          "hostname": "tdf.ca",
+          "port": 7000
+        }
       ]
     },
     {
       "name": "Eternal Covenant",
       "dataOrigin": "tdf",
       "screencaps": [],
+      "textcaps": [],
+      "resources": [],
       "hosts": [
-        "tangent.dune.net:2001"
+        {
+          "hostname": "tangent.dune.net",
+          "port": 2001
+        }
       ]
     },
     {
       "name": "Lintilla",
       "dataOrigin": "facebook",
+      "resources": [],
       "screencaps": [],
+      "textcaps": [],
       "hosts": []
     },
     {
       "name": "Lighthouse",
       "dataOrigin": "facebook",
+      "resources": [],
       "screencaps": [],
+      "textcaps": [],
       "hosts": []
     },
     {
       "name": "Sleepy's Men's Corner",
       "dataOrigin": "facebook",
+      "resources": [],
       "screencaps": [],
+      "textcaps": [],
       "hosts": []
     },
     {
       "name": "Winter's Edge",
       "dataOrigin": "tdf",
+      "resources": [],
       "screencaps": [],
+      "textcaps": [],
       "hosts": [
-        "winter.mushpark.com:3000"
+        {
+          "hostname": "winter.mushpark.com",
+          "port": 3000
+        }
       ]
     },
     {
       "name": "The Hotel",
       "dataOrigin": "talkers.ws",
-      "websites": [],
+      "resources": [],
       "screencaps": [],
+      "textcaps": [],
       "hosts": [
-        "hotel.dune.net:6969"
+        {
+          "hostname": "hotel.dune.net",
+          "port": 6969
+        }
       ]
     }
   ]

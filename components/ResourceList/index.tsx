@@ -1,5 +1,4 @@
 import Divider from '@mui/material/Divider';
-import Image from 'next/image';
 import Link from '@mui/material/Link';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -8,9 +7,10 @@ import EmptyListItem from '../EmptyListItem';
 
 interface Resource {
   name?: string,
-  description?: string,
+  'type': string,
   url: string,
-  'type': string
+  description?: string,
+  icon?: string
 }
 
 interface ResourceListProps {
@@ -21,33 +21,40 @@ interface ResourceListProps {
 const ResourceList = ({title = "Other resources", resources}: ResourceListProps) => {
   let resourceListItems = [<EmptyListItem key="resource-none" />];
 
-  if (resources.length) {
-    const sortedResources = resources.sort((a, b) => {
-      const aHasName = typeof a.name !== "undefined";
-      const bHasName = typeof b.name !== "undefined";
-
-      if (aHasName && !bHasName) {
-        return 1;
-      }
-
-      if (bHasName && !aHasName) {
-        return -1;
-      }
-
-      if (!aHasName && !aHasName) {
-        return 0;
-      }
-
+  const sortedResources: Resource[] = resources.sort((a: Resource, b: Resource): number => {
+    if (typeof a.name !== "undefined" && typeof b.name !== "undefined") {
       return a.name.localeCompare(b.name);
-    });
+    }
 
+    if (typeof a.name === "undefined" && typeof b.name === "undefined") {
+      return 0;
+    }
+
+    if (typeof b.name === "undefined") {
+      return 1;
+    }
+
+    return -1;
+  });
+
+  if (resources.length) {
     resourceListItems = sortedResources.map((resource, index) => {
-      const name = resource.name ?? resource.url;
-      const url = resource.type === 'email' ? `mailto:${resource.url}` : resource.url;
+      const url: string = resource.type === 'email' ? `mailto:${resource.url}` : resource.url;
+      let name: string = resource.name ?? resource.url;
+      let description: string | null = resource.description ?? resource.type;
+
+      if (['email', 'ewtoo', 'website'].includes(description)) {
+        description = null;
+      }
+
+      if (description === 'wayback') {
+        description = '(wayback machine copy)';
+        name = name.replace(/.+http?/, 'http');
+      }
 
       return (
         <ListItem disableGutters key={`resource-${resource.type}-${index}`}>
-          <ListItemText secondary={resource.description ?? resource.type}>
+          <ListItemText secondary={description}>
             <Link href={url}>{name}</Link>
           </ListItemText>
         </ListItem>

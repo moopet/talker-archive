@@ -6,9 +6,10 @@ import Typography from '@mui/material/Typography';
 import Navigation from '../components/Navigation';
 import ResourceList from '../components/ResourceList';
 
-import { resources } from '../data/talkers.json';
+import data from '../data/talkers.json';
 
 const ResourcesPage = () => {
+  const { resources } = data;
   const resourceTypes = {
     article: [
       "article",
