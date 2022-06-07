@@ -136,12 +136,10 @@ const TalkerDetails = () => {
   }
 
   if (codebase !== null) {
-    codebaseDescription = `The talker is (was?) based on ${codebase.name}`;
-    console.log(codebase);
+    codebaseDescription = `The talker is (was?) based on the codebase, "${codebase.name}"`;
   }
 
   if (codebase && codebase?.family) {
-    console.log("hello");
     codebaseDescription += `, a ${getCodebase(codebase.family).name} derivative`;
   }
 
