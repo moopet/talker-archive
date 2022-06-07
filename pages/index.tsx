@@ -17,7 +17,7 @@ const TalkerListPage = () => {
       return false;
     }
 
-    if (hideEmptyEntries && !talker?.screencaps?.length && !talker?.emails?.length && !talker?.websites?.length ) {
+    if (hideEmptyEntries && !talker?.screencaps?.length) {
       return false;
     }
 

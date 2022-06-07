@@ -48,15 +48,12 @@ interface Talker {
   codebase?: string,
   dataOrigin?: string,
   description?: string,
-  emails?: string[],
   ewtooAbbr?: string,
   hide?: boolean,
-  hosts?: string[]
-  resources?: Resource[]
+  hosts?: Host[],
+  resources: Resource[]
   screencaps?: string[],
   textcaps?: string[],
-  wayback?: string[],
-  websites?: string[],
 }
 
 interface Data {
@@ -117,12 +114,9 @@ const TalkerDetails = () => {
 
   const talker: Talker = matchingTalkers[0];
 
-  const emails: string[] = talker?.emails ?? [];
-  const hosts: string[] = talker?.hosts ?? [];
   let resources: Resource[] = talker?.resources ?? [];
   const screencaps: string[] = talker?.screencaps ?? [];
   const screencap: string = `/screencaps/${screencaps.length > 0 ? screencaps[0] : 'placeholder.png'}`;
-  const waybackUrls: string[] = talker?.wayback ?? [];
 
   let citation: string = '';
   let codebaseDescription: string = '';
