@@ -5,12 +5,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-interface Host {
-  hostname: string,
-  port?: number
-}
-
-interface HostListProps {
+type HostListProps = {
   title?: string,
   hosts: Host[]
 }
@@ -23,8 +18,6 @@ const HostList = ({title = "Hosts", hosts}: HostListProps) => {
       let text: string = `${host.hostname}`;
       let url: string = `http://${host.hostname}`;
       let description: string | null = `(port unknown)`;
-
-      console.log(host);
 
       if (typeof host.port !== 'undefined') {
         text = `${host.hostname}:${host.port}`;

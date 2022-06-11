@@ -7,7 +7,7 @@ import Link from '@mui/material/Link';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
-interface NavigationProps {
+type NavigationProps = {
   title?: string
 }
 
@@ -45,4 +45,4 @@ const Navigation = (props: NavigationProps) => {
   );
 };
 
-export default Navigation;;
+export default Navigation;

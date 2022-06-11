@@ -12,7 +12,7 @@ import data from '../data/talkers.json';
 const TalkerListPage = () => {
 	const hideEmptyEntries = false;
 
-  const talkers = data.talkers.filter(talker => {
+  const talkers: Talker[] = data.talkers.filter(talker => {
     if (!talker.name) {
       return false;
     }

@@ -5,15 +5,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-interface Resource {
-  name?: string,
-  'type': string,
-  url: string,
-  description?: string,
-  icon?: string
-}
-
-interface ResourceListProps {
+type ResourceListProps = {
   title?: string,
   resources: Resource[]
 }

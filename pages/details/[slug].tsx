@@ -14,55 +14,6 @@ import ScreenCapturesList from '../../components/ScreenCapturesList';
 
 import dataRaw from '../../data/talkers.json';
 
-interface Codebase {
-  name: string,
-  family?: string,
-  language?: string,
-  platform?: string,
-  shortName?: string
-  repo?: string,
-  url?: string
-}
-
-interface DataOrigin {
-  name: string,
-  shortName?: string
-}
-
-interface Host {
-  hostname: string,
-  port?: number
-}
-
-interface Resource {
-  name?: string,
-  'type': string,
-  url: string,
-  description?: string,
-  icon?: string
-}
-
-interface Talker {
-  name: string,
-  adult?: boolean,
-  codebase?: string,
-  dataOrigin?: string,
-  description?: string,
-  ewtooAbbr?: string,
-  hide?: boolean,
-  hosts?: Host[],
-  resources: Resource[]
-  screencaps?: string[],
-  textcaps?: string[],
-}
-
-interface Data {
-  codebases: Codebase[],
-  dataOrigins: DataOrigin[],
-  resources: Resource[],
-  talkers: Talker[]
-}
-
 const data: Data = dataRaw;
 
 const getCodebase = (codebaseName: string): Codebase => {

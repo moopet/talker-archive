@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 
-interface HeroProps {
+type HeroProps = {
   title: string,
   subtitle: string,
   image: string

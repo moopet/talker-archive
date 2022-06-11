@@ -13,12 +13,7 @@ import Toolbar from '@mui/material/Toolbar';
 
 import TalkerCard from '../TalkerCard';
 
-interface Talker {
-  name: string,
-  screencaps?: string[]
-}
-
-interface TalkerGridProps {
+type TalkerGridProps = {
   talkers: Talker[]
 }
 

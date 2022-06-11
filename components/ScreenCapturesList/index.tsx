@@ -5,7 +5,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import EmptyListItem from '../EmptyListItem';
 
-interface ScreenCapturesListProps {
+type ScreenCapturesListProps = {
   title?: string,
   screencaps: string[]
 }

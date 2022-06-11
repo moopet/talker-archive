@@ -8,12 +8,7 @@ import Typography from '@mui/material/Typography';
 
 import slugify from 'slugify';
 
-interface Talker {
-  name: string,
-  screencaps?: string[]
-}
-
-interface TalkerCardProps {
+type TalkerCardProps = {
   talker: Talker
 }
 
