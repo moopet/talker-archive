@@ -50,6 +50,13 @@
       "type": "Repository",
       "description": "GitHub repository",
       "icon": "GitHub",
+      "name": "Talker archive (this site!)",
+      "url": "https://github.com/moopet/talker-archive"
+    },
+    {
+      "type": "Repository",
+      "description": "GitHub repository",
+      "icon": "GitHub",
       "name": "Talkers",
       "url": "https://github.com/talkers/"
     },
