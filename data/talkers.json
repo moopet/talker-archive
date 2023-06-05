@@ -923,6 +923,10 @@
       "ewtooAbbr": "SP",
       "resources": [
         {
+          "type": "website",
+          "url": "http://www.snowplains.org"
+        },
+        {
           "type": "email",
           "url": "snowadm@snowplains.org"
         },
