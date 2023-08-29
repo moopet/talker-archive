@@ -513,6 +513,7 @@
     {
       "name": "Castle",
       "dataOrigin": "spodlist",
+      "description": "Castle was started back in ye last millennium by ye olde peasant Cheesetong and ye olde miser Beaver. Together with ay small bande of merrie spods they went about their duties forming a bande of cut-throats, peasants and thieves and generaly any mad person who wanted to join.",
       "codebase": "pgplus",
       "screencaps": [
         "castle2k.org.uk_5050.png"
