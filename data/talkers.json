@@ -348,7 +348,6 @@
       "name": "Brigandine",
       "ewtooAbbr": "brigandine",
       "dataOrigin": "spodlist",
-      "ewtooAbbr": "Brig",
       "codebase": "pgplus",
       "screencaps": [
         "brigandine.org_9390_4.png",
@@ -436,7 +435,6 @@
     {
       "name": "The 'Burbs",
       "dataOrigin": "spodlist",
-      "ewtooAbbr": "Burbs",
       "ewtooAbbr": "burbs",
       "screencaps": [
         "burbs.org_4567.png"
@@ -568,7 +566,6 @@
       "dataOrigin": "spodlist",
       "ewtooAbbr": "Cntprk",
       "codebase": "pgplus",
-      "ewtooAbbr": "CP",
       "screencaps": [
         "centralperk.us_2323.png",
         "presidium.org_2222.png"
@@ -6108,7 +6105,6 @@
       "dataOrigin": "tdf",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
       "resources": [],
       "hosts": [
         {
