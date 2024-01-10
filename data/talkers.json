@@ -5647,10 +5647,16 @@
     {
       "name": "Crystal Palace",
       "dataOrigin": "spodlist",
-      "screencaps": [],
+      "screencaps": [
+        "cptalker.com_9900.png"
+      ],
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "cptalker.com",
+          "port": 9900
+        },
         {
           "hostname": "talker.com",
           "port": 9900
