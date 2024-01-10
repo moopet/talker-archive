@@ -5651,7 +5651,13 @@
         "cptalker.com_9900.png"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "name": "Web client",
+          "url": "http://cptalker.com:9901/cp"
+        }
+      ],
       "hosts": [
         {
           "hostname": "cptalker.com",
