@@ -919,6 +919,7 @@
       "name": "Snowplains",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "SP",
+      "description": "The theme of the talker (or MUG or MUSH or whatever you wish to call it, but it's not really a MUD) is, erm, a snowplain. The guides, superusers and admin are all penguins of varying sorts (Chocolate, Royal and King/Emperor as appropriate).",
       "resources": [
         {
           "type": "website",
