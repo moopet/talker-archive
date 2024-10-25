@@ -265,7 +265,6 @@
     },
     {
       "name": "Addicted",
-      "resources": [
       "hosts": [
         {
           "hostname": "sun1.gwent.ac.uk",
