@@ -36,6 +36,12 @@
     {
       "type": "Website",
       "icon": "Article",
+      "name": "The Razor's Edge Talker list",
+      "url": "https://geocities.datacellar.net/SiliconValley/Park/7853/"
+    },
+    {
+      "type": "Website",
+      "icon": "Article",
       "name": "MUDStats",
       "url": "http://mudstats.com/"
     },
@@ -120,6 +126,10 @@
     {
       "shortName": "tdf",
       "name": "Moe's talker listing on Dark Fantastic Net"
+    },
+    {
+      "shortName": "razor",
+      "name": "The Razor's Edge Talker List"
     }
   ],
   "codebases": [
