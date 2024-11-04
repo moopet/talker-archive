@@ -35,6 +35,7 @@
     },
     {
       "type": "Website",
+      "description": "Talker list",
       "icon": "Article",
       "name": "The Razor's Edge Talker list",
       "url": "https://geocities.datacellar.net/SiliconValley/Park/7853/"
