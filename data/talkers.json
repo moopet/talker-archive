@@ -670,7 +670,12 @@
         "crazylands.org_6969.png"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://crazy.skl.com/"
+        }
+      ],
       "hosts": [
         {
           "hostname": "crazy.skl.com",
@@ -944,6 +949,10 @@
           "url": "http://www.snowplains.org"
         },
         {
+          "type": "website",
+          "url": "http://squeak.fitz.cam.ac.uk/snowplains/"
+        },
+        {
           "type": "email",
           "url": "snowadm@snowplains.org"
         },
@@ -1117,8 +1126,18 @@
       "codebase": "ewtoo",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
-      "hosts": []
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://gstv.gsu.edu/vineyard/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "vineyard.igc.net",
+          "port": 4242
+        }
+      ]
     },
     {
       "name": "Elsewhere",
@@ -1139,7 +1158,12 @@
       "codebase": "ewtoo",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.merlin.net/somewhere"
+        }
+      ],
       "hosts": [
         {
           "hostname": "wibble.merlin.net",
@@ -1162,6 +1186,10 @@
         {
           "type": "website",
           "url": "http://foothills.tk"
+        },
+        {
+          "type": "website",
+          "url": "http://ulibnet.mtsu.edu/~jsloman/foothills.html"
         },
         {
           "type": "website",
@@ -1212,8 +1240,18 @@
       "name": "Tombstone",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
-      "hosts": []
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.compsoc.man.ac.uk/~seph/tombframe.html"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "andromeda.mt.ic.ac.uk",
+          "port": 3000
+        }
+      ]
     },
     {
       "name": "Inspector Gadget's Talker",
@@ -1224,10 +1262,6 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
-        {
-          "hostname": "andromeda.mt.ic.ac.uk",
-          "port": 3000
-        },
         {
           "hostname": "gadget.ewtoo.org",
           "port": 7000
@@ -1391,7 +1425,12 @@
         "phoenix.lsds.com_9876.png"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://home.megalinx.net/~felines"
+        }
+      ],
       "hosts": [
         {
           "hostname": "cats.megalinx.net",
@@ -1412,6 +1451,10 @@
           "name": "Forest",
           "icon": "Facebook",
           "url": "https://www.facebook.com/groups/5190394930/"
+        },
+        {
+          "type": "website",
+          "url": "http://forest.progsoc.uts.edu.au/forest"
         },
         {
           "type": "email",
@@ -1519,7 +1562,12 @@
         "spod.org_3003.png"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.flevel.co.uk/~dome"
+        }
+      ],
       "hosts": [
         {
           "hostname": "fgate.flevel.co.uk",
@@ -1703,6 +1751,10 @@
         },
         {
           "type": "website",
+          "url": "http://ulibnet.mtsu.edu/~afoxson/resort"
+        },
+        {
+          "type": "website",
           "url": "http://www.resort.org"
         }
       ],
@@ -1750,6 +1802,10 @@
         {
           "type": "website",
           "url": "http://surfers.org"
+        },
+        {
+          "type": "website",
+          "url": "http://orangey-beard.csc.stu.mmu.ac.uk/~surfers"
         }
       ],
       "screencaps": [
@@ -2373,7 +2429,12 @@
       "codebase": "pgplus",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.riverbend.net/tower"
+        }
+      ],
       "hosts": [
         {
           "hostname": "tower.vivid.net",
@@ -3332,7 +3393,12 @@
       "dataOrigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://dreamscape.bernstein.com/dreamscape"
+        }
+      ],
       "hosts": [
         {
           "hostname": "dreamscape.bernstein.com",
@@ -3661,7 +3727,12 @@
       "dataorigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.pythonline.com/mpft"
+        }
+      ],
       "hosts": [
         {
           "hostname": "pug.7thlevel.com",
@@ -5729,7 +5800,12 @@
       "dataOrigin": "spodlist",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.helix.net/~cirrus"
+        }
+      ],
       "hosts": [
         {
           "hostname": "helix.net",
@@ -5784,7 +5860,12 @@
       "dataOrigin": "spodlist",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://bungle.spods.dcs.kcl.ac.uk/~dotuk"
+        }
+      ],
       "hosts": [
         {
           "hostname": "bungle.spods.dcs.kcl.ac.uk",
