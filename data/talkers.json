@@ -497,6 +497,10 @@
       ],
       "hosts": [
         {
+          "hostname": "camelot.megalinx.net",
+          "port": 4242
+        },
+        {
           "hostname": "camelot.subnigra.com",
           "port": 8888
         },
@@ -668,6 +672,10 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "crazy.skl.com",
+          "port": 6969
+        },
         {
           "hostname": "crazylands.org",
           "port": 6969
@@ -953,6 +961,10 @@
       "textcaps": [],
       "hosts": [
         {
+          "hostname": "squeak.fitz.cam.ac.uk",
+          "port": 3456
+        },
+        {
           "hostname": "snowplains.org",
           "port": 3456
         }
@@ -1128,7 +1140,12 @@
       "screencaps": [],
       "textcaps": [],
       "resources": [],
-      "hosts": []
+      "hosts": [
+        {
+          "hostname": "wibble.merlin.net",
+          "port": 2010
+        }
+      ]
     },
     {
       "name": "Foothills",
@@ -1207,6 +1224,10 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "andromeda.mt.ic.ac.uk",
+          "port": 3000
+        },
         {
           "hostname": "gadget.ewtoo.org",
           "port": 7000
@@ -1373,6 +1394,10 @@
       "resources": [],
       "hosts": [
         {
+          "hostname": "cats.megalinx.net",
+          "port": 4444
+        },
+        {
           "hostname": "phoenix.lsds.com",
           "port": 9876
         }
@@ -1496,6 +1521,10 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "fgate.flevel.co.uk",
+          "port": 3003
+        },
         {
           "hostname": "spod.org",
           "port": 3003
@@ -1629,6 +1658,10 @@
         }
       ],
       "hosts": [
+        {
+          "hostname": "shadows.megalinx.net",
+          "port": 1509
+        },
         {
           "hostname": "ds.enyc.org.uk",
           "port": 8688
@@ -1783,6 +1816,10 @@
         }
       ],
       "hosts": [
+        {
+          "hostname": "world.vivid.net",
+          "port": 7979
+        },
         {
           "hostname": "slack.nosuchluck.net",
           "port": 7979
@@ -2339,8 +2376,16 @@
       "resources": [],
       "hosts": [
         {
+          "hostname": "tower.vivid.net",
+          "port": 8008
+        },
+        {
           "hostname": "underworld.jilted.com",
           "port": 2011
+        },
+        {
+          "hostname": "underworld.demon.co.uk",
+          "port": 2010
         },
         {
           "hostname": "dismayl.demon.co.uk",
@@ -2843,6 +2888,10 @@
       "resources": [],
       "hosts": [
         {
+          "hostname": "shore3.intercom.net",
+          "port": 4242
+        },
+        {
           "hostname": "premis.lod.com",
           "port": 4242
         }
@@ -2855,6 +2904,10 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "zippy.spods.dcs.kcl.ac.uk",
+          "port": 3000
+        },
         {
           "hostname": "argoed.ilserv.com",
           "port": 3000
@@ -3362,6 +3415,10 @@
         {
           "hostname": "futurecode.net",
           "port": 2121
+        },
+        {
+          "hostname": "future.kdcol.com",
+          "port": 5000
         }
       ]
     },
@@ -3454,6 +3511,10 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "ligtel.com",
+          "port": 2600
+        },
         {
           "hostname": "ns.kconline.com",
           "port": 2600
@@ -3602,6 +3663,10 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "pug.7thlevel.com",
+          "port": 2010
+        },
         {
           "hostname": "mpft.dhs.org",
           "port": 2010
@@ -3978,6 +4043,10 @@
         }
       ],
       "hosts": [
+        {
+          "hostname": "animal.megalinx.net",
+          "port": 3456
+        },
         {
           "hostname": "talker.com",
           "port": 3456
@@ -5663,6 +5732,10 @@
       "resources": [],
       "hosts": [
         {
+          "hostname": "helix.net",
+          "port": 4040
+        },
+        {
           "hostname": "cn.talkers.org",
           "port": 4040
         }
@@ -5713,6 +5786,10 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "bungle.spods.dcs.kcl.ac.uk",
+          "port": 6543
+        },
         {
           "hostname": "dotuk.org.uk",
           "port": 2131
@@ -5782,6 +5859,10 @@
         {
           "hostname": "tdf.ca",
           "port": 8888
+        },
+        {
+          "hostname": "paintbox.dircon.co.uk",
+          "port": 4040
         }
       ]
     },
@@ -6104,6 +6185,10 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "benland.muc.edu",
+          "port": 5555
+        },
         {
           "hostname": "void.greenfinch.com",
           "port": 1234
