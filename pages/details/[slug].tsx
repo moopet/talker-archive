@@ -94,7 +94,7 @@ const TalkerDetails = () => {
     codebaseDescription += `, a ${getCodebase(codebase.family).name} derivative`;
   }
 
-  if (codebase && codebase?.shortname === 'custom') {
+  if (codebase && codebase?.shortName === 'custom') {
     codebaseDescription = 'The talker is (was?) based on a custom codebase';
   }
 
