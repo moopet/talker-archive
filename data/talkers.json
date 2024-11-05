@@ -229,6 +229,10 @@
       "repo": "http://www.geoffswift.com/talker.html",
       "name": "Talker",
       "platform": "Windows"
+    },
+    {
+      "shortName": "custom",
+      "name": "Custom"
     }
   ],
   "talkers": [
@@ -334,6 +338,23 @@
         {
           "hostname": "yuss.org",
           "port": 5050
+        }
+      ]
+    },
+    {
+      "name": "Atlantis II",
+      "codebase": "nuts",
+      "dataOrigin": "razor",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.cs.stedwards.edu/~tmendol/atlantis"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "acad.stewards.edu",
+          "port": 4040
         }
       ]
     },
@@ -2172,6 +2193,7 @@
     },
     {
       "name": "Mars Base Alpha 4",
+      "codebase": "custom",
       "description": "A.k.a MBA4",
       "resources": [
         {
